@@ -1,0 +1,389 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "26509142.0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "46": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "47": [
+            {
+                "sum": "15042075.0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "48": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "49": [
+            {
+                "sum": "127670.0",
+                "sum_comment": "",
+                "sum_foreign": "115170.0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "50": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "51": [
+            {
+                "sum": "12161600.0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "52": [
+            {
+                "sum": "35054030.0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "53": [
+            {
+                "sum": "134170.0",
+                "sum_comment": "",
+                "sum_foreign": "115170.0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ]
+    },
+    "declaration": {
+        "needs_scancopy_check": "",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "source": "CHESNO",
+        "url": "http://www.chesno.org/media/declaration/Labunska_decl_2013.pdf"
+    },
+    "estate": {
+        "23": [
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "1200.0",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ],
+        "29": [
+            {
+                "address": "",
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "91026.0",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ],
+        "30": [
+            {
+                "address": "",
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "1090.7",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ]
+    },
+    "ft_src": "Mercedes-Benz S450 4663 \u043a\u0443\u0431. \u0441\u043c\n2006\nMasterCraft X2 5700 \u043a\u0443\u0431. \u0441\u043c\n2005\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u0427\u043e\u043b\u043e\u0432\u0456\u043a\n\u0411\u0430\u0440\u0441\u0443\u043a \u0412.\u041c.\n\u0421\u0438\u043d\n\u0411\u0430\u0440\u0441\u0443\u043a \u0414.\u0412.\n\u0421\u0438\u043d\n\u0411\u0430\u0440\u0441\u0443\u043a \u0410.\u0412.\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430\n12161600.0\n15042075.0\n115170.0\n134170.0\n26509142.0\n115170.0\n127670.0\n35054030.0\n1090.7\n1200.0\n91026.0\n228809.77\n34438.78\n2412202.0\n594122.2\n2241000.0\n628561.0\n35094.0\n261080.0\n261080.0\n594122.2\n2412202.0\n35094.0\n628561.0\n2241000.0\n34438.78\n228809.77\n2005\nMasterCraft X2 5700 \u043a\u0443\u0431. \u0441\u043c\n2006\nMercedes-Benz S450 4663 \u043a\u0443\u0431. \u0441\u043c\n2006\nMercedes-Benz S450 4663 \u043a\u0443\u0431. \u0441\u043c\n2005\nMasterCraft X2 5700 \u043a\u0443\u0431. \u0441\u043c\n1200.0\n1090.7\n91026.0\n15042075.0\n127670.0\n115170.0\n12161600.0\n26509142.0\n35054030.0\n134170.0\n115170.0\n34438.78\n228809.77\n594122.2\n2412202.0\n35094.0\n628561.0\n2241000.0\nMercedes-Benz S450 4663 \u043a\u0443\u0431. \u0441\u043c\n2006\nMasterCraft X2 5700 \u043a\u0443\u0431. \u0441\u043c\n2005\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u0411\u0430\u0440\u0441\u0443\u043a \u0412.\u041c.\n\u0427\u043e\u043b\u043e\u0432\u0456\u043a\n\u0411\u0430\u0440\u0441\u0443\u043a \u0414.\u0412.\n\u0421\u0438\u043d\n\u0411\u0430\u0440\u0441\u0443\u043a \u0410.\u0412.\n\u0421\u0438\u043d\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430\n261080.0\n228809.77\n34438.78\n2241000.0\n628561.0\n2412202.0\n594122.2\n35094.0\n1200.0\n91026.0\n1090.7\n26509142.0\n127670.0\n115170.0\n15042075.0\n134170.0\n115170.0\n12161600.0\n35054030.0\n261080.0\n\u0411\u0430\u0440\u0441\u0443\u043a \u0412.\u041c.\n\u0427\u043e\u043b\u043e\u0432\u0456\u043a\n\u0411\u0430\u0440\u0441\u0443\u043a \u0414.\u0412.\n\u0421\u0438\u043d\n\u0411\u0430\u0440\u0441\u0443\u043a \u0410.\u0412.\n\u0421\u0438\u043d\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n1090.7\n1200.0\n91026.0\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430\n\u0411\u0430\u0440\u0441\u0443\u043a \u0412.\u041c.\n\u0427\u043e\u043b\u043e\u0432\u0456\u043a\n\u0411\u0430\u0440\u0441\u0443\u043a \u0414.\u0412.\n\u0421\u0438\u043d\n\u0411\u0430\u0440\u0441\u0443\u043a \u0410.\u0412.\n\u0421\u0438\u043d\n\u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430\n\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430\n15042075.0\n115170.0\n127670.0\n26509142.0\n35054030.0\n12161600.0\n115170.0\n134170.0",
+    "general": {
+        "addresses_raw": "",
+        "addresses_raw_hidden": "",
+        "family": [
+            {
+                "family_name": "\u0411\u0430\u0440\u0441\u0443\u043a \u0412.\u041c.",
+                "relations": "\u0427\u043e\u043b\u043e\u0432\u0456\u043a"
+            },
+            {
+                "family_name": "\u0411\u0430\u0440\u0441\u0443\u043a \u0414.\u0412.",
+                "relations": "\u0421\u0438\u043d"
+            },
+            {
+                "family_name": "\u0411\u0430\u0440\u0441\u0443\u043a \u0410.\u0412.",
+                "relations": "\u0421\u0438\u043d"
+            }
+        ],
+        "family_raw": "",
+        "full_name": "\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430",
+        "full_name_for_sorting": "\u041b\u0410\u0411\u0423\u041d\u0421\u042c\u041a\u0410 \u0410\u041d\u0416\u0415\u041b\u0419\u0406\u041a\u0410 \u0412\u0419\u0406\u041a\u0422\u041e\u0420\u0419\u0406\u0412\u041d\u0410",
+        "full_name_suggest": {
+            "input": [
+                "\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430",
+                "\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430",
+                "\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430"
+            ]
+        },
+        "inn": "",
+        "last_name": "\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430",
+        "last_name_hidden": "",
+        "last_name_unclear": "",
+        "name": "\u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430",
+        "name_hidden": "",
+        "name_unclear": "",
+        "patronymic": "\u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430",
+        "patronymic_hidden": "",
+        "patronymic_unclear": "",
+        "post": {
+            "office": "\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438",
+            "post": "\u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f",
+            "region": "\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d"
+        },
+        "post_raw": "\u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f"
+    },
+    "id": "chesno_783",
+    "income": {
+        "10": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "35094.0"
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "19": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "20": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "5": {
+            "comment": "",
+            "family": "628561.0",
+            "family_comment": "",
+            "value": "2241000.0"
+        },
+        "6": {
+            "comment": "",
+            "family": "34438.78",
+            "family_comment": "",
+            "value": "228809.77"
+        },
+        "7": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "source_name": "",
+            "value": ""
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "family": "594122.2",
+            "family_comment": "",
+            "value": "2412202.0"
+        }
+    },
+    "index_card": "\u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430 \u041b\u0430\u0431\u0443\u043d\u0441\u044c\u043a\u0430 \u0410\u043d\u0436\u0435\u043b\u0456\u043a\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u0432\u043d\u0430 \u0414\u0435\u043f\u0443\u0442\u0430\u0442 7-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f \u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d 2013 CHESNO http://www.chesno.org/media/declaration/Labunska_decl_2013.pdf",
+    "intro": {
+        "declaration_year": 2013,
+        "isnotdeclaration": ""
+    },
+    "liabilities": {
+        "54": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "55": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "57": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "58": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "59": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "60": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "61": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "62": {
+            "sum": "261080.0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "63": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "64": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        }
+    },
+    "vehicle": {
+        "40": [
+            {
+                "brand": "Mercedes-Benz S450 4663 \u043a\u0443\u0431. \u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2006"
+            }
+        ],
+        "42": [
+            {
+                "brand": "MasterCraft X2 5700 \u043a\u0443\u0431. \u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2005"
+            }
+        ]
+    }
+}

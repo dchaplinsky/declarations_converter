@@ -1,0 +1,398 @@
+{
+    "banks": {
+        "47": [
+            {
+                "sum": "1000",
+                "sum_comment": "",
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_units": "UAH"
+            }
+        ]
+    },
+    "declaration": {
+        "additional_info": "",
+        "additional_info_text": "",
+        "date": "2016-03-28T00:00:00",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "url": "http://static.declarations.com.ua/declarations/chosen_ones/judges_batch/2556_pryhuza_pavlo_dmytrovych_2015.pdf"
+    },
+    "estate": {
+        "23": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_unclear": false,
+                "region": "",
+                "region_hidden": true,
+                "space": "196900",
+                "space_comment": "",
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_unclear": false,
+                "region": "",
+                "region_hidden": false,
+                "space": "670",
+                "space_comment": "",
+                "space_hidden": false,
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "28": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": true,
+                "space": "76.5",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": false,
+                "space": "55.4",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "31": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": true,
+                "space": "48.07",
+                "space_comment": "",
+                "space_hidden": false,
+                "space_units": "\u043c\u00b2",
+                "space_units_hidden": false
+            }
+        ]
+    },
+    "ft_src": "\u0412\u0410\u0417 2101\n1.2\n1973\nFiat\n1.2\n2003\nChevrolet Captiva\n2.4\n2008\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430-\u043a\u0443\u043b\u0456\u0431\u0430\u0431\u0430 \u041e. \u041e\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u0414. \u041f. 2009\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041c. \u041f. 2011\n\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u0441\u0443\u0434\u0434\u044f\n\u0425\u0435\u0440\u0441\u043e\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0413\u043e\u0441\u043f\u043e\u0434\u0430\u0440\u0441\u044c\u043a\u0438\u0439 \u043c\u0456\u0441\u0446\u0435\u0432\u0438\u0439 \u0441\u0443\u0434\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0440\u0438\u0433\u0443\u0437\u0430\n\u041f\u0430\u0432\u043b\u043e \u041f\u0440\u0438\u0433\u0443\u0437\u0430\n\u041f\u0430\u0432\u043b\u043e\n1000\n48.07\n196900\n670\n76.5\n55.4\n10443\n239491\n75204\n79377\n68040\n318868\n153687\n12245\n12245\n\u0441\u0443\u0434\u0434\u044f\n\u0425\u0435\u0440\u0441\u043e\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0413\u043e\u0441\u043f\u043e\u0434\u0430\u0440\u0441\u044c\u043a\u0438\u0439 \u043c\u0456\u0441\u0446\u0435\u0432\u0438\u0439 \u0441\u0443\u0434\n\u041f\u0430\u0432\u043b\u043e\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430-\u043a\u0443\u043b\u0456\u0431\u0430\u0431\u0430 \u041e. \u041e\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u0414. \u041f. 2009\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041c. \u041f. 2011\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0440\u0438\u0433\u0443\u0437\u0430\n\u041f\u0430\u0432\u043b\u043e \u041f\u0440\u0438\u0433\u0443\u0437\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430\n1.2\n\u0412\u0410\u0417 2101\n1973\n1.2\n2003\nFiat\n2.4\n2008\nChevrolet Captiva\n196900\n670\n48.07\n76.5\n55.4\n1000\n2015\n1.2\n\u0412\u0410\u0417 2101\n1973\n1.2\nFiat\n2003\n2.4\n2008\nChevrolet Captiva\n2015\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0440\u0438\u0433\u0443\u0437\u0430\n\u041f\u0430\u0432\u043b\u043e \u041f\u0440\u0438\u0433\u0443\u0437\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0430\u0432\u043b\u043e\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430-\u043a\u0443\u043b\u0456\u0431\u0430\u0431\u0430 \u041e. \u041e\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u0414. \u041f. 2009\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041c. \u041f. 2011\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u0413\u043e\u0441\u043f\u043e\u0434\u0430\u0440\u0441\u044c\u043a\u0438\u0439 \u043c\u0456\u0441\u0446\u0435\u0432\u0438\u0439 \u0441\u0443\u0434\n\u0425\u0435\u0440\u0441\u043e\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0441\u0443\u0434\u0434\u044f\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430\n12245\n239491\n75204\n10443\n318868\n153687\n79377\n68040\n196900\n670\n48.07\n76.5\n55.4\n1000\n12245\n75204\n239491\n153687\n318868\n68040\n79377\n10443\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430-\u043a\u0443\u043b\u0456\u0431\u0430\u0431\u0430 \u041e. \u041e\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u0414. \u041f. 2009\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041c. \u041f. 2011\n\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430\n\u041f\u0430\u0432\u043b\u043e\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0440\u0438\u0433\u0443\u0437\u0430\n\u041f\u0430\u0432\u043b\u043e \u041f\u0440\u0438\u0433\u0443\u0437\u0430\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u0425\u0435\u0440\u0441\u043e\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0413\u043e\u0441\u043f\u043e\u0434\u0430\u0440\u0441\u044c\u043a\u0438\u0439 \u043c\u0456\u0441\u0446\u0435\u0432\u0438\u0439 \u0441\u0443\u0434\n\u0441\u0443\u0434\u0434\u044f\n\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n1973\n\u0412\u0410\u0417 2101\n1.2\nFiat\n1.2\n2003\nChevrolet Captiva\n2.4\n2008\n68040\n79377\n10443\n153687\n318868\n75204\n239491\n48.07\n196900\n670\n76.5\n55.4\n1000\n2015\n2015",
+    "general": {
+        "addresses": [
+            {
+                "place": "",
+                "place_address": "",
+                "place_address_hidden": false,
+                "place_city": "",
+                "place_city_hidden": false,
+                "place_city_type": "",
+                "place_city_type_hidden": false,
+                "place_district": "",
+                "place_district_hidden": false,
+                "place_hidden": true
+            }
+        ],
+        "family": [
+            {
+                "family_name": "\u041f\u0440\u0438\u0433\u0443\u0437\u0430-\u043a\u0443\u043b\u0456\u0431\u0430\u0431\u0430 \u041e. \u041e",
+                "inn": "",
+                "inn_hidden": true,
+                "name_hidden": false,
+                "name_unclear": false,
+                "relations": "\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f",
+                "relations_hidden": false,
+                "relations_other": ""
+            },
+            {
+                "family_name": "\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u0414. \u041f. 2009",
+                "inn": "",
+                "inn_hidden": false,
+                "name_hidden": false,
+                "name_unclear": false,
+                "relations": "\u0414\u0438\u0442\u0438\u043d\u0430",
+                "relations_other": ""
+            },
+            {
+                "family_name": "\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041c. \u041f. 2011",
+                "inn": "",
+                "inn_hidden": false,
+                "name_hidden": false,
+                "name_unclear": false,
+                "relations": "\u0414\u0438\u0442\u0438\u043d\u0430",
+                "relations_other": ""
+            }
+        ],
+        "family_raw": "",
+        "full_name": "\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447",
+        "full_name_for_sorting": "\u041f\u0420\u0418\u0413\u0423\u0417\u0410 \u041f\u0410\u0412\u041b\u041e \u0414\u041c\u0418\u0422\u0420\u041e\u0412\u0418\u0427",
+        "full_name_suggest": {
+            "input": [
+                "\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447",
+                "\u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0440\u0438\u0433\u0443\u0437\u0430",
+                "\u041f\u0430\u0432\u043b\u043e \u041f\u0440\u0438\u0433\u0443\u0437\u0430"
+            ]
+        },
+        "inn": "",
+        "inn_hidden": true,
+        "inn_unclear": false,
+        "last_name": "\u041f\u0440\u0438\u0433\u0443\u0437\u0430",
+        "name": "\u041f\u0430\u0432\u043b\u043e",
+        "name_hidden": false,
+        "patronymic": "\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447",
+        "post": {
+            "office": "\u0413\u043e\u0441\u043f\u043e\u0434\u0430\u0440\u0441\u044c\u043a\u0438\u0439 \u043c\u0456\u0441\u0446\u0435\u0432\u0438\u0439 \u0441\u0443\u0434",
+            "office_hidden": false,
+            "office_unclear": false,
+            "post": "\u0441\u0443\u0434\u0434\u044f",
+            "region": "\u0425\u0435\u0440\u0441\u043e\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+            "region_hidden": false,
+            "region_unclear": false
+        }
+    },
+    "id": "vulyk_109_99",
+    "income": {
+        "10": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "19": {
+            "comment": "",
+            "family": "68040",
+            "family_comment": "",
+            "value": "79377"
+        },
+        "20": {
+            "comment": "",
+            "family": "10443",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": "",
+            "value_unclear": false
+        },
+        "5": {
+            "comment": "",
+            "family": "153687",
+            "family_comment": "",
+            "value": "318868"
+        },
+        "6": {
+            "comment": "",
+            "family": "75204",
+            "family_comment": "",
+            "value": "239491"
+        },
+        "7": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "source_name": "",
+            "source_name_hidden": false,
+            "value": ""
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_unclear": false,
+            "value": "",
+            "value_unclear": false
+        }
+    },
+    "index_card": "\u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0440\u0438\u0433\u0443\u0437\u0430 \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u0441\u0443\u0434\u0434\u044f \u0413\u043e\u0441\u043f\u043e\u0434\u0430\u0440\u0441\u044c\u043a\u0438\u0439 \u043c\u0456\u0441\u0446\u0435\u0432\u0438\u0439 \u0441\u0443\u0434 \u0425\u0435\u0440\u0441\u043e\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c 2015 http://static.declarations.com.ua/declarations/chosen_ones/judges_batch/2556_pryhuza_pavlo_dmytrovych_2015.pdf",
+    "intro": {
+        "declaration_year": "2015",
+        "isnotdeclaration": ""
+    },
+    "liabilities": {
+        "54": {
+            "sum": "12245",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "55": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "57": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "58": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "59": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "60": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "61": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "62": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "63": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "64": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        }
+    },
+    "source": "VULYK",
+    "vehicle": {
+        "35": [
+            {
+                "brand": "\u0412\u0410\u0417 2101",
+                "brand_hidden": false,
+                "brand_info": "1.2",
+                "brand_info_hidden": false,
+                "brand_info_unclear": false,
+                "brand_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_unclear": false,
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1973",
+                "year_unclear": false
+            },
+            {
+                "brand": "Fiat",
+                "brand_info": "1.2",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2003"
+            },
+            {
+                "brand": "Chevrolet Captiva",
+                "brand_info": "2.4",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2008"
+            }
+        ]
+    }
+}

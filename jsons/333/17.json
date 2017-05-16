@@ -1,0 +1,326 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "66",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_hidden": true,
+                "sum_unclear": true,
+                "sum_units": "UAH",
+                "sum_units_unclear": false
+            }
+        ],
+        "51": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "25000",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": true,
+                "sum_foreign_units": "UAH",
+                "sum_units": "UAH"
+            }
+        ]
+    },
+    "declaration": {
+        "additional_info": "",
+        "additional_info_text": "",
+        "date": "2016-03-22T00:00:00",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "url": "http://static.declarations.com.ua/declarations/chosen_ones/judges_batch/2420_semopiadnyi_valerii_oleksiiovych_2015.pdf"
+    },
+    "estate": {
+        "25": [
+            {
+                "address": "",
+                "address_hidden": true,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": true,
+                "space": "67.9",
+                "space_comment": "",
+                "space_comment_unclear": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2",
+                "space_units_unclear": false
+            }
+        ]
+    },
+    "ft_src": "Volkswagen Tiguan\n2.0, 140 \u043a. \u0441., 103 \u043a\u0412\u0442, 444 \u0441\u043c\n2012\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u044f \u0413\u0435\u043d\u043d\u0430\u0434\u0456\u0457\u0432\u043d\u0430\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u0414\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439\n25000\n66\n67.9\n12552\n243309\n74400\n104\n243413\n86952\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u0414\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u044f \u0413\u0435\u043d\u043d\u0430\u0434\u0456\u0457\u0432\u043d\u0430\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n2.0, 140 \u043a. \u0441., 103 \u043a\u0412\u0442, 444 \u0441\u043c\n2012\nVolkswagen Tiguan\n67.9\n25000\n66\n2015\n2.0, 140 \u043a. \u0441., 103 \u043a\u0412\u0442, 444 \u0441\u043c\n2012\nVolkswagen Tiguan\n2015\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u044f \u0413\u0435\u043d\u043d\u0430\u0434\u0456\u0457\u0432\u043d\u0430\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0414\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n243309\n74400\n12552\n243413\n86952\n104\n67.9\n66\n25000\n74400\n243309\n104\n86952\n243413\n12552\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u044f \u0413\u0435\u043d\u043d\u0430\u0434\u0456\u0457\u0432\u043d\u0430\n\u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n\u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n\u0414\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447\n2012\n2.0, 140 \u043a. \u0441., 103 \u043a\u0412\u0442, 444 \u0441\u043c\nVolkswagen Tiguan\n104\n12552\n243413\n86952\n74400\n243309\n67.9\n66\n25000\n2015\n2015",
+    "general": {
+        "addresses": [
+            {
+                "place": "",
+                "place_address": "",
+                "place_address_hidden": true,
+                "place_address_unclear": false,
+                "place_city": "",
+                "place_city_hidden": true,
+                "place_city_type": "",
+                "place_city_type_hidden": true,
+                "place_district": "",
+                "place_district_hidden": true,
+                "place_hidden": true,
+                "place_unclear": false
+            }
+        ],
+        "family": [
+            {
+                "family_name": "\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0430 \u0412\u0456\u043a\u0442\u043e\u0440\u0456\u044f \u0413\u0435\u043d\u043d\u0430\u0434\u0456\u0457\u0432\u043d\u0430",
+                "inn": "",
+                "inn_hidden": true,
+                "inn_unclear": false,
+                "name_hidden": true,
+                "name_unclear": false,
+                "relations": "\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f",
+                "relations_hidden": false,
+                "relations_other": ""
+            }
+        ],
+        "family_raw": "",
+        "full_name": "\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447",
+        "full_name_for_sorting": "\u0421\u0415\u041c\u041e\u041f\u042f\u0414\u041d\u0418\u0419 \u0412\u0410\u041b\u0415\u0420\u0419\u0406\u0419 \u041e\u041b\u0415\u041a\u0421\u0419\u0406\u0419\u041e\u0412\u0418\u0427",
+        "full_name_suggest": {
+            "input": [
+                "\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447",
+                "\u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439",
+                "\u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439"
+            ]
+        },
+        "inn": "",
+        "inn_hidden": true,
+        "inn_unclear": false,
+        "last_name": "\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439",
+        "name": "\u0412\u0430\u043b\u0435\u0440\u0456\u0439",
+        "patronymic": "\u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447",
+        "post": {
+            "office": "\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434",
+            "office_hidden": false,
+            "office_unclear": false,
+            "post": "\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456",
+            "post_unclear": false,
+            "region": "\u0414\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c"
+        }
+    },
+    "id": "vulyk_108_121",
+    "income": {
+        "10": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "19": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "20": {
+            "comment": "",
+            "comment_hidden": false,
+            "comment_unclear": false,
+            "family": "12552",
+            "family_comment": "",
+            "value": "",
+            "value_unclear": false
+        },
+        "5": {
+            "comment": "",
+            "family": "86952",
+            "family_comment": "",
+            "family_unclear": false,
+            "value": "243413",
+            "value_unclear": false
+        },
+        "6": {
+            "comment": "",
+            "family": "74400",
+            "family_comment": "",
+            "family_unclear": false,
+            "value": "243309"
+        },
+        "7": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "source_name": "",
+            "source_name_unclear": false,
+            "value": ""
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_unclear": false,
+            "value": "104"
+        }
+    },
+    "index_card": "\u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447 \u0421\u0435\u043c\u043e\u043f\u044f\u0434\u043d\u0438\u0439 \u0412\u0430\u043b\u0435\u0440\u0456\u0439 \u041e\u043b\u0435\u043a\u0441\u0456\u0439\u043e\u0432\u0438\u0447 \u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456 \u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434 \u0414\u043d\u0456\u043f\u0440\u043e\u043f\u0435\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c 2015 http://static.declarations.com.ua/declarations/chosen_ones/judges_batch/2420_semopiadnyi_valerii_oleksiiovych_2015.pdf",
+    "intro": {
+        "declaration_year": "2015",
+        "declaration_year_hidden": false,
+        "isnotdeclaration": ""
+    },
+    "liabilities": {
+        "54": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false
+        },
+        "55": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        },
+        "57": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false
+        },
+        "58": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "59": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        },
+        "60": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "61": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "62": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "63": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "64": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        }
+    },
+    "source": "VULYK",
+    "vehicle": {
+        "35": [
+            {
+                "brand": "Volkswagen Tiguan",
+                "brand_info": "2.0, 140 \u043a. \u0441., 103 \u043a\u0412\u0442, 444 \u0441\u043c",
+                "brand_info_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2012"
+            }
+        ]
+    }
+}

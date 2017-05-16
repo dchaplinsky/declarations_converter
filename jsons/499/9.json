@@ -1,0 +1,615 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "342857.67",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_units": "UAH"
+            }
+        ],
+        "49": [
+            {
+                "sum": "500000",
+                "sum_comment": "",
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_foreign_units_hidden": false,
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "240000",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "2887208.08",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "25000",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "31500",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "950000",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "885000",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "1376292.15",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "5179000",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "2188921.25",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "1500000",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": ""
+            }
+        ],
+        "50": [
+            {
+                "sum": "1060045.44",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_units": "UAH"
+            }
+        ]
+    },
+    "declaration": {
+        "additional_info": "",
+        "additional_info_text": "",
+        "date": "2015-09-23T00:00:00",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "url": "http://static.declarations.com.ua/declarations/chosen_ones/judges_batch/3142_naumchak_viktor_anatoliiovych.pdf"
+    },
+    "estate": {
+        "23": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": true,
+                "space": "883",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "space": "571",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2",
+                "space_units_unclear": false
+            }
+        ],
+        "25": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": true,
+                "space": "151.9",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": false,
+                "space": "350.4",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "space": "31.9",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "26": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": true,
+                "space": "581",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "space": "146",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "28": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": true,
+                "space": "20",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "space": "18",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "space": "1931.2",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "31": [
+            {
+                "address": "",
+                "address_hidden": true,
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": true,
+                "space": "151.9",
+                "space_comment": "",
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            }
+        ]
+    },
+    "ft_src": "2001\nNissan Almera\n1600 \u043a\u0443\u0431. \u0441\u043c.\n\u0413\u0456\u0434\u0440\u043e\u0446\u0438\u043a\u043b Bombardier RXT\n215 \u043a. \u0441\n2008\nToyota Lexus LS 600\n4969 \u043a\u0443\u0431. \u0441\u043c.\n2008\nMercedes-Benz S 600\n6000 \u043a\u0443\u0431. \u0441\u043c.\n2004\nToyota Lexus GX 470\n4664 \u043a\u0443\u0431. \u0441\u043c.\n2004\nToyota Lexus RX 330\n3311 \u043a\u0443\u0431. \u0441\u043c.\n2003\nFaw n2 Pw 61\n4752 \u043a\u0443\u0431. \u0441\u043c.\n2008\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u041e. \u0410., 23. 07. 1972\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 26. 06. 1996\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 12. 01. 2000\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 27. 09. 2005\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 29. 01. 2009\n\u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440 \u0442\u043e\u0432 \u043e\u0434\u0454\u043c\u0435\u043a\u0441 , \u0434\u0435\u043f\u0443\u0442\u0430\u0442 \u043e\u0434\u0435\u0441\u044c\u043a\u043e\u0457 \u043c\u0456\u0441\u044c\u043e\u0457 \u0440\u0430\u0434\u0438 (\u0444\u0440\u0430\u043a\u0446\u0456\u044f \u00ab\u0441\u043e\u043b\u0456\u0434\u0430\u0440\u043d\u0456\u0441\u0442\u044c\u00bb\n\u041e\u0434\u0435\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0420\u0430\u0439\u043e\u043d\u043d\u0430, \u043c\u0456\u0441\u044c\u043a\u0430, \u0441\u0435\u043b\u0438\u0449\u043d\u0430 \u0440\u0430\u0434\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447 \u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u0412\u0456\u043a\u0442\u043e\u0440 \u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u0412\u0456\u043a\u0442\u043e\u0440\n1060045.44\n500000\n240000\n2887208.08\n25000\n31500\n950000\n885000\n1376292.15\n5179000\n2188921.25\n1500000\n342857.67\n883\n571\n581\n146\n151.9\n151.9\n350.4\n31.9\n20\n18\n1931.2\n48103\n1008103\n960000\n\u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440 \u0442\u043e\u0432 \u043e\u0434\u0454\u043c\u0435\u043a\u0441 , \u0434\u0435\u043f\u0443\u0442\u0430\u0442 \u043e\u0434\u0435\u0441\u044c\u043a\u043e\u0457 \u043c\u0456\u0441\u044c\u043e\u0457 \u0440\u0430\u0434\u0438 (\u0444\u0440\u0430\u043a\u0446\u0456\u044f \u00ab\u0441\u043e\u043b\u0456\u0434\u0430\u0440\u043d\u0456\u0441\u0442\u044c\u00bb\n\u041e\u0434\u0435\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0420\u0430\u0439\u043e\u043d\u043d\u0430, \u043c\u0456\u0441\u044c\u043a\u0430, \u0441\u0435\u043b\u0438\u0449\u043d\u0430 \u0440\u0430\u0434\u0430\n\u0412\u0456\u043a\u0442\u043e\u0440\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u041e. \u0410., 23. 07. 1972\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 26. 06. 1996\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 12. 01. 2000\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 27. 09. 2005\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 29. 01. 2009\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447 \u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u0412\u0456\u043a\u0442\u043e\u0440 \u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\nNissan Almera\n1600 \u043a\u0443\u0431. \u0441\u043c.\n2001\n4969 \u043a\u0443\u0431. \u0441\u043c.\nToyota Lexus LS 600\n2008\n6000 \u043a\u0443\u0431. \u0441\u043c.\n2004\nMercedes-Benz S 600\n4664 \u043a\u0443\u0431. \u0441\u043c.\n2004\nToyota Lexus GX 470\n3311 \u043a\u0443\u0431. \u0441\u043c.\n2003\nToyota Lexus RX 330\n215 \u043a. \u0441\n2008\n\u0413\u0456\u0434\u0440\u043e\u0446\u0438\u043a\u043b Bombardier RXT\n4752 \u043a\u0443\u0431. \u0441\u043c.\n2008\nFaw n2 Pw 61\n581\n146\n883\n571\n20\n18\n1931.2\n151.9\n151.9\n350.4\n31.9\n500000\n240000\n2887208.08\n25000\n31500\n950000\n885000\n1376292.15\n5179000\n2188921.25\n1500000\n1060045.44\n342857.67\n2014\n215 \u043a. \u0441\n2008\n\u0413\u0456\u0434\u0440\u043e\u0446\u0438\u043a\u043b Bombardier RXT\n1600 \u043a\u0443\u0431. \u0441\u043c.\n2001\nNissan Almera\n4752 \u043a\u0443\u0431. \u0441\u043c.\n2008\nFaw n2 Pw 61\n4969 \u043a\u0443\u0431. \u0441\u043c.\n2008\nToyota Lexus LS 600\n6000 \u043a\u0443\u0431. \u0441\u043c.\n2004\nMercedes-Benz S 600\n4664 \u043a\u0443\u0431. \u0441\u043c.\n2004\nToyota Lexus GX 470\n3311 \u043a\u0443\u0431. \u0441\u043c.\n2003\nToyota Lexus RX 330\n2014\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u041e. \u0410., 23. 07. 1972\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 26. 06. 1996\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 12. 01. 2000\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 27. 09. 2005\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 29. 01. 2009\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447 \u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u0412\u0456\u043a\u0442\u043e\u0440 \u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u0412\u0456\u043a\u0442\u043e\u0440\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440 \u0442\u043e\u0432 \u043e\u0434\u0454\u043c\u0435\u043a\u0441 , \u0434\u0435\u043f\u0443\u0442\u0430\u0442 \u043e\u0434\u0435\u0441\u044c\u043a\u043e\u0457 \u043c\u0456\u0441\u044c\u043e\u0457 \u0440\u0430\u0434\u0438 (\u0444\u0440\u0430\u043a\u0446\u0456\u044f \u00ab\u0441\u043e\u043b\u0456\u0434\u0430\u0440\u043d\u0456\u0441\u0442\u044c\u00bb\n\u0420\u0430\u0439\u043e\u043d\u043d\u0430, \u043c\u0456\u0441\u044c\u043a\u0430, \u0441\u0435\u043b\u0438\u0449\u043d\u0430 \u0440\u0430\u0434\u0430\n\u041e\u0434\u0435\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n48103\n960000\n1008103\n883\n571\n581\n146\n151.9\n20\n18\n1931.2\n151.9\n350.4\n31.9\n342857.67\n500000\n240000\n2887208.08\n25000\n31500\n950000\n885000\n1376292.15\n5179000\n2188921.25\n1500000\n1060045.44\n48103\n1008103\n960000\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u041e. \u0410., 23. 07. 1972\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 26. 06. 1996\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 12. 01. 2000\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 27. 09. 2005\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 29. 01. 2009\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0412\u0456\u043a\u0442\u043e\u0440\n\u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447 \u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u0412\u0456\u043a\u0442\u043e\u0440 \u041d\u0430\u0443\u043c\u0447\u0430\u043a\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\n\u041e\u0434\u0435\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0420\u0430\u0439\u043e\u043d\u043d\u0430, \u043c\u0456\u0441\u044c\u043a\u0430, \u0441\u0435\u043b\u0438\u0449\u043d\u0430 \u0440\u0430\u0434\u0430\n\u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440 \u0442\u043e\u0432 \u043e\u0434\u0454\u043c\u0435\u043a\u0441 , \u0434\u0435\u043f\u0443\u0442\u0430\u0442 \u043e\u0434\u0435\u0441\u044c\u043a\u043e\u0457 \u043c\u0456\u0441\u044c\u043e\u0457 \u0440\u0430\u0434\u0438 (\u0444\u0440\u0430\u043a\u0446\u0456\u044f \u00ab\u0441\u043e\u043b\u0456\u0434\u0430\u0440\u043d\u0456\u0441\u0442\u044c\u00bb\n\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447\nNissan Almera\n1600 \u043a\u0443\u0431. \u0441\u043c.\n2001\n2008\nToyota Lexus LS 600\n4969 \u043a\u0443\u0431. \u0441\u043c.\nMercedes-Benz S 600\n6000 \u043a\u0443\u0431. \u0441\u043c.\n2004\nToyota Lexus GX 470\n4664 \u043a\u0443\u0431. \u0441\u043c.\n2004\nToyota Lexus RX 330\n3311 \u043a\u0443\u0431. \u0441\u043c.\n2003\n\u0413\u0456\u0434\u0440\u043e\u0446\u0438\u043a\u043b Bombardier RXT\n215 \u043a. \u0441\n2008\nFaw n2 Pw 61\n4752 \u043a\u0443\u0431. \u0441\u043c.\n2008\n1008103\n960000\n48103\n151.9\n883\n571\n20\n18\n1931.2\n581\n146\n151.9\n350.4\n31.9\n1060045.44\n342857.67\n500000\n240000\n2887208.08\n25000\n31500\n950000\n885000\n1376292.15\n5179000\n2188921.25\n1500000\n2014\n2014",
+    "general": {
+        "addresses": [
+            {
+                "place": "",
+                "place_address": "",
+                "place_address_hidden": false,
+                "place_address_unclear": false,
+                "place_city": "",
+                "place_city_hidden": false,
+                "place_city_type": "",
+                "place_city_type_hidden": false,
+                "place_city_unclear": false,
+                "place_district": "",
+                "place_district_hidden": false,
+                "place_hidden": true
+            }
+        ],
+        "family": [
+            {
+                "family_name": "\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u041e. \u0410., 23. 07. 1972",
+                "inn": "",
+                "inn_hidden": true,
+                "name_hidden": false,
+                "name_unclear": false,
+                "relations": "\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f",
+                "relations_hidden": false,
+                "relations_other": ""
+            },
+            {
+                "family_name": "\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 26. 06. 1996",
+                "inn": "",
+                "inn_hidden": false,
+                "name_hidden": false,
+                "name_unclear": false,
+                "relations": "\u0414\u0438\u0442\u0438\u043d\u0430",
+                "relations_other": ""
+            },
+            {
+                "family_name": "\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 12. 01. 2000",
+                "inn": "",
+                "inn_hidden": true,
+                "name_hidden": false,
+                "name_unclear": false,
+                "relations": "\u0414\u0438\u0442\u0438\u043d\u0430",
+                "relations_other": ""
+            },
+            {
+                "family_name": "\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 27. 09. 2005",
+                "inn": "",
+                "inn_hidden": false,
+                "name_hidden": false,
+                "relations": "\u0414\u0438\u0442\u0438\u043d\u0430"
+            },
+            {
+                "family_name": "\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412. \u0412., 29. 01. 2009",
+                "inn": "",
+                "relations": "\u0414\u0438\u0442\u0438\u043d\u0430"
+            }
+        ],
+        "family_raw": "",
+        "full_name": "\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447",
+        "full_name_for_sorting": "\u041d\u0410\u0423\u041c\u0427\u0410\u041a \u0412\u0419\u0406\u041a\u0422\u041e\u0420 \u0410\u041d\u0410\u0422\u041e\u041b\u0419\u0406\u0419\u041e\u0412\u0418\u0427",
+        "full_name_suggest": {
+            "input": [
+                "\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447",
+                "\u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447 \u041d\u0430\u0443\u043c\u0447\u0430\u043a",
+                "\u0412\u0456\u043a\u0442\u043e\u0440 \u041d\u0430\u0443\u043c\u0447\u0430\u043a"
+            ]
+        },
+        "inn": "",
+        "inn_hidden": true,
+        "inn_unclear": false,
+        "last_name": "\u041d\u0430\u0443\u043c\u0447\u0430\u043a",
+        "name": "\u0412\u0456\u043a\u0442\u043e\u0440",
+        "patronymic": "\u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447",
+        "post": {
+            "candidate": "",
+            "office": "\u0420\u0430\u0439\u043e\u043d\u043d\u0430, \u043c\u0456\u0441\u044c\u043a\u0430, \u0441\u0435\u043b\u0438\u0449\u043d\u0430 \u0440\u0430\u0434\u0430",
+            "office_hidden": false,
+            "office_unclear": true,
+            "post": "\u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440 \u0442\u043e\u0432 \u043e\u0434\u0454\u043c\u0435\u043a\u0441 , \u0434\u0435\u043f\u0443\u0442\u0430\u0442 \u043e\u0434\u0435\u0441\u044c\u043a\u043e\u0457 \u043c\u0456\u0441\u044c\u043e\u0457 \u0440\u0430\u0434\u0438 (\u0444\u0440\u0430\u043a\u0446\u0456\u044f \u00ab\u0441\u043e\u043b\u0456\u0434\u0430\u0440\u043d\u0456\u0441\u0442\u044c\u00bb",
+            "post_hidden": false,
+            "post_unclear": false,
+            "region": "\u041e\u0434\u0435\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+            "region_hidden": false
+        }
+    },
+    "id": "vulyk_91_4",
+    "income": {
+        "10": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "960000"
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "19": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "20": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "5": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "1008103",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "6": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": "48103",
+            "value_hidden": false
+        },
+        "7": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "source_name": "",
+            "value": "",
+            "value_hidden": false
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        }
+    },
+    "index_card": "\u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447 \u041d\u0430\u0443\u043c\u0447\u0430\u043a \u0412\u0456\u043a\u0442\u043e\u0440 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439\u043e\u0432\u0438\u0447 \u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440 \u0442\u043e\u0432 \u043e\u0434\u0454\u043c\u0435\u043a\u0441 , \u0434\u0435\u043f\u0443\u0442\u0430\u0442 \u043e\u0434\u0435\u0441\u044c\u043a\u043e\u0457 \u043c\u0456\u0441\u044c\u043e\u0457 \u0440\u0430\u0434\u0438 (\u0444\u0440\u0430\u043a\u0446\u0456\u044f \u00ab\u0441\u043e\u043b\u0456\u0434\u0430\u0440\u043d\u0456\u0441\u0442\u044c\u00bb \u0420\u0430\u0439\u043e\u043d\u043d\u0430, \u043c\u0456\u0441\u044c\u043a\u0430, \u0441\u0435\u043b\u0438\u0449\u043d\u0430 \u0440\u0430\u0434\u0430 \u041e\u0434\u0435\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c 2014 http://static.declarations.com.ua/declarations/chosen_ones/judges_batch/3142_naumchak_viktor_anatoliiovych.pdf",
+    "intro": {
+        "declaration_year": "2014",
+        "isnotdeclaration": ""
+    },
+    "liabilities": {
+        "54": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "55": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "57": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "58": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        },
+        "59": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "60": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "61": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "62": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_hidden": false,
+            "sum_hidden": false
+        },
+        "63": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "64": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        }
+    },
+    "source": "VULYK",
+    "vehicle": {
+        "35": [
+            {
+                "brand": "Toyota Lexus LS 600",
+                "brand_info": "4969 \u043a\u0443\u0431. \u0441\u043c.",
+                "brand_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2008",
+                "year_unclear": false
+            },
+            {
+                "brand": "Mercedes-Benz S 600",
+                "brand_info": "6000 \u043a\u0443\u0431. \u0441\u043c.",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2004"
+            },
+            {
+                "brand": "Toyota Lexus GX 470",
+                "brand_info": "4664 \u043a\u0443\u0431. \u0441\u043c.",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2004"
+            },
+            {
+                "brand": "Toyota Lexus RX 330",
+                "brand_info": "3311 \u043a\u0443\u0431. \u0441\u043c.",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2003"
+            }
+        ],
+        "36": [
+            {
+                "brand": "Faw n2 Pw 61",
+                "brand_info": "4752 \u043a\u0443\u0431. \u0441\u043c.",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2008"
+            }
+        ],
+        "37": [
+            {
+                "brand": "\u0413\u0456\u0434\u0440\u043e\u0446\u0438\u043a\u043b Bombardier RXT",
+                "brand_info": "215 \u043a. \u0441",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2008"
+            }
+        ],
+        "40": [
+            {
+                "brand": "Nissan Almera",
+                "brand_hidden": false,
+                "brand_info": "1600 \u043a\u0443\u0431. \u0441\u043c.",
+                "brand_info_hidden": false,
+                "brand_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2001"
+            }
+        ]
+    }
+}

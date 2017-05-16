@@ -1,0 +1,345 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "1015",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_units": "UAH"
+            }
+        ],
+        "51": [
+            {
+                "sum": "8855",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_unclear": false,
+                "sum_units": "UAH"
+            }
+        ]
+    },
+    "declaration": {
+        "additional_info": "",
+        "additional_info_text": "",
+        "date": "2014-03-27T00:00:00",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "url": "http://static.declarations.com.ua/declarations/chosen_ones/judges_batch/575_zaitseva_svitlana_andriivna.pdf"
+    },
+    "estate": {
+        "23": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_comment_unclear": false,
+                "costs_hidden": false,
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_hidden": false,
+                "region": "",
+                "region_hidden": true,
+                "space": "560",
+                "space_comment": "",
+                "space_comment_unclear": false,
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "25": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "\u0431\u0435\u0437\u043e\u043f\u043b\u0430\u0442\u043d\u0435",
+                "costs_hidden": false,
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_hidden": false,
+                "costs_rent_unclear": false,
+                "costs_unclear": false,
+                "region": "",
+                "region_hidden": true,
+                "region_unclear": false,
+                "space": "24.27",
+                "space_comment": "",
+                "space_comment_unclear": false,
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "31": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": true,
+                "space": "24.27",
+                "space_comment": "",
+                "space_comment_unclear": false,
+                "space_hidden": false,
+                "space_units": "\u043c\u00b2",
+                "space_units_hidden": false
+            }
+        ]
+    },
+    "ft_src": "\u0414\u0438\u0442\u0438\u043d\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0410. \u0413\n\u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043e\u043d\u0435\u0446\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u0414\u043e\u043d\u0435\u0446\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430\n8855\n1015\n560\n24.27\n\u0431\u0435\u0437\u043e\u043f\u043b\u0430\u0442\u043d\u0435\n24.27\n\u0441\u0442\u0438\u043f\u0435\u043d\u0434\u0456\u044f\n8450\n243496\n256113\n8450\n12617\n30\n6084\n6084\n30\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043e\u043d\u0435\u0446\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u0414\u043e\u043d\u0435\u0446\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0410. \u0413\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430\n560\n24.27\n\u0431\u0435\u0437\u043e\u043f\u043b\u0430\u0442\u043d\u0435\n24.27\n8855\n1015\n2013\n560\n24.27\n24.27\n\u0431\u0435\u0437\u043e\u043f\u043b\u0430\u0442\u043d\u0435\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0410. \u0413\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430\n\u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0414\u043e\u043d\u0435\u0446\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043e\u043d\u0435\u0446\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430\n6084\n30\n243496\n\u0441\u0442\u0438\u043f\u0435\u043d\u0434\u0456\u044f\n8450\n256113\n8450\n12617\n1015\n8855\n2013\n30\n6084\n243496\n12617\n8450\n256113\n\u0441\u0442\u0438\u043f\u0435\u043d\u0434\u0456\u044f\n8450\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0410. \u0413\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430\n\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n\u0414\u043e\u043d\u0435\u0446\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043e\u043d\u0435\u0446\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430\n12617\n\u0441\u0442\u0438\u043f\u0435\u043d\u0434\u0456\u044f\n8450\n256113\n8450\n243496\n24.27\n560\n24.27\n\u0431\u0435\u0437\u043e\u043f\u043b\u0430\u0442\u043d\u0435\n1015\n8855\n2013\n2013",
+    "general": {
+        "family": [
+            {
+                "family_name": "\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0410. \u0413",
+                "inn": "",
+                "inn_hidden": false,
+                "name_hidden": false,
+                "name_unclear": false,
+                "relations": "\u0414\u0438\u0442\u0438\u043d\u0430",
+                "relations_hidden": false,
+                "relations_other": ""
+            }
+        ],
+        "family_raw": "",
+        "full_name": "\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430",
+        "full_name_for_sorting": "\u0417\u0410\u0419\u0426\u0415\u0412\u0410 \u0421\u0412\u0419\u0406\u0422\u041b\u0410\u041d\u0410 \u0410\u041d\u0414\u0420\u0419\u0406\u0419\u0407\u0412\u041d\u0410",
+        "full_name_suggest": {
+            "input": [
+                "\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430",
+                "\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430",
+                "\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430"
+            ]
+        },
+        "inn": "",
+        "inn_hidden": false,
+        "inn_unclear": false,
+        "last_name": "\u0417\u0430\u0439\u0446\u0435\u0432\u0430",
+        "last_name_unclear": false,
+        "name": "\u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430",
+        "name_unclear": false,
+        "patronymic": "\u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430",
+        "patronymic_hidden": false,
+        "post": {
+            "office": "\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434",
+            "office_unclear": false,
+            "post": "\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043e\u043d\u0435\u0446\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456",
+            "post_hidden": false,
+            "post_unclear": false,
+            "region": "\u0414\u043e\u043d\u0435\u0446\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+            "region_unclear": false
+        }
+    },
+    "id": "vulyk_71_60",
+    "income": {
+        "10": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_unclear": false,
+            "value": "12617"
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "19": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "20": {
+            "comment": "",
+            "comment_unclear": false,
+            "family": "8450",
+            "family_comment": "\u0441\u0442\u0438\u043f\u0435\u043d\u0434\u0456\u044f",
+            "value": "",
+            "value_unclear": false
+        },
+        "5": {
+            "comment": "",
+            "comment_unclear": false,
+            "family": "8450",
+            "family_comment": "",
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "256113",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "6": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "243496"
+        },
+        "7": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "source_name": "",
+            "value": "",
+            "value_hidden": false
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "",
+            "value_unclear": false
+        }
+    },
+    "index_card": "\u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430 \u0417\u0430\u0439\u0446\u0435\u0432\u0430 \u0421\u0432\u0456\u0442\u043b\u0430\u043d\u0430 \u0410\u043d\u0434\u0440\u0456\u0457\u0432\u043d\u0430 \u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u0434\u043e\u043d\u0435\u0446\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456 \u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434 \u0414\u043e\u043d\u0435\u0446\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c 2013 http://static.declarations.com.ua/declarations/chosen_ones/judges_batch/575_zaitseva_svitlana_andriivna.pdf",
+    "intro": {
+        "declaration_year": "2013",
+        "isnotdeclaration": ""
+    },
+    "liabilities": {
+        "54": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        },
+        "55": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "30",
+            "sum_comment": "",
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        },
+        "57": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        },
+        "58": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        },
+        "59": {
+            "sum": "6084",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "60": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "61": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "62": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "63": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        },
+        "64": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        }
+    },
+    "source": "VULYK"
+}

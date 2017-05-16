@@ -1,0 +1,409 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "1230",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH"
+            }
+        ]
+    },
+    "declaration": {
+        "additional_info": "",
+        "additional_info_text": "",
+        "date": "2015-07-20T00:00:00",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "url": "http://static.declarations.com.ua/declarations/chosen_ones/epic_batch/tuka_heorhii_borysovych.pdf"
+    },
+    "estate": {
+        "23": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_hidden": true,
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_hidden": true,
+                "costs_rent_unclear": false,
+                "region": "",
+                "region_hidden": true,
+                "space": "600",
+                "space_comment": "",
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2",
+                "space_units_hidden": false
+            }
+        ],
+        "25": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_comment_hidden": false,
+                "costs_comment_unclear": false,
+                "costs_hidden": true,
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_comment_hidden": false,
+                "costs_rent_comment_unclear": false,
+                "costs_rent_hidden": true,
+                "costs_rent_unclear": false,
+                "region": "",
+                "region_hidden": true,
+                "space": "18.6",
+                "space_comment": "",
+                "space_comment_hidden": false,
+                "space_comment_unclear": false,
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "26": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_hidden": true,
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_hidden": true,
+                "region": "",
+                "region_hidden": true,
+                "space": "30",
+                "space_comment": "",
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            }
+        ]
+    },
+    "ft_src": "AA 1590 KA\nOpel Vectra\n2007\n\u0413\u0410\u0417 2705 \u0413\u0430\u0437\u0435\u043b\u044c\n\u0410\u0410 9056 \u041d\u0410\n\u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0422\u0443\u043a\u0430\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0433\u043e\u043b\u043e\u0432\u0430 \u043f\u0440\u0430\u0432\u043bi\u043d\u043d\u044f \u0433\u043e \u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u0442\u0438\u043b \u043d\u0430 \u043f\u043e\u0441\u0430\u0434\u0443 \u0433\u043e\u043b\u043e\u0432\u0438 \u043b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u043d\u043e\u0457 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0457 \u0430\u0434\u043c\u0456\u043d\u0441\u0442\u0440\u0430\u0446\u0456\u0457\n1\n\u041b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u041e\u0431\u043b\u0430\u0441\u043d\u0430 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0430 \u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u0456\u044f\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447 \u0422\u0443\u043a\u0430\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0422\u0443\u043a\u0430\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439\n1230\n30\n600\n18.6\n\u043f\u0440\u0430\u0446\u044e\u044e \u043d\u0430 \u0432\u043e\u043b\u043e\u043d\u0442\u0435\u0440\u0441\u044c\u043a\u0438\u0445 \u0437\u0430\u0441\u0430\u0434\u0430\u0445, \u0437\u0430\u0440\u043f\u043b\u0430\u0442\u0443 \u043d\u0435 \u043e\u0442\u0440\u0438\u043c\u0443\u044e\n\u0433\u043e\u043b\u043e\u0432\u0430 \u043f\u0440\u0430\u0432\u043bi\u043d\u043d\u044f \u0433\u043e \u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u0442\u0438\u043b \u043d\u0430 \u043f\u043e\u0441\u0430\u0434\u0443 \u0433\u043e\u043b\u043e\u0432\u0438 \u043b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u043d\u043e\u0457 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0457 \u0430\u0434\u043c\u0456\u043d\u0441\u0442\u0440\u0430\u0446\u0456\u0457\n1\n\u041b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u041e\u0431\u043b\u0430\u0441\u043d\u0430 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0430 \u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u0456\u044f\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439\n\u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447 \u0422\u0443\u043a\u0430\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0422\u0443\u043a\u0430\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0422\u0443\u043a\u0430\nAA 1590 KA\nOpel Vectra\n2007\n\u0410\u0410 9056 \u041d\u0410\n\u0413\u0410\u0417 2705 \u0413\u0430\u0437\u0435\u043b\u044c\n600\n30\n18.6\n1230\n2014\nAA 1590 KA\nOpel Vectra\n2007\n\u0410\u0410 9056 \u041d\u0410\n\u0413\u0410\u0417 2705 \u0413\u0430\u0437\u0435\u043b\u044c\n600\n30\n18.6\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447 \u0422\u0443\u043a\u0430\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0422\u0443\u043a\u0430\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439\n\u0422\u0443\u043a\u0430\n\u041b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n1\n\u041e\u0431\u043b\u0430\u0441\u043d\u0430 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0430 \u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u0456\u044f\n\u0433\u043e\u043b\u043e\u0432\u0430 \u043f\u0440\u0430\u0432\u043bi\u043d\u043d\u044f \u0433\u043e \u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u0442\u0438\u043b \u043d\u0430 \u043f\u043e\u0441\u0430\u0434\u0443 \u0433\u043e\u043b\u043e\u0432\u0438 \u043b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u043d\u043e\u0457 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0457 \u0430\u0434\u043c\u0456\u043d\u0441\u0442\u0440\u0430\u0446\u0456\u0457\n\u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u043f\u0440\u0430\u0446\u044e\u044e \u043d\u0430 \u0432\u043e\u043b\u043e\u043d\u0442\u0435\u0440\u0441\u044c\u043a\u0438\u0445 \u0437\u0430\u0441\u0430\u0434\u0430\u0445, \u0437\u0430\u0440\u043f\u043b\u0430\u0442\u0443 \u043d\u0435 \u043e\u0442\u0440\u0438\u043c\u0443\u044e\n1230\n2014\n\u043f\u0440\u0430\u0446\u044e\u044e \u043d\u0430 \u0432\u043e\u043b\u043e\u043d\u0442\u0435\u0440\u0441\u044c\u043a\u0438\u0445 \u0437\u0430\u0441\u0430\u0434\u0430\u0445, \u0437\u0430\u0440\u043f\u043b\u0430\u0442\u0443 \u043d\u0435 \u043e\u0442\u0440\u0438\u043c\u0443\u044e\n\u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0422\u0443\u043a\u0430\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447 \u0422\u0443\u043a\u0430\n\u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0422\u0443\u043a\u0430\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n\u041b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u041e\u0431\u043b\u0430\u0441\u043d\u0430 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0430 \u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u0456\u044f\n\u0433\u043e\u043b\u043e\u0432\u0430 \u043f\u0440\u0430\u0432\u043bi\u043d\u043d\u044f \u0433\u043e \u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u0442\u0438\u043b \u043d\u0430 \u043f\u043e\u0441\u0430\u0434\u0443 \u0433\u043e\u043b\u043e\u0432\u0438 \u043b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u043d\u043e\u0457 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0457 \u0430\u0434\u043c\u0456\u043d\u0441\u0442\u0440\u0430\u0446\u0456\u0457\n1\n\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447\n2007\nOpel Vectra\nAA 1590 KA\n\u0410\u0410 9056 \u041d\u0410\n\u0413\u0410\u0417 2705 \u0413\u0430\u0437\u0435\u043b\u044c\n\u043f\u0440\u0430\u0446\u044e\u044e \u043d\u0430 \u0432\u043e\u043b\u043e\u043d\u0442\u0435\u0440\u0441\u044c\u043a\u0438\u0445 \u0437\u0430\u0441\u0430\u0434\u0430\u0445, \u0437\u0430\u0440\u043f\u043b\u0430\u0442\u0443 \u043d\u0435 \u043e\u0442\u0440\u0438\u043c\u0443\u044e\n18.6\n600\n30\n1230\n2014\n2014",
+    "general": {
+        "addresses": [
+            {
+                "place": "",
+                "place_address": "",
+                "place_address_hidden": true,
+                "place_address_unclear": false,
+                "place_city": "",
+                "place_city_hidden": false,
+                "place_city_type": "",
+                "place_city_type_hidden": false,
+                "place_city_unclear": false,
+                "place_district": "",
+                "place_district_hidden": false,
+                "place_district_unclear": false,
+                "place_hidden": true,
+                "place_unclear": false
+            }
+        ],
+        "family_raw": "",
+        "full_name": "\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447",
+        "full_name_for_sorting": "\u0422\u0423\u041a\u0410 \u0413\u0415\u041e\u0420\u0413\u0419\u0406\u0419 \u0411\u041e\u0420\u0418\u0421\u041e\u0412\u0418\u0427",
+        "full_name_suggest": {
+            "input": [
+                "\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447",
+                "\u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447 \u0422\u0443\u043a\u0430",
+                "\u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0422\u0443\u043a\u0430"
+            ]
+        },
+        "inn": "",
+        "inn_hidden": true,
+        "inn_unclear": false,
+        "last_name": "\u0422\u0443\u043a\u0430",
+        "last_name_unclear": false,
+        "name": "\u0413\u0435\u043e\u0440\u0433\u0456\u0439",
+        "name_unclear": false,
+        "patronymic": "\u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447",
+        "patronymic_hidden": false,
+        "patronymic_unclear": false,
+        "post": {
+            "candidate": "1",
+            "office": "\u041e\u0431\u043b\u0430\u0441\u043d\u0430 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0430 \u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u0456\u044f",
+            "office_hidden": false,
+            "office_unclear": false,
+            "post": "\u0433\u043e\u043b\u043e\u0432\u0430 \u043f\u0440\u0430\u0432\u043bi\u043d\u043d\u044f \u0433\u043e \u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u0442\u0438\u043b \u043d\u0430 \u043f\u043e\u0441\u0430\u0434\u0443 \u0433\u043e\u043b\u043e\u0432\u0438 \u043b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u043d\u043e\u0457 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0457 \u0430\u0434\u043c\u0456\u043d\u0441\u0442\u0440\u0430\u0446\u0456\u0457",
+            "post_hidden": false,
+            "post_unclear": false,
+            "region": "\u041b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+            "region_hidden": false,
+            "region_unclear": false
+        }
+    },
+    "id": "vulyk_72_21",
+    "income": {
+        "10": {
+            "comment": "",
+            "comment_unclear": false,
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": "",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": "",
+            "value_unclear": false
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": ""
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "",
+            "value_unclear": false
+        },
+        "19": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "20": {
+            "comment": "",
+            "comment_unclear": false,
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "",
+            "value_unclear": false
+        },
+        "5": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "",
+            "value_hidden": true,
+            "value_unclear": false
+        },
+        "6": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "",
+            "value_unclear": false
+        },
+        "7": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "source_name": "\u043f\u0440\u0430\u0446\u044e\u044e \u043d\u0430 \u0432\u043e\u043b\u043e\u043d\u0442\u0435\u0440\u0441\u044c\u043a\u0438\u0445 \u0437\u0430\u0441\u0430\u0434\u0430\u0445, \u0437\u0430\u0440\u043f\u043b\u0430\u0442\u0443 \u043d\u0435 \u043e\u0442\u0440\u0438\u043c\u0443\u044e",
+            "source_name_hidden": false,
+            "source_name_unclear": false,
+            "value": ""
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": "",
+            "value_unclear": false
+        }
+    },
+    "index_card": "\u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447 \u0422\u0443\u043a\u0430 \u0413\u0435\u043e\u0440\u0433\u0456\u0439 \u0411\u043e\u0440\u0438\u0441\u043e\u0432\u0438\u0447 \u0433\u043e\u043b\u043e\u0432\u0430 \u043f\u0440\u0430\u0432\u043bi\u043d\u043d\u044f \u0433\u043e \u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u0442\u0438\u043b \u043d\u0430 \u043f\u043e\u0441\u0430\u0434\u0443 \u0433\u043e\u043b\u043e\u0432\u0438 \u043b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u043d\u043e\u0457 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0457 \u0430\u0434\u043c\u0456\u043d\u0441\u0442\u0440\u0430\u0446\u0456\u0457 \u041e\u0431\u043b\u0430\u0441\u043d\u0430 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0430 \u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u0456\u044f \u041b\u0443\u0433\u0430\u043d\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c 2014 http://static.declarations.com.ua/declarations/chosen_ones/epic_batch/tuka_heorhii_borysovych.pdf",
+    "intro": {
+        "declaration_year": "2014",
+        "declaration_year_unclear": false,
+        "isnotdeclaration": ""
+    },
+    "liabilities": {
+        "54": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        },
+        "55": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false
+        },
+        "57": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "58": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "59": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_hidden": false,
+            "sum_foreign_unclear": false
+        },
+        "60": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_hidden": false,
+            "sum_hidden": false
+        },
+        "61": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_hidden": false,
+            "sum_hidden": false
+        },
+        "62": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_hidden": false,
+            "sum_hidden": false
+        },
+        "63": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_hidden": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "64": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_hidden": false,
+            "sum_hidden": false
+        }
+    },
+    "source": "VULYK",
+    "vehicle": {
+        "35": [
+            {
+                "brand": "Opel Vectra",
+                "brand_hidden": false,
+                "brand_info": "AA 1590 KA",
+                "brand_info_hidden": false,
+                "brand_info_unclear": false,
+                "brand_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_hidden": false,
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "sum_rent_comment_unclear": false,
+                "sum_rent_unclear": false,
+                "year": "2007"
+            },
+            {
+                "brand": "\u0413\u0410\u0417 2705 \u0413\u0430\u0437\u0435\u043b\u044c",
+                "brand_info": "\u0410\u0410 9056 \u041d\u0410",
+                "brand_info_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "",
+                "year_unclear": false
+            }
+        ]
+    }
+}

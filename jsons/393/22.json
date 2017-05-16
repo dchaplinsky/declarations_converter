@@ -1,0 +1,330 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "18059",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH"
+            }
+        ],
+        "46": [
+            {
+                "sum": "2509",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_hidden": false,
+                "sum_units": "UAH"
+            }
+        ]
+    },
+    "declaration": {
+        "additional_info": "",
+        "additional_info_text": "",
+        "date": "2016-03-21T00:00:00",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "url": "http://static.declarations.com.ua/declarations/chosen_ones/judges_batch/764_honcharuk_liliana_iakivna_2015.pdf"
+    },
+    "estate": {
+        "25": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": true,
+                "space": "122.6",
+                "space_comment": "",
+                "space_comment_unclear": false,
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "space": "94.3",
+                "space_comment": "",
+                "space_comment_unclear": false,
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            }
+        ]
+    },
+    "ft_src": "2006\nMitsubishi Lancer\n1.6\n\u042f\u043a\u0456\u0432\u043d\u0430\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u043b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430\n2509\n18059\n122.6\n94.3\n229175\n4102\n233277\n\u041e\u0431\u043e\u0432. \u0441\u0442\u0440\u0430\u0445. \u041f\u0410\u0422 \u0413\u0430\u0440\u0430\u043d\u0442\u0456\u044f\n604\n\u041e\u0431\u043e\u0432. \u0441\u0442\u0440\u0430\u0445. \u041f\u0410\u0422 \u0413\u0430\u0440\u0430\u043d\u0442\u0456\u044f\n604\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u043b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430\n\u042f\u043a\u0456\u0432\u043d\u0430\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\nMitsubishi Lancer\n1.6\n2006\n2509\n18059\n2015\n1.6\n2006\nMitsubishi Lancer\n18059\n2509\n122.6\n94.3\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\n\u042f\u043a\u0456\u0432\u043d\u0430\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u043b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n604\n\u041e\u0431\u043e\u0432. \u0441\u0442\u0440\u0430\u0445. \u041f\u0410\u0422 \u0413\u0430\u0440\u0430\u043d\u0442\u0456\u044f\n229175\n233277\n4102\n2015\n\u041e\u0431\u043e\u0432. \u0441\u0442\u0440\u0430\u0445. \u041f\u0410\u0422 \u0413\u0430\u0440\u0430\u043d\u0442\u0456\u044f\n604\n122.6\n94.3\n\u042f\u043a\u0456\u0432\u043d\u0430\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\n\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u043b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456\n\u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434\n\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430\n229175\n4102\n233277\n2006\nMitsubishi Lancer\n1.6\n4102\n233277\n229175\n122.6\n94.3\n18059\n2509\n2015\n2015",
+    "general": {
+        "addresses": [
+            {
+                "place": "",
+                "place_address": "",
+                "place_address_hidden": true,
+                "place_city": "",
+                "place_city_hidden": true,
+                "place_city_type": "",
+                "place_city_type_hidden": false,
+                "place_district": "",
+                "place_district_hidden": false,
+                "place_hidden": true
+            }
+        ],
+        "family_raw": "",
+        "full_name": "\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430",
+        "full_name_for_sorting": "\u0413\u041e\u041d\u0427\u0410\u0420\u0423\u041a \u041b\u0419\u0406\u041b\u0419\u0406\u0410\u041d\u0410 \u042f\u041a\u0419\u0406\u0412\u041d\u0410",
+        "full_name_suggest": {
+            "input": [
+                "\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430",
+                "\u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a",
+                "\u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a"
+            ]
+        },
+        "inn": "",
+        "inn_hidden": true,
+        "inn_unclear": false,
+        "last_name": "\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a",
+        "name": "\u041b\u0456\u043b\u0456\u0430\u043d\u0430",
+        "patronymic": "\u042f\u043a\u0456\u0432\u043d\u0430",
+        "patronymic_hidden": false,
+        "post": {
+            "office": "\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434",
+            "office_unclear": false,
+            "post": "\u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u043b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456",
+            "region": "\u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+            "region_unclear": false
+        }
+    },
+    "id": "vulyk_101_92",
+    "income": {
+        "10": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "11": {
+            "comment": "",
+            "comment_unclear": false,
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "19": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "20": {
+            "comment": "",
+            "comment_unclear": false,
+            "family": "",
+            "family_comment": "",
+            "family_unclear": false,
+            "value": "",
+            "value_unclear": false
+        },
+        "5": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "233277",
+            "value_unclear": false
+        },
+        "6": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": "229175",
+            "value_unclear": false
+        },
+        "7": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "source_name": "",
+            "source_name_unclear": false,
+            "value": ""
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "4102"
+        }
+    },
+    "index_card": "\u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430 \u0413\u043e\u043d\u0447\u0430\u0440\u0443\u043a \u041b\u0456\u043b\u0456\u0430\u043d\u0430 \u042f\u043a\u0456\u0432\u043d\u0430 \u0441\u0443\u0434\u0434\u044f \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u043e\u0433\u043e \u0441\u0443\u0434\u0443 \u043b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043e\u0431\u043b\u0430\u0441\u0442\u0456 \u0417\u0430\u0433\u0430\u043b\u044c\u043d\u0438\u0439 \u0430\u043f\u0435\u043b\u044f\u0446\u0456\u0439\u043d\u0438\u0439 \u0441\u0443\u0434 \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c 2015 http://static.declarations.com.ua/declarations/chosen_ones/judges_batch/764_honcharuk_liliana_iakivna_2015.pdf",
+    "intro": {
+        "declaration_year": "2015"
+    },
+    "liabilities": {
+        "54": {
+            "sum": "604",
+            "sum_comment": "\u041e\u0431\u043e\u0432. \u0441\u0442\u0440\u0430\u0445. \u041f\u0410\u0422 \u0413\u0430\u0440\u0430\u043d\u0442\u0456\u044f",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": true,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "55": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_unclear": false
+        },
+        "57": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "58": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "59": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "60": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "61": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "62": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "63": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "64": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        }
+    },
+    "source": "VULYK",
+    "vehicle": {
+        "35": [
+            {
+                "brand": "Mitsubishi Lancer",
+                "brand_info": "1.6",
+                "brand_info_hidden": false,
+                "brand_info_unclear": false,
+                "brand_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "sum_rent_unclear": false,
+                "year": "2006"
+            }
+        ]
+    }
+}

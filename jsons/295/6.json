@@ -1,0 +1,558 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "2397987",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            }
+        ],
+        "46": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            }
+        ],
+        "47": [
+            {
+                "sum": "1355497",
+                "sum_comment": "",
+                "sum_comment_unclear": true,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH"
+            }
+        ],
+        "48": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_unclear": false,
+                "sum_units": "UAH"
+            }
+        ],
+        "49": [
+            {
+                "sum": "45119",
+                "sum_comment": "",
+                "sum_comment_hidden": true,
+                "sum_comment_unclear": true,
+                "sum_foreign": "14",
+                "sum_foreign_comment": "",
+                "sum_foreign_hidden": false,
+                "sum_foreign_units": "UAH",
+                "sum_unclear": false,
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_hidden": false,
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_hidden": false,
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_hidden": false,
+                "sum_foreign_unclear": false,
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": ""
+            }
+        ],
+        "50": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_hidden": false,
+                "sum_foreign_units": "UAH",
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_hidden": false,
+                "sum_unclear": false
+            }
+        ],
+        "51": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_hidden": false,
+                "sum_units": ""
+            }
+        ],
+        "52": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "UAH",
+                "sum_units": "UAH"
+            }
+        ],
+        "53": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": false,
+                "sum_foreign_hidden": false,
+                "sum_foreign_units": "UAH",
+                "sum_unclear": false,
+                "sum_units": "UAH"
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_unclear": false,
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_unclear": false
+            }
+        ]
+    },
+    "declaration": {
+        "additional_info": "",
+        "additional_info_text": "",
+        "date": "2015-03-23T00:00:00",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "url": "http://static.declarations.com.ua/declarations/chosen_ones/batch_9/Oleksandr_Skliarov.pdf"
+    },
+    "estate": {
+        "23": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": false,
+                "region_unclear": false,
+                "space": "1000",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_unclear": false,
+                "space": "3200",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "space": "1683",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "24": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": false,
+                "space": "72.3",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "space": "25.9",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "25": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_comment_hidden": false,
+                "costs_rent_comment_unclear": false,
+                "costs_rent_unclear": false,
+                "region": "",
+                "region_hidden": false,
+                "region_unclear": false,
+                "space": "28",
+                "space_comment": "",
+                "space_comment_hidden": false,
+                "space_comment_unclear": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "address_hidden": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": false,
+                "space": "71.97",
+                "space_comment": "",
+                "space_units": "\u043c\u00b2"
+            }
+        ]
+    },
+    "ft_src": "Harley-Davidson V-Rod\n1130 \u043a\u0443\u0431. \u0441\u043c.; 97 \u043a\u0412\u0442\n2003\n2008\nMercedes-Benz S 550\n5461 \u043a\u0443\u0431. \u0441\u043c.; 318 \u043a\u0412\u0442\nMercedes-Benz GL 350\n2987 \u043a\u0443\u0431. \u0441\u043c.; 190 \u043a\u0412\u0442\n2014\n1559598\n\u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0447\u043b\u0435\u043d \u043d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0457 \u043a\u043e\u043c\u0456\u0441\u0456\u0457, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432'\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0430 \u043a\u043e\u043c\u0456\u0441\u0456\u044f, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432\u2019\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\n1355497\n2397987\n14\n45119\n72.3\n25.9\n1000\n3200\n1683\n28\n71.97\n126386\n551256\n677642\n63409\n63409\n\u0447\u043b\u0435\u043d \u043d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0457 \u043a\u043e\u043c\u0456\u0441\u0456\u0457, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432'\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0430 \u043a\u043e\u043c\u0456\u0441\u0456\u044f, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432\u2019\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n2003\nHarley-Davidson V-Rod\n1130 \u043a\u0443\u0431. \u0441\u043c.; 97 \u043a\u0412\u0442\nMercedes-Benz S 550\n5461 \u043a\u0443\u0431. \u0441\u043c.; 318 \u043a\u0412\u0442\n2008\n2014\n1559598\nMercedes-Benz GL 350\n2987 \u043a\u0443\u0431. \u0441\u043c.; 190 \u043a\u0412\u0442\n1355497\n2397987\n45119\n14\n2014\n5461 \u043a\u0443\u0431. \u0441\u043c.; 318 \u043a\u0412\u0442\n2008\nMercedes-Benz S 550\n2987 \u043a\u0443\u0431. \u0441\u043c.; 190 \u043a\u0412\u0442\n2014\n1559598\nMercedes-Benz GL 350\n1130 \u043a\u0443\u0431. \u0441\u043c.; 97 \u043a\u0412\u0442\n2003\nHarley-Davidson V-Rod\n2397987\n1355497\n14\n45119\n1000\n3200\n1683\n72.3\n25.9\n28\n71.97\n\u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0430 \u043a\u043e\u043c\u0456\u0441\u0456\u044f, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432\u2019\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457\n\u0447\u043b\u0435\u043d \u043d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0457 \u043a\u043e\u043c\u0456\u0441\u0456\u0457, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432'\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n63409\n126386\n677642\n551256\n2014\n63409\n1000\n3200\n1683\n72.3\n25.9\n28\n71.97\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0447\u043b\u0435\u043d \u043d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0457 \u043a\u043e\u043c\u0456\u0441\u0456\u0457, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432'\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0430 \u043a\u043e\u043c\u0456\u0441\u0456\u044f, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432\u2019\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0421\u043a\u043b\u044f\u0440\u043e\u0432\n\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\n126386\n677642\n551256\n2003\n1130 \u043a\u0443\u0431. \u0441\u043c.; 97 \u043a\u0412\u0442\nHarley-Davidson V-Rod\nMercedes-Benz S 550\n5461 \u043a\u0443\u0431. \u0441\u043c.; 318 \u043a\u0412\u0442\n2008\n1559598\n2014\nMercedes-Benz GL 350\n2987 \u043a\u0443\u0431. \u0441\u043c.; 190 \u043a\u0412\u0442\n677642\n551256\n126386\n28\n71.97\n1000\n3200\n1683\n72.3\n25.9\n1355497\n14\n45119\n2397987\n2014\n2014",
+    "general": {
+        "family_raw": "",
+        "full_name": "\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447",
+        "full_name_for_sorting": "\u0421\u041a\u041b\u042f\u0420\u041e\u0412 \u041e\u041b\u0415\u041a\u0421\u0410\u041d\u0414\u0420 \u0419\u0406\u0412\u0410\u041d\u041e\u0412\u0418\u0427",
+        "full_name_suggest": {
+            "input": [
+                "\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447",
+                "\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0421\u043a\u043b\u044f\u0440\u043e\u0432",
+                "\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0421\u043a\u043b\u044f\u0440\u043e\u0432"
+            ]
+        },
+        "inn": "",
+        "inn_hidden": true,
+        "last_name": "\u0421\u043a\u043b\u044f\u0440\u043e\u0432",
+        "last_name_unclear": false,
+        "name": "\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440",
+        "patronymic": "\u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447",
+        "post": {
+            "candidate": "",
+            "office": "\u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0430 \u043a\u043e\u043c\u0456\u0441\u0456\u044f, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432\u2019\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457",
+            "post": "\u0447\u043b\u0435\u043d \u043d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0457 \u043a\u043e\u043c\u0456\u0441\u0456\u0457, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432'\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457",
+            "region": "\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d",
+            "region_hidden": false
+        }
+    },
+    "id": "vulyk_4_2_30",
+    "income": {
+        "10": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "",
+            "value_unclear": false
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_unclear": false,
+            "value": ""
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "19": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "20": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "5": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_unclear": false,
+            "value": "677642",
+            "value_unclear": false
+        },
+        "6": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_unclear": false,
+            "value": "126386",
+            "value_unclear": false
+        },
+        "7": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "source_name": "",
+            "source_name_hidden": false,
+            "value": ""
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_unclear": false,
+            "value": "551256"
+        }
+    },
+    "index_card": "\u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0421\u043a\u043b\u044f\u0440\u043e\u0432 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0447\u043b\u0435\u043d \u043d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0457 \u043a\u043e\u043c\u0456\u0441\u0456\u0457, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432'\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0430 \u043a\u043e\u043c\u0456\u0441\u0456\u044f, \u0449\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0454 \u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0435 \u0440\u0435\u0433\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0443 \u0441\u0444\u0435\u0440\u0456 \u0437\u0432\u2019\u044f\u0437\u043a\u0443 \u0442\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u0457 \u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d 2014 http://static.declarations.com.ua/declarations/chosen_ones/batch_9/Oleksandr_Skliarov.pdf",
+    "intro": {
+        "declaration_year": "2014"
+    },
+    "liabilities": {
+        "54": {
+            "sum": "63409",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "55": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "57": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "58": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "59": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "60": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "61": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "62": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "63": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        },
+        "64": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_foreign": "",
+            "sum_foreign_comment": ""
+        }
+    },
+    "source": "VULYK",
+    "vehicle": {
+        "35": [
+            {
+                "brand": "Mercedes-Benz S 550",
+                "brand_hidden": false,
+                "brand_info": "5461 \u043a\u0443\u0431. \u0441\u043c.; 318 \u043a\u0412\u0442",
+                "brand_info_hidden": false,
+                "brand_info_unclear": false,
+                "brand_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2008"
+            },
+            {
+                "brand": "Mercedes-Benz GL 350",
+                "brand_info": "2987 \u043a\u0443\u0431. \u0441\u043c.; 190 \u043a\u0412\u0442",
+                "brand_info_hidden": false,
+                "brand_unclear": false,
+                "sum": "1559598",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2014"
+            }
+        ],
+        "39": [
+            {
+                "brand": "Harley-Davidson V-Rod",
+                "brand_info": "1130 \u043a\u0443\u0431. \u0441\u043c.; 97 \u043a\u0412\u0442",
+                "brand_info_unclear": false,
+                "brand_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2003"
+            }
+        ]
+    }
+}

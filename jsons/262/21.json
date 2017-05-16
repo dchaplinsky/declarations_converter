@@ -1,0 +1,981 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "8003",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": false,
+                "sum_foreign_comment_unclear": false,
+                "sum_foreign_unclear": false,
+                "sum_foreign_units": "UAH",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH",
+                "sum_units_hidden": false
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "",
+                "sum_units_unclear": false
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": ""
+            }
+        ],
+        "46": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": false,
+                "sum_foreign_units": "UAH",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH",
+                "sum_units_hidden": false
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_hidden": false,
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            }
+        ],
+        "47": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": false,
+                "sum_foreign_hidden": false,
+                "sum_foreign_units": "UAH",
+                "sum_foreign_units_hidden": false,
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH",
+                "sum_units_hidden": false,
+                "sum_units_unclear": false
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            }
+        ],
+        "48": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": false,
+                "sum_foreign_hidden": false,
+                "sum_foreign_units": "UAH",
+                "sum_foreign_units_hidden": false,
+                "sum_hidden": false,
+                "sum_units": "UAH",
+                "sum_units_hidden": false
+            }
+        ],
+        "49": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": false,
+                "sum_foreign_hidden": false,
+                "sum_foreign_units": "UAH",
+                "sum_foreign_units_hidden": false,
+                "sum_hidden": false,
+                "sum_units": "UAH",
+                "sum_units_hidden": false,
+                "sum_units_unclear": false
+            }
+        ],
+        "50": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": false,
+                "sum_foreign_hidden": false,
+                "sum_foreign_units": "UAH",
+                "sum_foreign_units_hidden": false,
+                "sum_hidden": false,
+                "sum_units": "UAH",
+                "sum_units_hidden": false
+            }
+        ],
+        "51": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": false,
+                "sum_foreign_comment_unclear": false,
+                "sum_foreign_hidden": false,
+                "sum_foreign_unclear": false,
+                "sum_foreign_units": "UAH",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH",
+                "sum_units_hidden": false
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_unclear": false,
+                "sum_foreign_units": "",
+                "sum_foreign_units_unclear": false,
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_unclear": false,
+                "sum_units": ""
+            }
+        ],
+        "52": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": false,
+                "sum_foreign_hidden": false,
+                "sum_foreign_unclear": false,
+                "sum_foreign_units": "UAH",
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH",
+                "sum_units_unclear": false
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            }
+        ],
+        "53": [
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_comment_unclear": false,
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_comment_hidden": false,
+                "sum_foreign_hidden": false,
+                "sum_foreign_unclear": false,
+                "sum_foreign_units": "UAH",
+                "sum_foreign_units_hidden": false,
+                "sum_hidden": false,
+                "sum_unclear": false,
+                "sum_units": "UAH",
+                "sum_units_hidden": false,
+                "sum_units_unclear": false
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_hidden": false,
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            },
+            {
+                "sum": "",
+                "sum_comment": "",
+                "sum_foreign": "",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "",
+                "sum_units": ""
+            }
+        ]
+    },
+    "declaration": {
+        "additional_info": "",
+        "additional_info_text": "",
+        "date": "2015-02-20T00:00:00",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "url": "http://static.declarations.com.ua/declarations/prosecutors/batch2/d112ea9846f4ac8d5007d6205505f258.pdf"
+    },
+    "estate": {
+        "23": [
+            {
+                "address": "",
+                "address_hidden": false,
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_comment_hidden": false,
+                "costs_hidden": false,
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_comment_hidden": false,
+                "costs_rent_hidden": false,
+                "costs_unclear": false,
+                "region": "",
+                "region_hidden": false,
+                "region_unclear": false,
+                "space": "",
+                "space_comment": "",
+                "space_comment_hidden": false,
+                "space_comment_unclear": false,
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2",
+                "space_units_hidden": false,
+                "space_units_unclear": false
+            },
+            {
+                "address": "",
+                "address_hidden": false,
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_comment_hidden": false,
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_comment_hidden": false,
+                "costs_unclear": false,
+                "region": "",
+                "region_hidden": false,
+                "space": "",
+                "space_comment": "",
+                "space_comment_hidden": false,
+                "space_comment_unclear": false,
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "",
+                "space_units_unclear": false
+            },
+            {
+                "address": "",
+                "address_hidden": false,
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_unclear": false,
+                "region": "",
+                "region_hidden": false,
+                "space": "",
+                "space_comment": "",
+                "space_comment_unclear": false,
+                "space_unclear": false,
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": false,
+                "space": "",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": false,
+                "space": "",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "space": "",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ],
+        "25": [
+            {
+                "address": "",
+                "address_hidden": true,
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_comment_hidden": false,
+                "costs_comment_unclear": false,
+                "costs_hidden": false,
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_comment_hidden": false,
+                "costs_rent_hidden": false,
+                "costs_rent_unclear": false,
+                "costs_unclear": false,
+                "region": "",
+                "region_hidden": false,
+                "region_unclear": false,
+                "space": "68",
+                "space_comment": "",
+                "space_comment_hidden": false,
+                "space_comment_unclear": false,
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2",
+                "space_units_unclear": false
+            },
+            {
+                "address": "",
+                "address_hidden": false,
+                "address_unclear": false,
+                "costs": "",
+                "costs_comment": "",
+                "costs_comment_unclear": false,
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_comment_unclear": false,
+                "costs_unclear": false,
+                "region": "",
+                "region_hidden": false,
+                "space": "68",
+                "space_comment": "",
+                "space_comment_unclear": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            }
+        ],
+        "31": [
+            {
+                "address": "",
+                "address_hidden": true,
+                "address_unclear": false,
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_property_comment_hidden": false,
+                "costs_property_hidden": false,
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "costs_rent_comment_hidden": false,
+                "costs_rent_hidden": false,
+                "region": "",
+                "region_hidden": false,
+                "region_unclear": false,
+                "space": "45",
+                "space_comment": "",
+                "space_comment_hidden": false,
+                "space_comment_unclear": false,
+                "space_hidden": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            },
+            {
+                "address": "",
+                "address_hidden": false,
+                "address_unclear": false,
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "region": "",
+                "region_hidden": false,
+                "region_unclear": false,
+                "space": "68",
+                "space_comment": "",
+                "space_comment_unclear": false,
+                "space_unclear": false,
+                "space_units": "\u043c\u00b2"
+            }
+        ]
+    },
+    "ft_src": "1800 \u043a\u0443\u0431. \u0441\u043c; 90 \u043a\u0412\u0442; 451 \u0441\u043c\nChevrolet Lacetti\n2005\nVolkswagen Golf Plus\n1598 \u043a\u0443\u0431. \u0441\u043c; 75 \u043a\u0412\u0442; 420 \u0441\u043c (\u043f\u0440\u0430\u0432\u043e \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f)\n2007\n\u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0413\u0456\u0440\u044f\u043a\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0413\u0456\u0440\u044f\u043a \u0413. \u042e\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u0413\u0456\u0440\u044f\u043a \u041a. \u0414\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0441\u0442\u0430\u0440\u0448\u0438\u0439 \u043f\u0440\u043e\u043a\u0443\u0440\u043e\u0440 \u0432\u0456\u0434\u0434\u0456\u043b\u0443 \u043e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u0457 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043d\u0438\u0446\u0442\u0432\u0430 \u043d\u0430 \u0437\u0430\u0445\u0438\u0441\u0442 \u0456\u043d\u0442\u0435\u0440\u0435\u0441\u0456\u0432 \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0438\u043d\u0430 \u0430\u0431\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u0438\n\u041f\u0440\u043e\u043a\u0443\u0440\u0430\u0442\u0443\u0440\u0430\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0413\u0456\u0440\u044f\u043a\n\u0414\u0435\u043d\u0438\u0441 \u0413\u0456\u0440\u044f\u043a\n\u0414\u0435\u043d\u0438\u0441\n8003\n68\n68\n45\n68\n8375\n129642\n129642\n698112\n685026\n4711\n14810\n14810\n\u0441\u0442\u0430\u0440\u0448\u0438\u0439 \u043f\u0440\u043e\u043a\u0443\u0440\u043e\u0440 \u0432\u0456\u0434\u0434\u0456\u043b\u0443 \u043e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u0457 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043d\u0438\u0446\u0442\u0432\u0430 \u043d\u0430 \u0437\u0430\u0445\u0438\u0441\u0442 \u0456\u043d\u0442\u0435\u0440\u0435\u0441\u0456\u0432 \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0438\u043d\u0430 \u0430\u0431\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u0438\n\u041f\u0440\u043e\u043a\u0443\u0440\u0430\u0442\u0443\u0440\u0430\n\u0414\u0435\u043d\u0438\u0441\n\u0413\u0456\u0440\u044f\u043a \u0413. \u042e\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u0413\u0456\u0440\u044f\u043a \u041a. \u0414\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0413\u0456\u0440\u044f\u043a\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0413\u0456\u0440\u044f\u043a\n\u0414\u0435\u043d\u0438\u0441 \u0413\u0456\u0440\u044f\u043a\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n1800 \u043a\u0443\u0431. \u0441\u043c; 90 \u043a\u0412\u0442; 451 \u0441\u043c\n2005\nChevrolet Lacetti\nVolkswagen Golf Plus\n1598 \u043a\u0443\u0431. \u0441\u043c; 75 \u043a\u0412\u0442; 420 \u0441\u043c (\u043f\u0440\u0430\u0432\u043e \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f)\n2007\n8003\n2014\n1800 \u043a\u0443\u0431. \u0441\u043c; 90 \u043a\u0412\u0442; 451 \u0441\u043c\nChevrolet Lacetti\n2005\n1598 \u043a\u0443\u0431. \u0441\u043c; 75 \u043a\u0412\u0442; 420 \u0441\u043c (\u043f\u0440\u0430\u0432\u043e \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f)\nVolkswagen Golf Plus\n2007\n8003\n45\n68\n68\n68\n\u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0413\u0456\u0440\u044f\u043a\n\u0414\u0435\u043d\u0438\u0441 \u0413\u0456\u0440\u044f\u043a\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0414\u0435\u043d\u0438\u0441\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u0413\u0456\u0440\u044f\u043a \u0413. \u042e\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0413\u0456\u0440\u044f\u043a \u041a. \u0414\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u041f\u0440\u043e\u043a\u0443\u0440\u0430\u0442\u0443\u0440\u0430\n\u0441\u0442\u0430\u0440\u0448\u0438\u0439 \u043f\u0440\u043e\u043a\u0443\u0440\u043e\u0440 \u0432\u0456\u0434\u0434\u0456\u043b\u0443 \u043e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u0457 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043d\u0438\u0446\u0442\u0432\u0430 \u043d\u0430 \u0437\u0430\u0445\u0438\u0441\u0442 \u0456\u043d\u0442\u0435\u0440\u0435\u0441\u0456\u0432 \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0438\u043d\u0430 \u0430\u0431\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u0438\n\u0413\u0456\u0440\u044f\u043a\n14810\n129642\n685026\n8375\n129642\n698112\n4711\n2014\n14810\n45\n68\n68\n68\n\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f\n\u0413\u0456\u0440\u044f\u043a \u0413. \u042e\n\u0414\u0438\u0442\u0438\u043d\u0430\n\u0413\u0456\u0440\u044f\u043a \u041a. \u0414\n\u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0413\u0456\u0440\u044f\u043a\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0413\u0456\u0440\u044f\u043a\n\u0414\u0435\u043d\u0438\u0441 \u0413\u0456\u0440\u044f\u043a\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n\u0414\u0435\u043d\u0438\u0441\n\u041f\u0440\u043e\u043a\u0443\u0440\u0430\u0442\u0443\u0440\u0430\n\u0441\u0442\u0430\u0440\u0448\u0438\u0439 \u043f\u0440\u043e\u043a\u0443\u0440\u043e\u0440 \u0432\u0456\u0434\u0434\u0456\u043b\u0443 \u043e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u0457 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043d\u0438\u0446\u0442\u0432\u0430 \u043d\u0430 \u0437\u0430\u0445\u0438\u0441\u0442 \u0456\u043d\u0442\u0435\u0440\u0435\u0441\u0456\u0432 \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0438\u043d\u0430 \u0430\u0431\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u0438\n\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447\n129642\n4711\n698112\n129642\n685026\n8375\nChevrolet Lacetti\n1800 \u043a\u0443\u0431. \u0441\u043c; 90 \u043a\u0412\u0442; 451 \u0441\u043c\n2005\n2007\nVolkswagen Golf Plus\n1598 \u043a\u0443\u0431. \u0441\u043c; 75 \u043a\u0412\u0442; 420 \u0441\u043c (\u043f\u0440\u0430\u0432\u043e \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f)\n4711\n8375\n129642\n698112\n685026\n129642\n45\n68\n68\n68\n8003\n2014\n2014",
+    "general": {
+        "addresses": [
+            {
+                "place": "",
+                "place_address": "",
+                "place_address_hidden": true,
+                "place_address_unclear": false,
+                "place_city": "",
+                "place_city_hidden": true,
+                "place_city_type": "",
+                "place_city_type_hidden": false,
+                "place_city_type_unclear": false,
+                "place_city_unclear": false,
+                "place_district": "",
+                "place_district_hidden": true,
+                "place_district_unclear": false,
+                "place_hidden": false,
+                "place_unclear": false
+            }
+        ],
+        "family": [
+            {
+                "family_name": "\u0413\u0456\u0440\u044f\u043a \u0413. \u042e",
+                "inn": "",
+                "inn_hidden": true,
+                "inn_unclear": false,
+                "name_hidden": true,
+                "name_unclear": false,
+                "relations": "\u041f\u043e\u0434\u0440\u0443\u0436\u0436\u044f",
+                "relations_hidden": false,
+                "relations_other": "",
+                "relations_unclear": false
+            },
+            {
+                "family_name": "\u0413\u0456\u0440\u044f\u043a \u041a. \u0414",
+                "inn": "",
+                "inn_hidden": true,
+                "inn_unclear": false,
+                "name_hidden": true,
+                "name_unclear": false,
+                "relations": "\u0414\u0438\u0442\u0438\u043d\u0430",
+                "relations_hidden": false,
+                "relations_other": "",
+                "relations_unclear": false
+            }
+        ],
+        "family_raw": "",
+        "full_name": "\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447",
+        "full_name_for_sorting": "\u0413\u0419\u0406\u0420\u042f\u041a \u0414\u0415\u041d\u0418\u0421 \u0419\u0406\u0412\u0410\u041d\u041e\u0412\u0418\u0427",
+        "full_name_suggest": {
+            "input": [
+                "\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447",
+                "\u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0413\u0456\u0440\u044f\u043a",
+                "\u0414\u0435\u043d\u0438\u0441 \u0413\u0456\u0440\u044f\u043a"
+            ]
+        },
+        "inn": "",
+        "inn_hidden": true,
+        "inn_unclear": false,
+        "last_name": "\u0413\u0456\u0440\u044f\u043a",
+        "last_name_hidden": false,
+        "last_name_unclear": false,
+        "name": "\u0414\u0435\u043d\u0438\u0441",
+        "name_hidden": false,
+        "name_unclear": false,
+        "patronymic": "\u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447",
+        "patronymic_hidden": false,
+        "patronymic_unclear": false,
+        "post": {
+            "candidate": "",
+            "office": "\u041f\u0440\u043e\u043a\u0443\u0440\u0430\u0442\u0443\u0440\u0430",
+            "office_hidden": false,
+            "office_unclear": false,
+            "post": "\u0441\u0442\u0430\u0440\u0448\u0438\u0439 \u043f\u0440\u043e\u043a\u0443\u0440\u043e\u0440 \u0432\u0456\u0434\u0434\u0456\u043b\u0443 \u043e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u0457 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043d\u0438\u0446\u0442\u0432\u0430 \u043d\u0430 \u0437\u0430\u0445\u0438\u0441\u0442 \u0456\u043d\u0442\u0435\u0440\u0435\u0441\u0456\u0432 \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0438\u043d\u0430 \u0430\u0431\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u0438",
+            "post_hidden": false,
+            "post_unclear": false,
+            "region": "",
+            "region_hidden": false,
+            "region_unclear": false
+        }
+    },
+    "id": "vulyk_1_1761",
+    "income": {
+        "10": {
+            "comment": "",
+            "comment_unclear": false,
+            "family": "4711",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": "",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "value": "",
+            "value_hidden": false
+        },
+        "13": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "value": "",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "14": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "value": "",
+            "value_hidden": false
+        },
+        "15": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "value": "",
+            "value_hidden": false
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_hidden": false,
+            "value": "",
+            "value_unclear": false
+        },
+        "17": {
+            "comment": "",
+            "comment_hidden": false,
+            "comment_unclear": false,
+            "family": "685026",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "18": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "value": "",
+            "value_hidden": false
+        },
+        "19": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "value": "",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "20": {
+            "comment": "",
+            "comment_hidden": false,
+            "comment_unclear": false,
+            "family": "8375",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_comment_unclear": false,
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "5": {
+            "comment": "",
+            "comment_unclear": false,
+            "family": "698112",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "129642",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "6": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "family_comment_unclear": false,
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "129642",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "7": {
+            "comment": "",
+            "comment_hidden": false,
+            "comment_unclear": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "source_name": "",
+            "source_name_hidden": false,
+            "source_name_unclear": false,
+            "value": "",
+            "value_hidden": false,
+            "value_unclear": false
+        },
+        "8": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "value": "",
+            "value_hidden": false
+        },
+        "9": {
+            "comment": "",
+            "comment_hidden": false,
+            "family": "",
+            "family_comment": "",
+            "family_comment_hidden": false,
+            "family_hidden": false,
+            "family_unclear": false,
+            "value": "",
+            "value_hidden": false,
+            "value_unclear": false
+        }
+    },
+    "index_card": "\u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0413\u0456\u0440\u044f\u043a \u0414\u0435\u043d\u0438\u0441 \u0406\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0441\u0442\u0430\u0440\u0448\u0438\u0439 \u043f\u0440\u043e\u043a\u0443\u0440\u043e\u0440 \u0432\u0456\u0434\u0434\u0456\u043b\u0443 \u043e\u0440\u0433\u0430\u043d\u0456\u0437\u0430\u0446\u0456\u0457 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043d\u0438\u0446\u0442\u0432\u0430 \u043d\u0430 \u0437\u0430\u0445\u0438\u0441\u0442 \u0456\u043d\u0442\u0435\u0440\u0435\u0441\u0456\u0432 \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0438\u043d\u0430 \u0430\u0431\u043e \u0434\u0435\u0440\u0436\u0430\u0432\u0438 \u041f\u0440\u043e\u043a\u0443\u0440\u0430\u0442\u0443\u0440\u0430  2014 http://static.declarations.com.ua/declarations/prosecutors/batch2/d112ea9846f4ac8d5007d6205505f258.pdf",
+    "intro": {
+        "declaration_year": "2014",
+        "declaration_year_hidden": false,
+        "declaration_year_unclear": false,
+        "isnotdeclaration": ""
+    },
+    "liabilities": {
+        "54": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_foreign_unclear": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "55": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "56": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "57": {
+            "sum": "14810",
+            "sum_comment": "",
+            "sum_comment_hidden": true,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_hidden": true,
+            "sum_unclear": false
+        },
+        "58": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "59": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_foreign_unclear": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "60": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_foreign_unclear": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "61": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "62": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "63": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        },
+        "64": {
+            "sum": "",
+            "sum_comment": "",
+            "sum_comment_hidden": false,
+            "sum_comment_unclear": false,
+            "sum_foreign": "",
+            "sum_foreign_comment": "",
+            "sum_foreign_comment_hidden": false,
+            "sum_foreign_hidden": false,
+            "sum_hidden": false,
+            "sum_unclear": false
+        }
+    },
+    "source": "VULYK",
+    "vehicle": {
+        "35": [
+            {
+                "brand": "Chevrolet Lacetti",
+                "brand_hidden": false,
+                "brand_info": "1800 \u043a\u0443\u0431. \u0441\u043c; 90 \u043a\u0412\u0442; 451 \u0441\u043c",
+                "brand_info_hidden": false,
+                "brand_info_unclear": false,
+                "brand_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_comment_hidden": false,
+                "sum_hidden": false,
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "sum_rent_comment_hidden": false,
+                "sum_rent_hidden": false,
+                "sum_unclear": false,
+                "year": "2005",
+                "year_hidden": false,
+                "year_unclear": false
+            },
+            {
+                "brand": "Volkswagen Golf Plus",
+                "brand_hidden": false,
+                "brand_info": "1598 \u043a\u0443\u0431. \u0441\u043c; 75 \u043a\u0412\u0442; 420 \u0441\u043c (\u043f\u0440\u0430\u0432\u043e \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f)",
+                "brand_info_unclear": false,
+                "brand_unclear": false,
+                "sum": "",
+                "sum_comment": "",
+                "sum_hidden": false,
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "sum_unclear": false,
+                "year": "2007",
+                "year_unclear": false
+            }
+        ]
+    }
+}

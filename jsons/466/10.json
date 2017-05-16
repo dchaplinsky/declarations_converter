@@ -1,0 +1,829 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "46": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "47": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "48": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "49": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "50": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "51": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "52": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "53": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ]
+    },
+    "declaration": {
+        "needs_scancopy_check": "",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "source": "CHESNO",
+        "url": "http://gapp.rada.gov.ua/declview/Home/Main/18107/2014"
+    },
+    "estate": {
+        "23": [
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "13000.0",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "72600.0",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ],
+        "24": [
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "100.6",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ],
+        "29": [
+            {
+                "address": "",
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "1200.0",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "7410.1",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "1201.0",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ],
+        "30": [
+            {
+                "address": "",
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "209.6",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs_property": "",
+                "costs_property_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "90.5",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ]
+    },
+    "ft_src": "\u041a\u043e\u043c\u0431\u0430\u0439\u043d John Deer 2266 \n2001\n\u0410\u0432\u0442\u043e\u0431\u0443\u0441 Icarus  125 \u043a\u0412\u0442\n\u041a\u043e\u043c\u0431\u0430\u0439\u043d John Deer 2266 \n2000\n\u041f\u0430\u043b\u0438\u0432\u043e\u0437\u0430\u043f\u0440\u0430\u0432\u043d\u0438\u043a TIBA FTW  \n1977\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Air Seeder  \n1999\n\u041e\u043f\u0440\u0438\u0441\u043a\u0443\u0432\u0430\u0447 Sieger  \n1993\n\u0416\u0430\u0442\u043a\u0430 Geringhoff  \n2000\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 Lemken Smaragd  \n2005\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 \u041a\u041f\u0421 4  \n2002\n\u041f\u043b\u0443\u0433 \u0432\u0456\u0434\u0432\u0430\u043b\u044c\u043d\u0438\u0439 \"\u041e\u043f\u0430\u043b\"  \n1970\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  6068 \u043a\u0443\u0431.\u0441\u043c\n2007\n\u0416\u0430\u0442\u043a\u0430 \u0437\u0435\u0440\u043d\u043e\u0432\u0430 John Deer  \n1999\n\u041f\u0440\u0438\u0447\u0456\u043f NFP-Eurotrailer  \n2004\n\u0415\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440 AILAS 16.04   \n1991\n\u041f\u0440\u0438\u0447\u0456\u043f SCHMIDT 2  \n1974\n\u041d\u0430\u043f\u0456\u0432\u043f\u0440\u0438\u0447\u0456\u043f Krone  \n1998\n\u041f\u0440\u0438\u0447\u0456\u043f Renders  \n2004\n\u041f\u043b\u0443\u0433 \u0432\u0456\u0434\u0432\u0430\u043b\u044c\u043d\u0438\u0439 \u0421\u041f\u0421\u0424  \n1962\n\u041e\u043f\u0440\u0438\u0441\u043a\u0443\u0432\u0430\u0447 Sieger  \n1992\n\u041c\u0435\u0445\u0430\u043d\u0456\u0437\u043c \u0434\u043b\u044f \u043e\u0431\u043c\u043e\u043b\u043e\u0442\u0443 Sopca  \n1998\n\u041f\u0440\u0438\u0447\u0456\u043f \u0442\u0440\u0430\u043a\u0442\u043e\u0440\u043d\u0438\u0439  \n2001\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Horsch  \n1998\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  8434 \u043a\u0443\u0431.\u0441\u043c\n2003\n\u0416\u0430\u0442\u043a\u0430 \u0437\u0435\u0440\u043d\u043e\u0432\u0430 John Deer  \n1999\n\u041d\u0430\u043f\u0456\u0432\u043f\u0440\u0438\u0447\u0456\u043f Langendorf  \n2000\n\u041f\u043b\u0443\u0433 Lemken  \n1970\n\u0410\u0432\u0442\u043e\u0431\u0443\u0441 Icarus  10300 \u043a\u0443\u0431.\u0441\u043c\n1986\n\u0420\u043e\u0437\u043f\u043e\u0434\u0456\u043b\u044e\u0432\u0430\u0447 \u043c\u0456\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u0438\u0445 \u0434\u043e\u0431\u0440\u0438\u0432 ZAM 3000 \n1980\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  4755 \u043a\u0443\u0431.\u0441\u043c\n1994\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Gaspardo SP 540 \n1998\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Gaspardo SP 540 \n1998\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 Lemken  \n1985\nMer\u0441edes-Benz  G320 cdi 2987 \u043a\u0443\u0431.\u0441\u043c\n2008\n\u0412\u0410\u0417  211340 1596 \u043a\u0443\u0431.\u0441\u043c\n2010\n\u0412\u0410\u0417 211340 1596 \u043a\u0443\u0431.\u0441\u043c\n2011\nScania 1146 250 \u043a\u0412\u0442\n2005\n\u041c\u0410\u0417  53366 12860 \u043a\u0443\u0431.\u0441\u043c , \u0440.\u0432.\nVolkswagen Caddy \n2002\nMAN TGA 18430 18450 \u043a\u0443\u0431.\u0441\u043c\n2007\nVolkswagen Caddy 1896 \u043a\u0443\u0431.\u0441\u043c \n2003\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447 \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u0412\u0430\u0434\u0438\u043c \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u0414\u0440\u0443\u0436\u0438\u043d\u0430\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u041b.\u0421.\n\u0412\u0430\u0434\u0438\u043c\n100.6\n209.6\n90.5\n13000.0\n72600.0\n1200.0\n7410.1\n1201.0\n96717.0\n90770.0\n74743.0\n48583.0\n171460.0\n139353.0\n48583.0\n74743.0\n139353.0\n171460.0\n90770.0\n96717.0\n1977\n\u041f\u0430\u043b\u0438\u0432\u043e\u0437\u0430\u043f\u0440\u0430\u0432\u043d\u0438\u043a TIBA FTW  \n1999\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Air Seeder  \n1993\n\u041e\u043f\u0440\u0438\u0441\u043a\u0443\u0432\u0430\u0447 Sieger  \n2000\n\u0416\u0430\u0442\u043a\u0430 Geringhoff  \n2005\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 Lemken Smaragd  \n2002\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 \u041a\u041f\u0421 4  \n1970\n\u041f\u043b\u0443\u0433 \u0432\u0456\u0434\u0432\u0430\u043b\u044c\u043d\u0438\u0439 \"\u041e\u043f\u0430\u043b\"  \n2007\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  6068 \u043a\u0443\u0431.\u0441\u043c\n1999\n\u0416\u0430\u0442\u043a\u0430 \u0437\u0435\u0440\u043d\u043e\u0432\u0430 John Deer  \n2004\n\u041f\u0440\u0438\u0447\u0456\u043f NFP-Eurotrailer  \n1991\n\u0415\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440 AILAS 16.04   \n1974\n\u041f\u0440\u0438\u0447\u0456\u043f SCHMIDT 2  \n1998\n\u041d\u0430\u043f\u0456\u0432\u043f\u0440\u0438\u0447\u0456\u043f Krone  \n2004\n\u041f\u0440\u0438\u0447\u0456\u043f Renders  \n1962\n\u041f\u043b\u0443\u0433 \u0432\u0456\u0434\u0432\u0430\u043b\u044c\u043d\u0438\u0439 \u0421\u041f\u0421\u0424  \n1992\n\u041e\u043f\u0440\u0438\u0441\u043a\u0443\u0432\u0430\u0447 Sieger  \n1998\n\u041c\u0435\u0445\u0430\u043d\u0456\u0437\u043c \u0434\u043b\u044f \u043e\u0431\u043c\u043e\u043b\u043e\u0442\u0443 Sopca  \n2001\n\u041f\u0440\u0438\u0447\u0456\u043f \u0442\u0440\u0430\u043a\u0442\u043e\u0440\u043d\u0438\u0439  \n1998\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Horsch  \n2003\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  8434 \u043a\u0443\u0431.\u0441\u043c\n1999\n\u0416\u0430\u0442\u043a\u0430 \u0437\u0435\u0440\u043d\u043e\u0432\u0430 John Deer  \n2000\n\u041d\u0430\u043f\u0456\u0432\u043f\u0440\u0438\u0447\u0456\u043f Langendorf  \n1970\n\u041f\u043b\u0443\u0433 Lemken  \n1986\n\u0410\u0432\u0442\u043e\u0431\u0443\u0441 Icarus  10300 \u043a\u0443\u0431.\u0441\u043c\n1980\n\u0420\u043e\u0437\u043f\u043e\u0434\u0456\u043b\u044e\u0432\u0430\u0447 \u043c\u0456\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u0438\u0445 \u0434\u043e\u0431\u0440\u0438\u0432 ZAM 3000 \n1994\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  4755 \u043a\u0443\u0431.\u0441\u043c\n1998\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Gaspardo SP 540 \n1998\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Gaspardo SP 540 \n1985\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 Lemken  \n2005\nScania 1146 250 \u043a\u0412\u0442\n2001\n\u041a\u043e\u043c\u0431\u0430\u0439\u043d John Deer 2266 \n\u0410\u0432\u0442\u043e\u0431\u0443\u0441 Icarus  125 \u043a\u0412\u0442\n2000\n\u041a\u043e\u043c\u0431\u0430\u0439\u043d John Deer 2266 \n2008\nMer\u0441edes-Benz  G320 cdi 2987 \u043a\u0443\u0431.\u0441\u043c\n2010\n\u0412\u0410\u0417  211340 1596 \u043a\u0443\u0431.\u0441\u043c\n2011\n\u0412\u0410\u0417 211340 1596 \u043a\u0443\u0431.\u0441\u043c\n\u041c\u0410\u0417  53366 12860 \u043a\u0443\u0431.\u0441\u043c , \u0440.\u0432.\n2002\nVolkswagen Caddy \n2007\nMAN TGA 18430 18450 \u043a\u0443\u0431.\u0441\u043c\n2003\nVolkswagen Caddy 1896 \u043a\u0443\u0431.\u0441\u043c \n2005\nScania 1146 250 \u043a\u0412\u0442\n1977\n\u041f\u0430\u043b\u0438\u0432\u043e\u0437\u0430\u043f\u0440\u0430\u0432\u043d\u0438\u043a TIBA FTW  \n1999\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Air Seeder  \n1993\n\u041e\u043f\u0440\u0438\u0441\u043a\u0443\u0432\u0430\u0447 Sieger  \n2000\n\u0416\u0430\u0442\u043a\u0430 Geringhoff  \n2005\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 Lemken Smaragd  \n2002\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 \u041a\u041f\u0421 4  \n1970\n\u041f\u043b\u0443\u0433 \u0432\u0456\u0434\u0432\u0430\u043b\u044c\u043d\u0438\u0439 \"\u041e\u043f\u0430\u043b\"  \n2007\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  6068 \u043a\u0443\u0431.\u0441\u043c\n1999\n\u0416\u0430\u0442\u043a\u0430 \u0437\u0435\u0440\u043d\u043e\u0432\u0430 John Deer  \n2004\n\u041f\u0440\u0438\u0447\u0456\u043f NFP-Eurotrailer  \n1991\n\u0415\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440 AILAS 16.04   \n1974\n\u041f\u0440\u0438\u0447\u0456\u043f SCHMIDT 2  \n1998\n\u041d\u0430\u043f\u0456\u0432\u043f\u0440\u0438\u0447\u0456\u043f Krone  \n2004\n\u041f\u0440\u0438\u0447\u0456\u043f Renders  \n1962\n\u041f\u043b\u0443\u0433 \u0432\u0456\u0434\u0432\u0430\u043b\u044c\u043d\u0438\u0439 \u0421\u041f\u0421\u0424  \n1992\n\u041e\u043f\u0440\u0438\u0441\u043a\u0443\u0432\u0430\u0447 Sieger  \n1998\n\u041c\u0435\u0445\u0430\u043d\u0456\u0437\u043c \u0434\u043b\u044f \u043e\u0431\u043c\u043e\u043b\u043e\u0442\u0443 Sopca  \n2001\n\u041f\u0440\u0438\u0447\u0456\u043f \u0442\u0440\u0430\u043a\u0442\u043e\u0440\u043d\u0438\u0439  \n1998\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Horsch  \n2003\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  8434 \u043a\u0443\u0431.\u0441\u043c\n1999\n\u0416\u0430\u0442\u043a\u0430 \u0437\u0435\u0440\u043d\u043e\u0432\u0430 John Deer  \n2000\n\u041d\u0430\u043f\u0456\u0432\u043f\u0440\u0438\u0447\u0456\u043f Langendorf  \n1970\n\u041f\u043b\u0443\u0433 Lemken  \n1986\n\u0410\u0432\u0442\u043e\u0431\u0443\u0441 Icarus  10300 \u043a\u0443\u0431.\u0441\u043c\n1980\n\u0420\u043e\u0437\u043f\u043e\u0434\u0456\u043b\u044e\u0432\u0430\u0447 \u043c\u0456\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u0438\u0445 \u0434\u043e\u0431\u0440\u0438\u0432 ZAM 3000 \n1994\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  4755 \u043a\u0443\u0431.\u0441\u043c\n1998\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Gaspardo SP 540 \n1998\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Gaspardo SP 540 \n1985\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 Lemken  \n2001\n\u041a\u043e\u043c\u0431\u0430\u0439\u043d John Deer 2266 \n\u0410\u0432\u0442\u043e\u0431\u0443\u0441 Icarus  125 \u043a\u0412\u0442\n2000\n\u041a\u043e\u043c\u0431\u0430\u0439\u043d John Deer 2266 \n\u041c\u0410\u0417  53366 12860 \u043a\u0443\u0431.\u0441\u043c , \u0440.\u0432.\n2002\nVolkswagen Caddy \n2007\nMAN TGA 18430 18450 \u043a\u0443\u0431.\u0441\u043c\n2003\nVolkswagen Caddy 1896 \u043a\u0443\u0431.\u0441\u043c \n2008\nMer\u0441edes-Benz  G320 cdi 2987 \u043a\u0443\u0431.\u0441\u043c\n2010\n\u0412\u0410\u0417  211340 1596 \u043a\u0443\u0431.\u0441\u043c\n2011\n\u0412\u0410\u0417 211340 1596 \u043a\u0443\u0431.\u0441\u043c\n13000.0\n72600.0\n209.6\n90.5\n1200.0\n7410.1\n1201.0\n100.6\n90770.0\n96717.0\n139353.0\n171460.0\n48583.0\n74743.0\nMer\u0441edes-Benz  G320 cdi 2987 \u043a\u0443\u0431.\u0441\u043c\n2008\n\u0412\u0410\u0417  211340 1596 \u043a\u0443\u0431.\u0441\u043c\n2010\n\u0412\u0410\u0417 211340 1596 \u043a\u0443\u0431.\u0441\u043c\n2011\n\u041a\u043e\u043c\u0431\u0430\u0439\u043d John Deer 2266 \n2001\n\u0410\u0432\u0442\u043e\u0431\u0443\u0441 Icarus  125 \u043a\u0412\u0442\n\u041a\u043e\u043c\u0431\u0430\u0439\u043d John Deer 2266 \n2000\n\u041f\u0430\u043b\u0438\u0432\u043e\u0437\u0430\u043f\u0440\u0430\u0432\u043d\u0438\u043a TIBA FTW  \n1977\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Air Seeder  \n1999\n\u041e\u043f\u0440\u0438\u0441\u043a\u0443\u0432\u0430\u0447 Sieger  \n1993\n\u0416\u0430\u0442\u043a\u0430 Geringhoff  \n2000\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 Lemken Smaragd  \n2005\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 \u041a\u041f\u0421 4  \n2002\n\u041f\u043b\u0443\u0433 \u0432\u0456\u0434\u0432\u0430\u043b\u044c\u043d\u0438\u0439 \"\u041e\u043f\u0430\u043b\"  \n1970\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  6068 \u043a\u0443\u0431.\u0441\u043c\n2007\n\u0416\u0430\u0442\u043a\u0430 \u0437\u0435\u0440\u043d\u043e\u0432\u0430 John Deer  \n1999\n\u041f\u0440\u0438\u0447\u0456\u043f NFP-Eurotrailer  \n2004\n\u0415\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440 AILAS 16.04   \n1991\n\u041f\u0440\u0438\u0447\u0456\u043f SCHMIDT 2  \n1974\n\u041d\u0430\u043f\u0456\u0432\u043f\u0440\u0438\u0447\u0456\u043f Krone  \n1998\n\u041f\u0440\u0438\u0447\u0456\u043f Renders  \n2004\n\u041f\u043b\u0443\u0433 \u0432\u0456\u0434\u0432\u0430\u043b\u044c\u043d\u0438\u0439 \u0421\u041f\u0421\u0424  \n1962\n\u041e\u043f\u0440\u0438\u0441\u043a\u0443\u0432\u0430\u0447 Sieger  \n1992\n\u041c\u0435\u0445\u0430\u043d\u0456\u0437\u043c \u0434\u043b\u044f \u043e\u0431\u043c\u043e\u043b\u043e\u0442\u0443 Sopca  \n1998\n\u041f\u0440\u0438\u0447\u0456\u043f \u0442\u0440\u0430\u043a\u0442\u043e\u0440\u043d\u0438\u0439  \n2001\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Horsch  \n1998\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  8434 \u043a\u0443\u0431.\u0441\u043c\n2003\n\u0416\u0430\u0442\u043a\u0430 \u0437\u0435\u0440\u043d\u043e\u0432\u0430 John Deer  \n1999\n\u041d\u0430\u043f\u0456\u0432\u043f\u0440\u0438\u0447\u0456\u043f Langendorf  \n2000\n\u041f\u043b\u0443\u0433 Lemken  \n1970\n\u0410\u0432\u0442\u043e\u0431\u0443\u0441 Icarus  10300 \u043a\u0443\u0431.\u0441\u043c\n1986\n\u0420\u043e\u0437\u043f\u043e\u0434\u0456\u043b\u044e\u0432\u0430\u0447 \u043c\u0456\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u0438\u0445 \u0434\u043e\u0431\u0440\u0438\u0432 ZAM 3000 \n1980\n\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  4755 \u043a\u0443\u0431.\u0441\u043c\n1994\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Gaspardo SP 540 \n1998\n\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Gaspardo SP 540 \n1998\n\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 Lemken  \n1985\n\u041c\u0410\u0417  53366 12860 \u043a\u0443\u0431.\u0441\u043c , \u0440.\u0432.\nVolkswagen Caddy \n2002\nMAN TGA 18430 18450 \u043a\u0443\u0431.\u0441\u043c\n2007\nVolkswagen Caddy 1896 \u043a\u0443\u0431.\u0441\u043c \n2003\nScania 1146 250 \u043a\u0412\u0442\n2005\n13000.0\n72600.0\n1200.0\n7410.1\n1201.0\n100.6\n209.6\n90.5\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447 \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u0412\u0430\u0434\u0438\u043c \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u041b.\u0421.\n\u0414\u0440\u0443\u0436\u0438\u043d\u0430\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u0412\u0430\u0434\u0438\u043c\n96717.0\n90770.0\n171460.0\n139353.0\n74743.0\n48583.0\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u041b.\u0421.\n\u0414\u0440\u0443\u0436\u0438\u043d\u0430\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447 \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u0412\u0430\u0434\u0438\u043c \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u0412\u0430\u0434\u0438\u043c\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n209.6\n90.5\n13000.0\n72600.0\n100.6\n1200.0\n7410.1\n1201.0\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0412\u0430\u0434\u0438\u043c\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u041b.\u0421.\n\u0414\u0440\u0443\u0436\u0438\u043d\u0430\n\u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447\n\u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447 \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u0412\u0430\u0434\u0438\u043c \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e\n\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447",
+    "general": {
+        "addresses_raw": "",
+        "addresses_raw_hidden": "",
+        "family": [
+            {
+                "family_name": "\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u041b.\u0421.",
+                "relations": "\u0414\u0440\u0443\u0436\u0438\u043d\u0430"
+            }
+        ],
+        "family_raw": "",
+        "full_name": "\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447",
+        "full_name_for_sorting": "\u041a\u0420\u0418\u0412\u041e\u0425\u0410\u0422\u042c\u041a\u041e \u0412\u0410\u0414\u0418\u041c \u0412\u0419\u0406\u041a\u0422\u041e\u0420\u041e\u0412\u0418\u0427",
+        "full_name_suggest": {
+            "input": [
+                "\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447",
+                "\u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447 \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e",
+                "\u0412\u0430\u0434\u0438\u043c \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e"
+            ]
+        },
+        "inn": "",
+        "last_name": "\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e",
+        "last_name_hidden": "",
+        "last_name_unclear": "",
+        "name": "\u0412\u0430\u0434\u0438\u043c",
+        "name_hidden": "",
+        "name_unclear": "",
+        "patronymic": "\u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447",
+        "patronymic_hidden": "",
+        "patronymic_unclear": "",
+        "post": {
+            "office": "\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438",
+            "post": "\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f",
+            "region": "\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d"
+        },
+        "post_raw": "\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f"
+    },
+    "id": "chesno_2539",
+    "income": {
+        "10": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "19": {
+            "comment": "",
+            "family": "48583.0",
+            "family_comment": "",
+            "value": "74743.0"
+        },
+        "20": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "5": {
+            "comment": "",
+            "family": "139353.0",
+            "family_comment": "",
+            "value": "171460.0"
+        },
+        "6": {
+            "comment": "",
+            "family": "90770.0",
+            "family_comment": "",
+            "value": "96717.0"
+        },
+        "7": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "source_name": "",
+            "value": ""
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        }
+    },
+    "index_card": "\u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447 \u041a\u0440\u0438\u0432\u043e\u0445\u0430\u0442\u044c\u043a\u043e \u0412\u0430\u0434\u0438\u043c \u0412\u0456\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447 \u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f \u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d 2014 CHESNO http://gapp.rada.gov.ua/declview/Home/Main/18107/2014",
+    "intro": {
+        "declaration_year": 2014,
+        "isnotdeclaration": ""
+    },
+    "liabilities": {
+        "54": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "55": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "57": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "58": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "59": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "60": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "61": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "62": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "63": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "64": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        }
+    },
+    "vehicle": {
+        "35": [
+            {
+                "brand": "Mer\u0441edes-Benz  G320 cdi 2987 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2008"
+            },
+            {
+                "brand": "\u0412\u0410\u0417  211340 1596 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2010"
+            },
+            {
+                "brand": "\u0412\u0410\u0417 211340 1596 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2011"
+            }
+        ],
+        "36": [
+            {
+                "brand": "\u041c\u0410\u0417  53366 12860 \u043a\u0443\u0431.\u0441\u043c , \u0440.\u0432.",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": ""
+            },
+            {
+                "brand": "Volkswagen Caddy ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2002"
+            },
+            {
+                "brand": "MAN TGA 18430 18450 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2007"
+            },
+            {
+                "brand": "Volkswagen Caddy 1896 \u043a\u0443\u0431.\u0441\u043c ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2003"
+            }
+        ],
+        "39": [
+            {
+                "brand": "\u041f\u0430\u043b\u0438\u0432\u043e\u0437\u0430\u043f\u0440\u0430\u0432\u043d\u0438\u043a TIBA FTW  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1977"
+            },
+            {
+                "brand": "\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Air Seeder  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1999"
+            },
+            {
+                "brand": "\u041e\u043f\u0440\u0438\u0441\u043a\u0443\u0432\u0430\u0447 Sieger  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1993"
+            },
+            {
+                "brand": "\u0416\u0430\u0442\u043a\u0430 Geringhoff  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2000"
+            },
+            {
+                "brand": "\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 Lemken Smaragd  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2005"
+            },
+            {
+                "brand": "\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 \u041a\u041f\u0421 4  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2002"
+            },
+            {
+                "brand": "\u041f\u043b\u0443\u0433 \u0432\u0456\u0434\u0432\u0430\u043b\u044c\u043d\u0438\u0439 \"\u041e\u043f\u0430\u043b\"  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1970"
+            },
+            {
+                "brand": "\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  6068 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2007"
+            },
+            {
+                "brand": "\u0416\u0430\u0442\u043a\u0430 \u0437\u0435\u0440\u043d\u043e\u0432\u0430 John Deer  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1999"
+            },
+            {
+                "brand": "\u041f\u0440\u0438\u0447\u0456\u043f NFP-Eurotrailer  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2004"
+            },
+            {
+                "brand": "\u0415\u043a\u0441\u043a\u0430\u0432\u0430\u0442\u043e\u0440 AILAS 16.04   ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1991"
+            },
+            {
+                "brand": "\u041f\u0440\u0438\u0447\u0456\u043f SCHMIDT 2  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1974"
+            },
+            {
+                "brand": "\u041d\u0430\u043f\u0456\u0432\u043f\u0440\u0438\u0447\u0456\u043f Krone  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1998"
+            },
+            {
+                "brand": "\u041f\u0440\u0438\u0447\u0456\u043f Renders  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2004"
+            },
+            {
+                "brand": "\u041f\u043b\u0443\u0433 \u0432\u0456\u0434\u0432\u0430\u043b\u044c\u043d\u0438\u0439 \u0421\u041f\u0421\u0424  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1962"
+            },
+            {
+                "brand": "\u041e\u043f\u0440\u0438\u0441\u043a\u0443\u0432\u0430\u0447 Sieger  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1992"
+            },
+            {
+                "brand": "\u041c\u0435\u0445\u0430\u043d\u0456\u0437\u043c \u0434\u043b\u044f \u043e\u0431\u043c\u043e\u043b\u043e\u0442\u0443 Sopca  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1998"
+            },
+            {
+                "brand": "\u041f\u0440\u0438\u0447\u0456\u043f \u0442\u0440\u0430\u043a\u0442\u043e\u0440\u043d\u0438\u0439  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2001"
+            },
+            {
+                "brand": "\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Horsch  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1998"
+            },
+            {
+                "brand": "\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  8434 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2003"
+            },
+            {
+                "brand": "\u0416\u0430\u0442\u043a\u0430 \u0437\u0435\u0440\u043d\u043e\u0432\u0430 John Deer  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1999"
+            },
+            {
+                "brand": "\u041d\u0430\u043f\u0456\u0432\u043f\u0440\u0438\u0447\u0456\u043f Langendorf  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2000"
+            },
+            {
+                "brand": "\u041f\u043b\u0443\u0433 Lemken  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1970"
+            },
+            {
+                "brand": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441 Icarus  10300 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1986"
+            },
+            {
+                "brand": "\u0420\u043e\u0437\u043f\u043e\u0434\u0456\u043b\u044e\u0432\u0430\u0447 \u043c\u0456\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u0438\u0445 \u0434\u043e\u0431\u0440\u0438\u0432 ZAM 3000 ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1980"
+            },
+            {
+                "brand": "\u0422\u0440\u0430\u043a\u0442\u043e\u0440 John Deer  4755 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1994"
+            },
+            {
+                "brand": "\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Gaspardo SP 540 ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1998"
+            },
+            {
+                "brand": "\u0421\u0456\u0432\u0430\u043b\u043a\u0430 Gaspardo SP 540 ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1998"
+            },
+            {
+                "brand": "\u041a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0442\u043e\u0440 Lemken  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "1985"
+            }
+        ],
+        "41": [
+            {
+                "brand": "Scania 1146 250 \u043a\u0412\u0442",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2005"
+            }
+        ],
+        "44": [
+            {
+                "brand": "\u041a\u043e\u043c\u0431\u0430\u0439\u043d John Deer 2266 ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2001"
+            },
+            {
+                "brand": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441 Icarus  125 \u043a\u0412\u0442",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": ""
+            },
+            {
+                "brand": "\u041a\u043e\u043c\u0431\u0430\u0439\u043d John Deer 2266 ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2000"
+            }
+        ]
+    }
+}

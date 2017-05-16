@@ -1,0 +1,383 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "3512628.0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "46": [
+            {
+                "sum": "3512628.0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "47": [
+            {
+                "sum": "687050.0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "48": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "49": [
+            {
+                "sum": "10005.0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "50": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "51": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "52": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "53": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ]
+    },
+    "declaration": {
+        "needs_scancopy_check": "",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "source": "CHESNO",
+        "url": "http://www.chesno.org/media/declaration/Petrenko_VOB_52.pdf"
+    },
+    "estate": {
+        "23": [
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "3000.0",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "29000.0",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "3760.0",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ],
+        "25": [
+            {
+                "address": "",
+                "costs": "",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "102.1",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ]
+    },
+    "ft_src": "Toyota Sequoia 5.7 5663 c\u043c3, 280.2 \u043a\u0412\u0442, 521 \u0441\u043c\n2008\nVolkswagen Golf 1.6 1598 c\u043c3, 77.2 \u043a\u0412\u0442, 420 \u0441\u043c\n2007\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457\n\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u041a\u0430\u0431\u0456\u043d\u0435\u0442 \u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0456\u0432\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u041f\u0430\u0432\u043b\u043e \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u041f\u0430\u0432\u043b\u043e\n687050.0\n3512628.0\n3512628.0\n10005.0\n3000.0\n29000.0\n3760.0\n102.1\n53840.0\n107196.0\n916286.0\n755250.0\n107196.0\n916286.0\n755250.0\n53840.0\n2008\nToyota Sequoia 5.7 5663 c\u043c3, 280.2 \u043a\u0412\u0442, 521 \u0441\u043c\n2007\nVolkswagen Golf 1.6 1598 c\u043c3, 77.2 \u043a\u0412\u0442, 420 \u0441\u043c\n2008\nToyota Sequoia 5.7 5663 c\u043c3, 280.2 \u043a\u0412\u0442, 521 \u0441\u043c\n2007\nVolkswagen Golf 1.6 1598 c\u043c3, 77.2 \u043a\u0412\u0442, 420 \u0441\u043c\n3000.0\n29000.0\n3760.0\n102.1\n687050.0\n10005.0\n3512628.0\n3512628.0\n53840.0\n107196.0\n916286.0\n755250.0\nToyota Sequoia 5.7 5663 c\u043c3, 280.2 \u043a\u0412\u0442, 521 \u0441\u043c\n2008\nVolkswagen Golf 1.6 1598 c\u043c3, 77.2 \u043a\u0412\u0442, 420 \u0441\u043c\n2007\n3000.0\n29000.0\n3760.0\n102.1\n\u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u041f\u0430\u0432\u043b\u043e \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457\n\u041a\u0430\u0431\u0456\u043d\u0435\u0442 \u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0456\u0432\n\u041f\u0430\u0432\u043b\u043e\n53840.0\n916286.0\n755250.0\n107196.0\n3512628.0\n10005.0\n687050.0\n3512628.0\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u041f\u0430\u0432\u043b\u043e \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u041f\u0430\u0432\u043b\u043e\n\u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457\n\u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u041a\u0430\u0431\u0456\u043d\u0435\u0442 \u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0456\u0432\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n102.1\n3000.0\n29000.0\n3760.0\n\u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u041a\u0430\u0431\u0456\u043d\u0435\u0442 \u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0456\u0432\n\u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457\n\u041f\u0430\u0432\u043b\u043e\n\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n\u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u041f\u0430\u0432\u043b\u043e \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e\n\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447\n687050.0\n10005.0\n3512628.0\n3512628.0",
+    "general": {
+        "addresses_raw": "",
+        "addresses_raw_hidden": "",
+        "family_raw": "",
+        "full_name": "\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447",
+        "full_name_for_sorting": "\u041f\u0415\u0422\u0420\u0415\u041d\u041a\u041e \u041f\u0410\u0412\u041b\u041e \u0414\u041c\u0418\u0422\u0420\u041e\u0412\u0418\u0427",
+        "full_name_suggest": {
+            "input": [
+                "\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447",
+                "\u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e",
+                "\u041f\u0430\u0432\u043b\u043e \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e"
+            ]
+        },
+        "inn": "",
+        "last_name": "\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e",
+        "last_name_hidden": "",
+        "last_name_unclear": "",
+        "name": "\u041f\u0430\u0432\u043b\u043e",
+        "name_hidden": "",
+        "name_unclear": "",
+        "patronymic": "\u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447",
+        "patronymic_hidden": "",
+        "patronymic_unclear": "",
+        "post": {
+            "office": "\u041a\u0430\u0431\u0456\u043d\u0435\u0442 \u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0456\u0432",
+            "post": "\u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457",
+            "region": "\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d"
+        },
+        "post_raw": "\u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457"
+    },
+    "id": "chesno_71",
+    "income": {
+        "10": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "755250.0"
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "19": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "20": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "5": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "916286.0"
+        },
+        "6": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "53840.0"
+        },
+        "7": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "source_name": "",
+            "value": ""
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "107196.0"
+        }
+    },
+    "index_card": "\u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u041f\u0435\u0442\u0440\u0435\u043d\u043a\u043e \u041f\u0430\u0432\u043b\u043e \u0414\u043c\u0438\u0442\u0440\u043e\u0432\u0438\u0447 \u043c\u0456\u043d\u0456\u0441\u0442\u0440 \u044e\u0441\u0442\u0438\u0446\u0456\u0457 \u041a\u0430\u0431\u0456\u043d\u0435\u0442 \u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0456\u0432 \u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d 2011 CHESNO http://www.chesno.org/media/declaration/Petrenko_VOB_52.pdf",
+    "intro": {
+        "declaration_year": 2011,
+        "isnotdeclaration": ""
+    },
+    "liabilities": {
+        "54": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "55": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "57": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "58": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "59": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "60": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "61": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "62": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "63": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "64": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        }
+    },
+    "vehicle": {
+        "35": [
+            {
+                "brand": "Toyota Sequoia 5.7 5663 c\u043c3, 280.2 \u043a\u0412\u0442, 521 \u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2008"
+            },
+            {
+                "brand": "Volkswagen Golf 1.6 1598 c\u043c3, 77.2 \u043a\u0412\u0442, 420 \u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2007"
+            }
+        ]
+    }
+}

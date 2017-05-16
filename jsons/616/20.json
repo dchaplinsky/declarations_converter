@@ -1,0 +1,471 @@
+{
+    "banks": {
+        "45": [
+            {
+                "sum": "246430326.5",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "46": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "47": [
+            {
+                "sum": "1893878.87",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "48": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "49": [
+            {
+                "sum": "1756875.0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "50": [
+            {
+                "sum": "46875.0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "51": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "52": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ],
+        "53": [
+            {
+                "sum": "0",
+                "sum_comment": "",
+                "sum_foreign": "0",
+                "sum_foreign_comment": "",
+                "sum_foreign_units": "\u0433\u0440\u043d",
+                "sum_units": "\u0433\u0440\u043d"
+            }
+        ]
+    },
+    "declaration": {
+        "needs_scancopy_check": "",
+        "notfull": "",
+        "notfull_lostpages": "",
+        "source": "CHESNO",
+        "url": "http://gapp.rada.gov.ua/declview/Home/Main/17965/2013"
+    },
+    "estate": {
+        "25": [
+            {
+                "address": "",
+                "costs": "777100",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "172.7",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs": "299700",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "66.6",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs": "15720160",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "199.4",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ],
+        "28": [
+            {
+                "address": "",
+                "costs": "36000",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "19.2",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs": "34400",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "19.3",
+                "space_comment": "",
+                "space_units": ""
+            },
+            {
+                "address": "",
+                "costs": "259840",
+                "costs_comment": "",
+                "costs_rent": "",
+                "costs_rent_comment": "",
+                "location_raw": "",
+                "region": "",
+                "space": "17.5",
+                "space_comment": "",
+                "space_units": ""
+            }
+        ]
+    },
+    "ft_src": "\u0421\u0430\u043c\u043e\u0445\u0456\u0434\u043d\u0435 \u043c\u043e\u0442\u043e\u0440\u043d\u0435 \u0441\u0443\u0434\u043d\u043e BRP Speed 187,7 \u043a\u0412\u0442\n2009\n\u041a\u0432\u0430\u0434\u0440\u043e\u0446\u0438\u043a\u043b SSVC  \n2013\n130000\n\u0421\u0430\u043c\u043e\u0445\u0456\u0434\u043d\u0435 \u0441\u0443\u0434\u043d\u043e Grainlene 270 CR 224 \u043a\u0412\u0442, 8,74 \u043c\n2007\n25000\n\u041f\u0440\u0438\u0446\u0435\u043f EZ Loader  \n2008\n9988\nLand Rover Range Rover 4999 \u043a\u0443\u0431.\u0441\u043c\n2013\n1462200\nLand Rover Range Rover 4999 \u043a\u0443\u0431.\u0441\u043c\n2013\n1510000\nBentley Continental GT 5998 \u043a\u0443\u0431.\u0441\u043c\n2012\n2664608\nLexus LX 570 5663 \u043a\u0443\u0431.\u0441\u043c\n2011\n1144452\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u0406\u0433\u043e\u0440 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u0406\u0433\u043e\u0440\n46875.0\n1893878.87\n246430326.5\n1756875.0\n172.7\n777100\n66.6\n299700\n199.4\n15720160\n19.2\n36000\n19.3\n34400\n17.5\n259840\n16000000.0\n1162159.55\n12155676.38\n30579856.93\n1262021.0\n12155676.38\n16000000.0\n30579856.93\n1262021.0\n1162159.55\n2008\n\u041f\u0440\u0438\u0446\u0435\u043f EZ Loader  \n9988\n2013\nLand Rover Range Rover 4999 \u043a\u0443\u0431.\u0441\u043c\n1462200\n2013\nLand Rover Range Rover 4999 \u043a\u0443\u0431.\u0441\u043c\n1510000\n2012\nBentley Continental GT 5998 \u043a\u0443\u0431.\u0441\u043c\n2664608\n2011\nLexus LX 570 5663 \u043a\u0443\u0431.\u0441\u043c\n1144452\n2009\n\u0421\u0430\u043c\u043e\u0445\u0456\u0434\u043d\u0435 \u043c\u043e\u0442\u043e\u0440\u043d\u0435 \u0441\u0443\u0434\u043d\u043e BRP Speed 187,7 \u043a\u0412\u0442\n2013\n\u041a\u0432\u0430\u0434\u0440\u043e\u0446\u0438\u043a\u043b SSVC  \n130000\n2007\n\u0421\u0430\u043c\u043e\u0445\u0456\u0434\u043d\u0435 \u0441\u0443\u0434\u043d\u043e Grainlene 270 CR 224 \u043a\u0412\u0442, 8,74 \u043c\n25000\n9988\n2008\n\u041f\u0440\u0438\u0446\u0435\u043f EZ Loader  \n1462200\n2013\nLand Rover Range Rover 4999 \u043a\u0443\u0431.\u0441\u043c\n1510000\n2013\nLand Rover Range Rover 4999 \u043a\u0443\u0431.\u0441\u043c\n2664608\n2012\nBentley Continental GT 5998 \u043a\u0443\u0431.\u0441\u043c\n1144452\n2011\nLexus LX 570 5663 \u043a\u0443\u0431.\u0441\u043c\n2009\n\u0421\u0430\u043c\u043e\u0445\u0456\u0434\u043d\u0435 \u043c\u043e\u0442\u043e\u0440\u043d\u0435 \u0441\u0443\u0434\u043d\u043e BRP Speed 187,7 \u043a\u0412\u0442\n130000\n2013\n\u041a\u0432\u0430\u0434\u0440\u043e\u0446\u0438\u043a\u043b SSVC  \n25000\n2007\n\u0421\u0430\u043c\u043e\u0445\u0456\u0434\u043d\u0435 \u0441\u0443\u0434\u043d\u043e Grainlene 270 CR 224 \u043a\u0412\u0442, 8,74 \u043c\n36000\n19.2\n34400\n19.3\n259840\n17.5\n777100\n172.7\n299700\n66.6\n15720160\n199.4\n1893878.87\n1756875.0\n46875.0\n246430326.5\n1162159.55\n12155676.38\n30579856.93\n1262021.0\n16000000.0\n\u0421\u0430\u043c\u043e\u0445\u0456\u0434\u043d\u0435 \u043c\u043e\u0442\u043e\u0440\u043d\u0435 \u0441\u0443\u0434\u043d\u043e BRP Speed 187,7 \u043a\u0412\u0442\n2009\n\u041a\u0432\u0430\u0434\u0440\u043e\u0446\u0438\u043a\u043b SSVC  \n2013\n130000\n\u0421\u0430\u043c\u043e\u0445\u0456\u0434\u043d\u0435 \u0441\u0443\u0434\u043d\u043e Grainlene 270 CR 224 \u043a\u0412\u0442, 8,74 \u043c\n2007\n25000\nLand Rover Range Rover 4999 \u043a\u0443\u0431.\u0441\u043c\n2013\n1462200\nLand Rover Range Rover 4999 \u043a\u0443\u0431.\u0441\u043c\n2013\n1510000\nBentley Continental GT 5998 \u043a\u0443\u0431.\u0441\u043c\n2012\n2664608\nLexus LX 570 5663 \u043a\u0443\u0431.\u0441\u043c\n2011\n1144452\n\u041f\u0440\u0438\u0446\u0435\u043f EZ Loader  \n2008\n9988\n36000\n19.2\n34400\n19.3\n259840\n17.5\n777100\n172.7\n299700\n66.6\n15720160\n199.4\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u0406\u0433\u043e\u0440 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u0406\u0433\u043e\u0440\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n1162159.55\n16000000.0\n30579856.93\n1262021.0\n12155676.38\n246430326.5\n1756875.0\n1893878.87\n46875.0\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u0406\u0433\u043e\u0440 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u0406\u0433\u043e\u0440\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n777100\n172.7\n299700\n66.6\n15720160\n199.4\n36000\n19.2\n34400\n19.3\n259840\n17.5\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d\n\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438\n\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f\n\u0406\u0433\u043e\u0440\n\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n\u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u0406\u0433\u043e\u0440 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439\n\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447\n1893878.87\n1756875.0\n46875.0\n246430326.5",
+    "general": {
+        "addresses_raw": "",
+        "addresses_raw_hidden": "",
+        "family_raw": "",
+        "full_name": "\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447",
+        "full_name_for_sorting": "\u041a\u041e\u0422\u0412\u0419\u0406\u0426\u042c\u041a\u0418\u0419 \u0419\u0406\u0413\u041e\u0420 \u041e\u041b\u0415\u041a\u0421\u0410\u041d\u0414\u0420\u041e\u0412\u0418\u0427",
+        "full_name_suggest": {
+            "input": [
+                "\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447",
+                "\u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439",
+                "\u0406\u0433\u043e\u0440 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439"
+            ]
+        },
+        "inn": "",
+        "last_name": "\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439",
+        "last_name_hidden": "",
+        "last_name_unclear": "",
+        "name": "\u0406\u0433\u043e\u0440",
+        "name_hidden": "",
+        "name_unclear": "",
+        "patronymic": "\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447",
+        "patronymic_hidden": "",
+        "patronymic_unclear": "",
+        "post": {
+            "office": "\u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438",
+            "post": "\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f",
+            "region": "\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d"
+        },
+        "post_raw": "\u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f"
+    },
+    "id": "chesno_2142",
+    "income": {
+        "10": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "11": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "12": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "13": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "14": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "15": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "16": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "1262021.0"
+        },
+        "17": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "18": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "19": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "20": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "16000000.0"
+        },
+        "5": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "30579856.93"
+        },
+        "6": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "1162159.55"
+        },
+        "7": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "source_name": "",
+            "value": ""
+        },
+        "8": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": ""
+        },
+        "9": {
+            "comment": "",
+            "family": "",
+            "family_comment": "",
+            "value": "12155676.38"
+        }
+    },
+    "index_card": "\u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u041a\u043e\u0442\u0432\u0456\u0446\u044c\u043a\u0438\u0439 \u0406\u0433\u043e\u0440 \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0414\u0435\u043f\u0443\u0442\u0430\u0442 8-\u0433\u043e \u0441\u043a\u043b\u0438\u043a\u0430\u043d\u043d\u044f \u0412\u0435\u0440\u0445\u043e\u0432\u043d\u0430 \u0440\u0430\u0434\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438 \u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0434\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u0440\u0435\u0433\u0456\u043e\u043d 2013 CHESNO http://gapp.rada.gov.ua/declview/Home/Main/17965/2013",
+    "intro": {
+        "declaration_year": 2013,
+        "isnotdeclaration": ""
+    },
+    "liabilities": {
+        "54": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "55": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "56": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "57": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "58": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "59": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "60": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "61": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "62": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "63": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        },
+        "64": {
+            "sum": "0",
+            "sum_comment": "",
+            "sum_foreign": "0",
+            "sum_foreign_comment": ""
+        }
+    },
+    "vehicle": {
+        "35": [
+            {
+                "brand": "Land Rover Range Rover 4999 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "1462200",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2013"
+            },
+            {
+                "brand": "Land Rover Range Rover 4999 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "1510000",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2013"
+            },
+            {
+                "brand": "Bentley Continental GT 5998 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "2664608",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2012"
+            },
+            {
+                "brand": "Lexus LX 570 5663 \u043a\u0443\u0431.\u0441\u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "1144452",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2011"
+            }
+        ],
+        "37": [
+            {
+                "brand": "\u0421\u0430\u043c\u043e\u0445\u0456\u0434\u043d\u0435 \u043c\u043e\u0442\u043e\u0440\u043d\u0435 \u0441\u0443\u0434\u043d\u043e BRP Speed 187,7 \u043a\u0412\u0442",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2009"
+            },
+            {
+                "brand": "\u041a\u0432\u0430\u0434\u0440\u043e\u0446\u0438\u043a\u043b SSVC  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "130000",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2013"
+            },
+            {
+                "brand": "\u0421\u0430\u043c\u043e\u0445\u0456\u0434\u043d\u0435 \u0441\u0443\u0434\u043d\u043e Grainlene 270 CR 224 \u043a\u0412\u0442, 8,74 \u043c",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "25000",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2007"
+            }
+        ],
+        "39": [
+            {
+                "brand": "\u041f\u0440\u0438\u0446\u0435\u043f EZ Loader  ",
+                "brand_hidden": "",
+                "brand_info": "",
+                "sum": "9988",
+                "sum_comment": "",
+                "sum_rent": "",
+                "sum_rent_comment": "",
+                "year": "2008"
+            }
+        ]
+    }
+}

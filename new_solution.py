@@ -164,20 +164,23 @@ class Converter(object):
                 ("general.post.region", "region_declcomua", ""),
                 ("general.post.post", "workPost", ""),
                 ("general.post.office", "workPlace", ""),
-                (None, "place_of_living_declcomua", []),
+                ("general.addresses_raw", "actual_street", ""),
+                (None, "region", ""),
+                (None, "district", ""),
+                (None, "city", ""),
+                (None, "street", "")
             ]
         )
 
-        # TODO: Parse into a NACP structure
-        for addr in self._jsrch("general.addresses") or []:
-            extract["place_of_living_declcomua"].append(
-                ", ".join(filter(None, [
-                    addr.get("place"),
-                    addr.get("place_district"),
-                    addr.get("place_city"),
-                    addr.get("place_address"),
-                ]))
-            )
+        # added 'addresses_raw' as 'actual_street'
+        # in case there is no "general.addresses" in old_json
+        addresses = self._jsrch("general.addresses")
+        if addresses:
+            current_address = addresses[0]
+            extract['region'] = current_address.get("place", "")
+            extract['district'] = current_address.get("place_district", "")
+            extract['city'] = current_address.get("place_city", "")
+            extract['street'] = current_address.get("place_address", "")
 
         return {
             "step_1": extract
@@ -1008,9 +1011,13 @@ if __name__ == '__main__':
             "You should provide two params: input and output directories")
         exit()
 
-    # TODO: check if both exists?
     in_dir = sys.argv[1]
     out_dir = sys.argv[2]
+    if (not os.path.isdir(in_dir) and \
+        not os.path.isdir(out_dir)):
+        logger.error(
+            "Input and Output directories should exist. Check it.")
+        exit()        
 
     for i, file_name in enumerate(glob.iglob(in_dir + '/*/' + "*.json")):
         basename = os.path.basename(file_name)
@@ -1036,6 +1043,10 @@ if __name__ == '__main__':
                 logger.error('Cannot convert file {}: {}'.format(
                     file_name, str(e)))
                 continue
+            except OSError as e:
+                logging.error('OS error on {}: {}'.format(file_name, str(e)))
+                continue
+
 
 """        if i and i % 100 == 0:
             logger.info("Processed {} declarations".format(i + 1))

@@ -90,6 +90,7 @@ class Converter(object):
 
             return float(totalArea) * areas_koef.get(areaUnits, 1)
         except ValueError:
+            logging.debug("Can not convert string to float. Set to '0'.")
             return 0
 
     def _parse_family_member(self, string):
@@ -252,8 +253,11 @@ class Converter(object):
                 owner_id = ('1'
                             if int(estate_id) in range(23, 29)
                             else 'family')
+                if not estate_items:
+                    continue
+
                 for estate in estate_items:
-                    if 'space' in estate and estate['space']:
+                    if estate.get('space'):
                         extract[record_counter] = \
                             self._convert_using_rules(
                                 [
@@ -273,7 +277,7 @@ class Converter(object):
                                  (None, 'objectType', ""),
                                  (None, 'owningDate', ""),
                                  (None, 'objectType', ""),
-                                 (None, 'ua_cityType', ""),
+                                 ('region', 'ua_cityType', ""),
                                  (None, 'ua_postCode', ""),
                                  ('address', 'ua_streetType', ""),
                                  (None, 'costAssessment', ""),
@@ -286,7 +290,8 @@ class Converter(object):
                                 estate
                         )
                         extract[record_counter]['objectType'] = \
-                            estate_desc_dict[estate_id] + ' (стара форма)'
+                            estate_desc_dict[estate_id]
+
                         totalArea = extract[record_counter]['totalArea']
                         spaceUnits = self._jsrch('space_units', estate)
 
@@ -332,6 +337,9 @@ class Converter(object):
                                 ],
                                 estate
                         )
+                        if extract[record_counter]['costRent_declcomua']:
+                           extract[record_counter]['rights'][owner_id]['ownershipType'] = \
+                                'Оренда' 
                         record_counter += 1
         return {
             "step_3": extract
@@ -363,9 +371,8 @@ class Converter(object):
                         self._convert_using_rules(
                             [
                              ('brand', 'brand', ""),
-                             ('brand_info', 'brand_info_declcomua', ""),
+                             ('brand_info', 'model', ""),
                              (None, 'person', ""),
-                             (None, 'model', ""),
                              (None, 'rights', {}),
                              ('sum', 'costDate', ""),
                              ('sum_rent', 'costRent_declcomua', ""),
@@ -378,7 +385,7 @@ class Converter(object):
                             vehicle
                         )
                     extract[record_counter]['objectType'] = \
-                            vehicle_desc_dict[vehicle_id] + ' (стара форма)'
+                            vehicle_desc_dict[vehicle_id]
                     extract[record_counter]['rights'][owner_id] = \
                             self._convert_using_rules(
                                 [
@@ -417,6 +424,9 @@ class Converter(object):
                                 ],
                                 vehicle
                     )
+                    if extract[record_counter]['costRent_declcomua']:
+                       extract[record_counter]['rights'][owner_id]['ownershipType'] = \
+                            "Оренда"
                     record_counter += 1
         
         return {
@@ -426,100 +436,101 @@ class Converter(object):
     def _convert_step7(self):
         extract = {}
         record_counter = 1
-        papers_desc = 'Номінальна вартість цінних паперів  (стара форма)'
+        papers_desc = 'Номінальна вартість цінних паперів'
         papers_info = {}
-        temp_dict = self._jsrch('banks')
-        # self._jsrch('banks.47') - does not work - jmespath.exceptions.ParseError
-        papers_info[47] = temp_dict.get('47', None) if temp_dict else {}
-        papers_info[52] = temp_dict.get('52', None) if temp_dict else {}
-        outer_papers_info = temp_dict.get('48', None) if temp_dict else {}
+        papers_info[47] = self._jsrch('banks."47"')
+        papers_info[52] = self._jsrch('banks."52"')
+        outer_papers_info = self._jsrch('banks."48"')
 
         if papers_info:
             for paper_id, paper_items in papers_info.items():
                 owner_id = ('1'
                             if paper_id == 47
                             else 'family')
-                if paper_items:
-                    for paper in paper_items:
-                        if ('sum' in paper and paper['sum'] != "") or \
-                           ('sum_foreign' in paper and paper['sum_foreign'] != ""):
-                            extract[record_counter] = \
-                                self._convert_using_rules(
-                                [
-                                 ('sum', 'cost', ""),
-                                 (None, 'amount', ""),
-                                 (None, 'costCurrentYear', ""),
-                                 (None, 'person', owner_id),
-                                 (None, 'rights', {}),
-                                 (None, 'emitent', ""),
-                                 (None, 'owningDate', ""),
-                                 (None, 'emitent_type', ""),
-                                 (None, 'typeProperty', papers_desc),
-                                 (None, 'otherObjectType', ""),
-                                 (None, 'subTypeProperty1', ""),
-                                 (None, 'subTypeProperty2', ""),
-                                 (None, 'emitent_ua_lastname', ""),
-                                 ('sum_foreign_comment', 'emitent_eng_fullname', ""),
-                                 (None, 'sizeAssets_currentYear_declcomua', ""),
-                                 ('sum_foreign', 'sizeAssets_abroad_declcomua', ""),
-                                 (None, 'sizeAssets_abroad_currentYear_declcomua', ""),
-                                 (None, 'emitent_ua_firstname', ""),
-                                 (None, 'emitent_ukr_fullname', ""),
-                                 (None, 'emitent_ua_middlename', ""),
-                                 (None, 'emitent_ua_company_name', ""),
-                                 (None, 'emitent_eng_company_name', ""),
-                                 (None, 'emitent_ukr_company_name', ""),
-                                 (None, 'emitent_ua_sameRegLivingAddress', ""),
-                                 (None, 'emitent_eng_sameRegLivingAddress', "")
-                                ],
-                                paper
-                            )
-                            extract[record_counter]['typeProperty'] = papers_desc
+                if not paper_items:
+                    continue
 
-                            if paper_id == 47 and outer_papers_info:
+                for paper in paper_items:
+                    if paper.get('sum') or paper.get('sum_foreign'):
+                        extract[record_counter] = \
+                            self._convert_using_rules(
+                            [
+                             ('sum', 'cost', ""),
+                             (None, 'amount', ""),
+                             (None, 'costCurrentYear', ""),
+                             (None, 'person', owner_id),
+                             (None, 'rights', {}),
+                             (None, 'emitent', ""),
+                             (None, 'owningDate', ""),
+                             (None, 'emitent_type', ""),
+                             (None, 'typeProperty', papers_desc),
+                             (None, 'otherObjectType', ""),
+                             (None, 'subTypeProperty1', ""),
+                             (None, 'subTypeProperty2', ""),
+                             (None, 'emitent_ua_lastname', ""),
+                             (None, 'emitent_eng_fullname', ""),
+                             (None, 'sizeAssets_currentYear_declcomua', ""),
+                             ('sum_foreign', 'sizeAssets_abroad_declcomua', ""),
+                             (None, 'sizeAssets_abroad_currentYear_declcomua', ""),
+                             (None, 'emitent_ua_firstname', ""),
+                             (None, 'emitent_ukr_fullname', ""),
+                             (None, 'emitent_ua_middlename', ""),
+                             (None, 'emitent_ua_company_name', ""),
+                             (None, 'emitent_eng_company_name', ""),
+                             (None, 'emitent_ukr_company_name', ""),
+                             (None, 'emitent_ua_sameRegLivingAddress', ""),
+                             (None, 'emitent_eng_sameRegLivingAddress', "")
+                            ],
+                            paper
+                        )
+
+                        if paper_id == 47:
+                            extract[record_counter]['emitent_type'] = \
+                                'Юридична особа, зареєстрована в Україні'
+                            if outer_papers_info:
                                 extract[record_counter]['sizeAssets_currentYear_declcomua'] = \
                                     self._jsrch('[0].sum', outer_papers_info)
                                 extract[record_counter]['sizeAssets_abroad_currentYear_declcomua'] = \
                                     self._jsrch('[0].sum_foreign', outer_papers_info)
-                            extract[record_counter]['rights'][owner_id] = \
-                                self._convert_using_rules(
-                                    [
-                                     (None, 'citizen', ""),
-                                     (None, 'ua_city', ""),
-                                     (None, 'ua_street', ""),
-                                     (None, 'ua_lastname', ""),
-                                     (None, 'ua_postCode', ""),
-                                     (None, 'eng_lastname', ""),
-                                     (None, 'eng_postCode', ""),
-                                     (None, 'rightBelongs', owner_id),
-                                     (None, 'ua_firstname', ""),
-                                     (None, 'ukr_lastname', ""),
-                                     (None, 'eng_firstname', ""),
-                                     (None, 'ownershipType', ""),
-                                     (None, 'ua_middlename', ""),
-                                     (None, 'ua_streetType', ""),
-                                     (None, 'ukr_firstname', ""),
-                                     (None, 'eng_middlename', ""),
-                                     (None, 'otherOwnership', ""),
-                                     (None, 'ukr_middlename', ""),
-                                     (None, 'rights_cityPath', ""),
-                                     (None, 'ua_company_name', ""),
-                                     (None, 'eng_company_name', ""),
-                                     (None, 'ukr_company_name', ""),
-                                     (None, 'percent-ownership', '100'),
-                                     (None, 'ua_street_extendedstatus', ""),
-                                     (None, 'ua_houseNum_extendedstatus', ""),
-                                     (None, 'ua_postCode_extendedstatus', ""),
-                                     (None, 'eng_postCode_extendedstatus', ""),
-                                     (None, 'ua_middlename_extendedstatus', ""),
-                                     (None, 'eng_middlename_extendedstatus', ""),
-                                     (None, 'ukr_middlename_extendedstatus', ""),
-                                     (None, 'ua_housePartNum_extendedstatus', ""),
-                                     (None, 'ua_apartmentsNum_extendedstatus', "")   
-                                    ],
-                                    paper
-                            )
-                            record_counter += 1
+                        extract[record_counter]['rights'][owner_id] = \
+                            self._convert_using_rules(
+                                [
+                                 (None, 'citizen', ""),
+                                 (None, 'ua_city', ""),
+                                 (None, 'ua_street', ""),
+                                 (None, 'ua_lastname', ""),
+                                 (None, 'ua_postCode', ""),
+                                 (None, 'eng_lastname', ""),
+                                 (None, 'eng_postCode', ""),
+                                 (None, 'rightBelongs', owner_id),
+                                 (None, 'ua_firstname', ""),
+                                 (None, 'ukr_lastname', ""),
+                                 (None, 'eng_firstname', ""),
+                                 (None, 'ownershipType', ""),
+                                 (None, 'ua_middlename', ""),
+                                 (None, 'ua_streetType', ""),
+                                 (None, 'ukr_firstname', ""),
+                                 (None, 'eng_middlename', ""),
+                                 (None, 'otherOwnership', ""),
+                                 (None, 'ukr_middlename', ""),
+                                 (None, 'rights_cityPath', ""),
+                                 (None, 'ua_company_name', ""),
+                                 (None, 'eng_company_name', ""),
+                                 (None, 'ukr_company_name', ""),
+                                 (None, 'percent-ownership', '100'),
+                                 (None, 'ua_street_extendedstatus', ""),
+                                 (None, 'ua_houseNum_extendedstatus', ""),
+                                 (None, 'ua_postCode_extendedstatus', ""),
+                                 (None, 'eng_postCode_extendedstatus', ""),
+                                 (None, 'ua_middlename_extendedstatus', ""),
+                                 (None, 'eng_middlename_extendedstatus', ""),
+                                 (None, 'ukr_middlename_extendedstatus', ""),
+                                 (None, 'ua_housePartNum_extendedstatus', ""),
+                                 (None, 'ua_apartmentsNum_extendedstatus', "")   
+                                ],
+                                paper
+                        )
+                        record_counter += 1
 
         return {    
             "step_7": extract
@@ -528,86 +539,85 @@ class Converter(object):
     def _convert_step8(self):
         extract = {}
         record_counter = 1
-        papers_desc = 'Розмір внесків до статутного капіталу товариства, підприємства, організації  (стара форма)'
+        papers_desc = 'Розмір внесків до статутного капіталу товариства, підприємства, організації'
         papers_info = {}
-        temp_dict = self._jsrch('banks')
-        # self._jsrch('banks.47') - does not work - jmespath.exceptions.ParseError
-        papers_info[49] = temp_dict.get('49', None) if temp_dict else {}
-        papers_info[53] = temp_dict.get('53', None) if temp_dict else {}
-        outer_papers_info = temp_dict.get('50', None) if temp_dict else {}
+        papers_info[49] = self._jsrch('banks."49"')
+        papers_info[53] = self._jsrch('banks."49"')
+        outer_papers_info = self._jsrch('banks."50"')
 
         if papers_info:
             for paper_id, paper_items in papers_info.items():
                 owner_id = ('1'
                             if paper_id == 49
                             else 'family')
-                if paper_items:
-                    for paper in paper_items:
-                        if ('sum' in paper and paper['sum'] != "") or \
-                           ('sum_foreign' in paper and paper['sum_foreign'] != ""):
-                            extract[record_counter] = \
-                                self._convert_using_rules(
+                if not paper_items:
+                    continue
+
+                for paper in paper_items:
+                    if paper.get('sum') or paper.get('sum_foreign'):
+                        extract[record_counter] = \
+                            self._convert_using_rules(
+                            [
+                             ('sum', 'cost', ""),
+                             (None, 'name', ""),
+                             (None, 'person', ""),
+                             (None, 'rights', {}),
+                             (None, 'country', ""),
+                             (None, 'en_name', ""),
+                             (None, 'typeProperty', papers_desc),
+                             (None, 'sizeAssets_currentYear_declcomua', ""),
+                             ('sum_foreign', 'sizeAssets_abroad_declcomua', ""),
+                             (None, 'sizeAssets_abroad_currentYear_declcomua', ""),
+                             (None, 'iteration', ""),
+                             (None, 'legalForm', ""),
+                             (None, 'cost_percent', "")
+                            ],
+                            paper
+                        )
+                        if paper_id == 49 and outer_papers_info:
+                            extract[record_counter]['sizeAssets_currentYear_declcomua'] = \
+                                self._jsrch('[0].sum', outer_papers_info)
+                            extract[record_counter]['sizeAssets_abroad_currentYear_declcomua'] = \
+                                self._jsrch('[0].sum_foreign', outer_papers_info)
+                        extract[record_counter]['rights'][owner_id] = \
+                            self._convert_using_rules(
                                 [
-                                 ('sum', 'cost', ""),
-                                 (None, 'name', ""),
-                                 (None, 'person', ""),
-                                 (None, 'rights', {}),
-                                 (None, 'country', ""),
-                                 (None, 'en_name', ""),
-                                 (None, 'typeProperty', papers_desc),
-                                 (None, 'sizeAssets_currentYear_declcomua', ""),
-                                 ('sum_foreign', 'sizeAssets_abroad_declcomua', ""),
-                                 (None, 'sizeAssets_abroad_currentYear_declcomua', ""),
-                                 (None, 'iteration', ""),
-                                 (None, 'legalForm', ""),
-                                 (None, 'cost_percent', "")
+                                 (None, 'citizen', ""),
+                                 (None, 'ua_city', ""),
+                                 (None, 'ua_street', ""),
+                                 (None, 'ua_lastname', ""),
+                                 (None, 'ua_postCode', ""),
+                                 (None, 'eng_lastname', ""),
+                                 (None, 'eng_postCode', ""),
+                                 (None, 'rightBelongs', owner_id),
+                                 (None, 'ua_firstname', ""),
+                                 (None, 'ukr_lastname', ""),
+                                 (None, 'eng_firstname', ""),
+                                 (None, 'ownershipType', ""),
+                                 (None, 'ua_middlename', ""),
+                                 (None, 'ua_streetType', ""),
+                                 (None, 'ukr_firstname', ""),
+                                 (None, 'eng_middlename', ""),
+                                 (None, 'otherOwnership', ""),
+                                 (None, 'ukr_middlename', ""),
+                                 (None, 'rights_cityPath', ""),
+                                 (None, 'ua_company_name', ""),
+                                 (None, 'eng_company_name', ""),
+                                 (None, 'ukr_company_name', ""),
+                                 (None, 'percent-ownership', '100'),
+                                 (None, 'ua_street_extendedstatus', ""),
+                                 (None, 'ua_houseNum_extendedstatus', ""),
+                                 (None, 'ua_postCode_extendedstatus', ""),
+                                 (None, 'eng_postCode_extendedstatus', ""),
+                                 (None, 'ua_middlename_extendedstatus', ""),
+                                 (None, 'eng_middlename_extendedstatus', ""),
+                                 (None, 'ukr_middlename_extendedstatus', ""),
+                                 (None, 'ua_housePartNum_extendedstatus', ""),
+                                 (None, 'ua_apartmentsNum_extendedstatus', "")   
                                 ],
                                 paper
-                            )
-                            if paper_id == 49 and outer_papers_info:
-                                extract[record_counter]['sizeAssets_currentYear_declcomua'] = \
-                                    self._jsrch('[0].sum', outer_papers_info)
-                                extract[record_counter]['sizeAssets_abroad_currentYear_declcomua'] = \
-                                    self._jsrch('[0].sum_foreign', outer_papers_info)
-                            extract[record_counter]['rights'][owner_id] = \
-                                self._convert_using_rules(
-                                    [
-                                     (None, 'citizen', ""),
-                                     (None, 'ua_city', ""),
-                                     (None, 'ua_street', ""),
-                                     (None, 'ua_lastname', ""),
-                                     (None, 'ua_postCode', ""),
-                                     (None, 'eng_lastname', ""),
-                                     (None, 'eng_postCode', ""),
-                                     (None, 'rightBelongs', owner_id),
-                                     (None, 'ua_firstname', ""),
-                                     (None, 'ukr_lastname', ""),
-                                     (None, 'eng_firstname', ""),
-                                     (None, 'ownershipType', ""),
-                                     (None, 'ua_middlename', ""),
-                                     (None, 'ua_streetType', ""),
-                                     (None, 'ukr_firstname', ""),
-                                     (None, 'eng_middlename', ""),
-                                     (None, 'otherOwnership', ""),
-                                     (None, 'ukr_middlename', ""),
-                                     (None, 'rights_cityPath', ""),
-                                     (None, 'ua_company_name', ""),
-                                     (None, 'eng_company_name', ""),
-                                     (None, 'ukr_company_name', ""),
-                                     (None, 'percent-ownership', '100'),
-                                     (None, 'ua_street_extendedstatus', ""),
-                                     (None, 'ua_houseNum_extendedstatus', ""),
-                                     (None, 'ua_postCode_extendedstatus', ""),
-                                     (None, 'eng_postCode_extendedstatus', ""),
-                                     (None, 'ua_middlename_extendedstatus', ""),
-                                     (None, 'eng_middlename_extendedstatus', ""),
-                                     (None, 'ukr_middlename_extendedstatus', ""),
-                                     (None, 'ua_housePartNum_extendedstatus', ""),
-                                     (None, 'ua_apartmentsNum_extendedstatus', "")   
-                                    ],
-                                    paper
-                            )
-                            record_counter += 1
+                        )
+                        record_counter += 1
 
         return {
             "step_8": extract
@@ -616,99 +626,98 @@ class Converter(object):
     def _convert_step12(self):
         extract = {}
         record_counter = 1
-        papers_desc = 'Сума коштів на рахунках у банках та інших фінансових установах (стара форма)'
+        papers_desc = 'Сума коштів на рахунках у банках та інших фінансових установах'
         papers_info = {}
-        temp_dict = self._jsrch('banks')
-        # self._jsrch('banks.47') - does not work - jmespath.exceptions.ParseError
-        papers_info[45] = temp_dict.get('45', None) if temp_dict else {}
-        papers_info[51] = temp_dict.get('51', None) if temp_dict else {}
-        outer_papers_info = temp_dict.get('46', None) if temp_dict else {}
+        papers_info[45] = self._jsrch('banks."45"')
+        papers_info[51] = self._jsrch('banks."51"')
+        outer_papers_info = self._jsrch('banks."46"')
 
         if papers_info:
             for paper_id, paper_items in papers_info.items():
                 owner_id = ('1'
                             if paper_id == 45
                             else 'family')
-                if paper_items:
-                    for paper in paper_items:
-                        if ('sum' in paper and paper['sum'] != "") or \
-                           ('sum_foreign' in paper and paper['sum_foreign'] != ""):
-                            extract[record_counter] = \
-                                self._convert_using_rules(
-                                    [
-                                      (None, 'person', ""),
-                                      (None, 'rights', {}),
-                                      (None, 'objectType', papers_desc),
-                                      ('sum', 'sizeAssets', ""),
-                                      (None, 'organization', ""),
-                                      (None, 'costCurrentYear', ""),
-                                      (None, 'assetsCurrency', 'UAH'),
-                                      (None, 'sizeAssets_currentYear_declcomua', ""),
-                                      ('sum_foreign', 'sizeAssets_abroad_declcomua', ""),
-                                      (None, 'sizeAssets_abroad_currentYear_declcomua', ""),
-                                      (None, 'otherObjectType', ""),
-                                      (None, 'organization_type', ""),
-                                      (None, 'debtor_ua_lastname', ""),
-                                      (None, 'debtor_eng_lastname', ""),
-                                      (None, 'debtor_ua_firstname', ""),
-                                      (None, 'debtor_ukr_lastname', ""),
-                                      (None, 'debtor_eng_firstname', ""),
-                                      (None, 'debtor_ua_middlename', ""),
-                                      (None, 'debtor_ukr_firstname', ""),
-                                      (None, 'debtor_eng_middlename', ""),
-                                      (None, 'debtor_ukr_middlename', ""),
-                                      (None, 'organization_ua_company_name', ""),
-                                      (None, 'organization_eng_company_name', ""),
-                                      (None, 'organization_ukr_company_name', ""),
-                                      (None, 'debtor_ua_sameRegLivingAddress', ""),
-                                      (None, 'debtor_eng_sameRegLivingAddress', "")
-                                    ],
-                                    paper
-                            )
-                            if paper_id == 45 and outer_papers_info:
-                                extract[record_counter]['sizeAssets_currentYear_declcomua'] = \
-                                    self._jsrch('[0].sum', outer_papers_info)
-                                extract[record_counter]['sizeAssets_abroad_currentYear_declcomua'] = \
-                                    self._jsrch('[0].sum_foreign', outer_papers_info)
-                            extract[record_counter]['rights'][owner_id] = \
-                                self._convert_using_rules(
-                                    [
-                                     (None, 'citizen', ""),
-                                     (None, 'ua_city', ""),
-                                     (None, 'ua_street', ""),
-                                     (None, 'ua_lastname', ""),
-                                     (None, 'ua_postCode', ""),
-                                     (None, 'eng_lastname', ""),
-                                     (None, 'eng_postCode', ""),
-                                     (None, 'rightBelongs', owner_id),
-                                     (None, 'ua_firstname', ""),
-                                     (None, 'ukr_lastname', ""),
-                                     (None, 'eng_firstname', ""),
-                                     (None, 'ownershipType', ""),
-                                     (None, 'ua_middlename', ""),
-                                     (None, 'ua_streetType', ""),
-                                     (None, 'ukr_firstname', ""),
-                                     (None, 'eng_middlename', ""),
-                                     (None, 'otherOwnership', ""),
-                                     (None, 'ukr_middlename', ""),
-                                     (None, 'rights_cityPath', ""),
-                                     (None, 'ua_company_name', ""),
-                                     (None, 'eng_company_name', ""),
-                                     (None, 'ukr_company_name', ""),
-                                     (None, 'percent-ownership', '100'),
-                                     (None, 'ua_street_extendedstatus', ""),
-                                     (None, 'ua_houseNum_extendedstatus', ""),
-                                     (None, 'ua_postCode_extendedstatus', ""),
-                                     (None, 'eng_postCode_extendedstatus', ""),
-                                     (None, 'ua_middlename_extendedstatus', ""),
-                                     (None, 'eng_middlename_extendedstatus', ""),
-                                     (None, 'ukr_middlename_extendedstatus', ""),
-                                     (None, 'ua_housePartNum_extendedstatus', ""),
-                                     (None, 'ua_apartmentsNum_extendedstatus', "")   
-                                    ],
-                                    paper
-                            )
-                            record_counter += 1                          
+                if not paper_items:
+                    continue
+
+                for paper in paper_items:
+                    if paper.get('sum') or paper.get('sum_foreign'):
+                        extract[record_counter] = \
+                            self._convert_using_rules(
+                                [
+                                  (None, 'person', ""),
+                                  (None, 'rights', {}),
+                                  (None, 'objectType', papers_desc),
+                                  ('sum', 'sizeAssets', ""),
+                                  (None, 'organization', ""),
+                                  (None, 'costCurrentYear', ""),
+                                  (None, 'assetsCurrency', 'UAH'),
+                                  (None, 'sizeAssets_currentYear_declcomua', ""),
+                                  ('sum_foreign', 'sizeAssets_abroad_declcomua', ""),
+                                  (None, 'sizeAssets_abroad_currentYear_declcomua', ""),
+                                  (None, 'otherObjectType', ""),
+                                  (None, 'organization_type', ""),
+                                  (None, 'debtor_ua_lastname', ""),
+                                  (None, 'debtor_eng_lastname', ""),
+                                  (None, 'debtor_ua_firstname', ""),
+                                  (None, 'debtor_ukr_lastname', ""),
+                                  (None, 'debtor_eng_firstname', ""),
+                                  (None, 'debtor_ua_middlename', ""),
+                                  (None, 'debtor_ukr_firstname', ""),
+                                  (None, 'debtor_eng_middlename', ""),
+                                  (None, 'debtor_ukr_middlename', ""),
+                                  (None, 'organization_ua_company_name', ""),
+                                  (None, 'organization_eng_company_name', ""),
+                                  (None, 'organization_ukr_company_name', ""),
+                                  (None, 'debtor_ua_sameRegLivingAddress', ""),
+                                  (None, 'debtor_eng_sameRegLivingAddress', "")
+                                ],
+                                paper
+                        )
+                        if paper_id == 45 and outer_papers_info:
+                            extract[record_counter]['sizeAssets_currentYear_declcomua'] = \
+                                self._jsrch('[0].sum', outer_papers_info)
+                            extract[record_counter]['sizeAssets_abroad_currentYear_declcomua'] = \
+                                self._jsrch('[0].sum_foreign', outer_papers_info)
+                        extract[record_counter]['rights'][owner_id] = \
+                            self._convert_using_rules(
+                                [
+                                 (None, 'citizen', ""),
+                                 (None, 'ua_city', ""),
+                                 (None, 'ua_street', ""),
+                                 (None, 'ua_lastname', ""),
+                                 (None, 'ua_postCode', ""),
+                                 (None, 'eng_lastname', ""),
+                                 (None, 'eng_postCode', ""),
+                                 (None, 'rightBelongs', owner_id),
+                                 (None, 'ua_firstname', ""),
+                                 (None, 'ukr_lastname', ""),
+                                 (None, 'eng_firstname', ""),
+                                 (None, 'ownershipType', ""),
+                                 (None, 'ua_middlename', ""),
+                                 (None, 'ua_streetType', ""),
+                                 (None, 'ukr_firstname', ""),
+                                 (None, 'eng_middlename', ""),
+                                 (None, 'otherOwnership', ""),
+                                 (None, 'ukr_middlename', ""),
+                                 (None, 'rights_cityPath', ""),
+                                 (None, 'ua_company_name', ""),
+                                 (None, 'eng_company_name', ""),
+                                 (None, 'ukr_company_name', ""),
+                                 (None, 'percent-ownership', '100'),
+                                 (None, 'ua_street_extendedstatus', ""),
+                                 (None, 'ua_houseNum_extendedstatus', ""),
+                                 (None, 'ua_postCode_extendedstatus', ""),
+                                 (None, 'eng_postCode_extendedstatus', ""),
+                                 (None, 'ua_middlename_extendedstatus', ""),
+                                 (None, 'eng_middlename_extendedstatus', ""),
+                                 (None, 'ukr_middlename_extendedstatus', ""),
+                                 (None, 'ua_housePartNum_extendedstatus', ""),
+                                 (None, 'ua_apartmentsNum_extendedstatus', "")   
+                                ],
+                                paper
+                        )
+                        record_counter += 1                          
 
         return {
             "step_12": extract
@@ -737,10 +746,8 @@ class Converter(object):
                 owner_id = ('1'
                             if int(liability_id) in range(54,60)
                             else 'family')
-                if liability_dict and (('sum' in liability_dict and \
-                                        liability_dict['sum'] != "") or \
-                                       ('sum_foreign' in liability_dict and \
-                                        liability_dict['sum_foreign'] != "")):
+                if liability_dict and \
+                    (liability_dict.get('sum') or liability_dict.get('sum_foreign')):
                     extract[record_counter] = self._convert_using_rules(
                         [
                           (None, 'person', owner_id),
@@ -773,7 +780,7 @@ class Converter(object):
                         liability_dict
                     )
                     extract[record_counter]['objectType'] = \
-                        liabilities_desc_dict[liability_id] + ' (стара форма)'
+                        liabilities_desc_dict[liability_id]
                     
                     record_counter += 1
 
@@ -807,153 +814,154 @@ class Converter(object):
 
         if incomes_info:
             for income_key, income_dict in incomes_info.items():
-                if income_dict:
-                    if income_key in ('21', '22'):
-                        for income_item in income_dict:
-                            if income_item['uah_equal'] != '':
-                                owner_id = ('1'
-                                            if income_key == '21'
-                                            else 'family')
-                                extract[record_counter] = \
-                                    self._convert_using_rules(
+                if not income_dict:
+                    continue
+
+                if income_key in ('21', '22'):
+                    for income_item in income_dict:
+                        if income_item['uah_equal'] != '':
+                            owner_id = ('1'
+                                        if income_key == '21'
+                                        else 'family')
+                            extract[record_counter] = \
+                                self._convert_using_rules(
+                                [
+                                  (None, 'person', owner_id),
+                                  (None, 'rights', {}),
+                                  (None, 'iteration', ""),
+                                  (None, 'objectType', ""),
+                                  ('uah_equal', 'sizeIncome', ""),
+                                  (None, 'inner_or_outer_declcomua', "outer"),
+                                  (None, 'source_citizen', 'Юридична особа, зареєстрована за кордоном'),
+                                  (None, 'otherObjectType', ""),
+                                  (None, 'source_ua_lastname', ""),
+                                  (None, 'source_eng_fullname', ""),
+                                  (None, 'source_ua_firstname', ""),
+                                  (None, 'source_ukr_fullname', ""),
+                                  (None, 'source_ua_middlename', ""),
+                                  ('source_name', 'source_ua_company_name', ""),
+                                  (None, 'source_eng_company_name', ""),
+                                  ('country', 'income_country_name_declcomua', ""),
+                                  (None, 'source_ukr_company_name', ""),
+                                  (None, 'source_ua_sameRegLivingAddress', "")
+                                ],
+                                income_item
+                            )
+                            extract[record_counter]['objectType'] = \
+                                income_desc_dict[income_key]
+                            extract[record_counter]['rights'][owner_id] = \
+                                self._convert_using_rules(
                                     [
-                                      (None, 'person', owner_id),
-                                      (None, 'rights', {}),
-                                      (None, 'iteration', ""),
-                                      (None, 'objectType', ""),
-                                      ('uah_equal', 'sizeIncome', ""),
-                                      (None, 'inner_or_outer_declcomua', "outer"),
-                                      (None, 'source_citizen', 'Юридична особа, зареєстрована за кордоном'),
-                                      (None, 'otherObjectType', ""),
-                                      (None, 'source_ua_lastname', ""),
-                                      (None, 'source_eng_fullname', ""),
-                                      (None, 'source_ua_firstname', ""),
-                                      (None, 'source_ukr_fullname', ""),
-                                      (None, 'source_ua_middlename', ""),
-                                      ('source_name', 'source_ua_company_name', ""),
-                                      (None, 'source_eng_company_name', ""),
-                                      ('country', 'income_country_name_declcomua', ""),
-                                      (None, 'source_ukr_company_name', ""),
-                                      (None, 'source_ua_sameRegLivingAddress', "")
+                                     (None, 'citizen', ""),
+                                     (None, 'ua_city', ""),
+                                     (None, 'ua_street', ""),
+                                     (None, 'ua_lastname', ""),
+                                     (None, 'ua_postCode', ""),
+                                     (None, 'eng_lastname', ""),
+                                     (None, 'eng_postCode', ""),
+                                     (None, 'rightBelongs', owner_id),
+                                     (None, 'ua_firstname', ""),
+                                     (None, 'ukr_lastname', ""),
+                                     (None, 'eng_firstname', ""),
+                                     (None, 'ownershipType', ""),
+                                     (None, 'ua_middlename', ""),
+                                     (None, 'ua_streetType', ""),
+                                     (None, 'ukr_firstname', ""),
+                                     (None, 'eng_middlename', ""),
+                                     (None, 'otherOwnership', ""),
+                                     (None, 'ukr_middlename', ""),
+                                     (None, 'rights_cityPath', ""),
+                                     (None, 'ua_company_name', ""),
+                                     (None, 'eng_company_name', ""),
+                                     (None, 'ukr_company_name', ""),
+                                     (None, 'percent-ownership', '100'),
+                                     (None, 'ua_street_extendedstatus', ""),
+                                     (None, 'ua_houseNum_extendedstatus', ""),
+                                     (None, 'ua_postCode_extendedstatus', ""),
+                                     (None, 'eng_postCode_extendedstatus', ""),
+                                     (None, 'ua_middlename_extendedstatus', ""),
+                                     (None, 'eng_middlename_extendedstatus', ""),
+                                     (None, 'ukr_middlename_extendedstatus', ""),
+                                     (None, 'ua_housePartNum_extendedstatus', ""),
+                                     (None, 'ua_apartmentsNum_extendedstatus', "")
                                     ],
                                     income_item
-                                )
-                                extract[record_counter]['objectType'] = \
-                                    income_desc_dict[income_key] + ' (стара форма)'
-                                extract[record_counter]['rights'][owner_id] = \
-                                    self._convert_using_rules(
-                                        [
-                                         (None, 'citizen', ""),
-                                         (None, 'ua_city', ""),
-                                         (None, 'ua_street', ""),
-                                         (None, 'ua_lastname', ""),
-                                         (None, 'ua_postCode', ""),
-                                         (None, 'eng_lastname', ""),
-                                         (None, 'eng_postCode', ""),
-                                         (None, 'rightBelongs', owner_id),
-                                         (None, 'ua_firstname', ""),
-                                         (None, 'ukr_lastname', ""),
-                                         (None, 'eng_firstname', ""),
-                                         (None, 'ownershipType', ""),
-                                         (None, 'ua_middlename', ""),
-                                         (None, 'ua_streetType', ""),
-                                         (None, 'ukr_firstname', ""),
-                                         (None, 'eng_middlename', ""),
-                                         (None, 'otherOwnership', ""),
-                                         (None, 'ukr_middlename', ""),
-                                         (None, 'rights_cityPath', ""),
-                                         (None, 'ua_company_name', ""),
-                                         (None, 'eng_company_name', ""),
-                                         (None, 'ukr_company_name', ""),
-                                         (None, 'percent-ownership', '100'),
-                                         (None, 'ua_street_extendedstatus', ""),
-                                         (None, 'ua_houseNum_extendedstatus', ""),
-                                         (None, 'ua_postCode_extendedstatus', ""),
-                                         (None, 'eng_postCode_extendedstatus', ""),
-                                         (None, 'ua_middlename_extendedstatus', ""),
-                                         (None, 'eng_middlename_extendedstatus', ""),
-                                         (None, 'ukr_middlename_extendedstatus', ""),
-                                         (None, 'ua_housePartNum_extendedstatus', ""),
-                                         (None, 'ua_apartmentsNum_extendedstatus', "")
-                                        ],
-                                        income_item
-                                )
-                                record_counter += 1
+                            )
+                            record_counter += 1
+                else:
+                    if income_dict.get('family') or income_dict.get('value'):
+                        for sum_type in ('value', 'family'):
+                            if not income_dict.get(sum_type):
+                                continue
 
-                    else:
-                        if (('family' in income_dict and 'value' in income_dict) and (income_dict['family'] != "" or income_dict['value'] != "")):
-                            for sum_type in ('value', 'family'):
-                                if income_dict[sum_type] == '':
-                                    continue
-
-                                owner_id = ('1'
-                                            if sum_type == 'value'
-                                            else 'family')
-                                extract[record_counter] = \
-                                    self._convert_using_rules(
+                            owner_id = ('1'
+                                        if sum_type == 'value'
+                                        else 'family')
+                            extract[record_counter] = \
+                                self._convert_using_rules(
+                                [
+                                  (None, 'person', owner_id),
+                                  (None, 'rights', {}),
+                                  (None, 'iteration', ""),
+                                  (None, 'objectType', ""),
+                                  (None, 'sizeIncome', income_dict[sum_type]),
+                                  (None, 'inner_or_outer_declcomua', 'inner'),
+                                  (None, 'source_citizen', 'Юридична особа, зареєстрована в Україні'),
+                                  (None, 'otherObjectType', ""),
+                                  (None, 'source_ua_lastname', ""),
+                                  (None, 'source_eng_fullname', ""),
+                                  (None, 'source_ua_firstname', ""),
+                                  (None, 'source_ukr_fullname', ""),
+                                  (None, 'source_ua_middlename', ""),
+                                  ('source_name', 'source_ua_company_name', ""),
+                                  (None, 'source_eng_company_name', ""),
+                                  ('country', 'income_country_name_declcomua', ""),
+                                  (None, 'source_ukr_company_name', ""),
+                                  (None, 'source_ua_sameRegLivingAddress', "")
+                                ],
+                                income_dict
+                            )                     
+                            extract[record_counter]['objectType'] = \
+                                income_desc_dict[income_key]
+                            extract[record_counter]['rights'][owner_id] = \
+                                self._convert_using_rules(
                                     [
-                                      (None, 'person', owner_id),
-                                      (None, 'rights', {}),
-                                      (None, 'iteration', ""),
-                                      (None, 'objectType', ""),
-                                      (None, 'sizeIncome', income_dict[sum_type]),
-                                      (None, 'inner_or_outer_declcomua', 'inner'),
-                                      (None, 'source_citizen', 'Юридична особа, зареєстрована в Україні'),
-                                      (None, 'otherObjectType', ""),
-                                      (None, 'source_ua_lastname', ""),
-                                      (None, 'source_eng_fullname', ""),
-                                      (None, 'source_ua_firstname', ""),
-                                      (None, 'source_ukr_fullname', ""),
-                                      (None, 'source_ua_middlename', ""),
-                                      ('source_name', 'source_ua_company_name', ""),
-                                      (None, 'source_eng_company_name', ""),
-                                      ('country', 'income_country_name_declcomua', ""),
-                                      (None, 'source_ukr_company_name', ""),
-                                      (None, 'source_ua_sameRegLivingAddress', "")
+                                     (None, 'citizen', ""),
+                                     (None, 'ua_city', ""),
+                                     (None, 'ua_street', ""),
+                                     (None, 'ua_lastname', ""),
+                                     (None, 'ua_postCode', ""),
+                                     (None, 'eng_lastname', ""),
+                                     (None, 'eng_postCode', ""),
+                                     (None, 'rightBelongs', owner_id),
+                                     (None, 'ua_firstname', ""),
+                                     (None, 'ukr_lastname', ""),
+                                     (None, 'eng_firstname', ""),
+                                     (None, 'ownershipType', ""),
+                                     (None, 'ua_middlename', ""),
+                                     (None, 'ua_streetType', ""),
+                                     (None, 'ukr_firstname', ""),
+                                     (None, 'eng_middlename', ""),
+                                     (None, 'otherOwnership', ""),
+                                     (None, 'ukr_middlename', ""),
+                                     (None, 'rights_cityPath', ""),
+                                     (None, 'ua_company_name', ""),
+                                     (None, 'eng_company_name', ""),
+                                     (None, 'ukr_company_name', ""),
+                                     (None, 'percent-ownership', '100'),
+                                     (None, 'ua_street_extendedstatus', ""),
+                                     (None, 'ua_houseNum_extendedstatus', ""),
+                                     (None, 'ua_postCode_extendedstatus', ""),
+                                     (None, 'eng_postCode_extendedstatus', ""),
+                                     (None, 'ua_middlename_extendedstatus', ""),
+                                     (None, 'eng_middlename_extendedstatus', ""),
+                                     (None, 'ukr_middlename_extendedstatus', ""),
+                                     (None, 'ua_housePartNum_extendedstatus', ""),
+                                     (None, 'ua_apartmentsNum_extendedstatus', "")
                                     ],
                                     income_dict
-                                )                     
-                                extract[record_counter]['objectType'] = \
-                                    income_desc_dict[income_key] + ' (стара форма)'
-                                extract[record_counter]['rights'][owner_id] = \
-                                    self._convert_using_rules(
-                                        [
-                                         (None, 'citizen', ""),
-                                         (None, 'ua_city', ""),
-                                         (None, 'ua_street', ""),
-                                         (None, 'ua_lastname', ""),
-                                         (None, 'ua_postCode', ""),
-                                         (None, 'eng_lastname', ""),
-                                         (None, 'eng_postCode', ""),
-                                         (None, 'rightBelongs', owner_id),
-                                         (None, 'ua_firstname', ""),
-                                         (None, 'ukr_lastname', ""),
-                                         (None, 'eng_firstname', ""),
-                                         (None, 'ownershipType', ""),
-                                         (None, 'ua_middlename', ""),
-                                         (None, 'ua_streetType', ""),
-                                         (None, 'ukr_firstname', ""),
-                                         (None, 'eng_middlename', ""),
-                                         (None, 'otherOwnership', ""),
-                                         (None, 'ukr_middlename', ""),
-                                         (None, 'rights_cityPath', ""),
-                                         (None, 'ua_company_name', ""),
-                                         (None, 'eng_company_name', ""),
-                                         (None, 'ukr_company_name', ""),
-                                         (None, 'percent-ownership', '100'),
-                                         (None, 'ua_street_extendedstatus', ""),
-                                         (None, 'ua_houseNum_extendedstatus', ""),
-                                         (None, 'ua_postCode_extendedstatus', ""),
-                                         (None, 'eng_postCode_extendedstatus', ""),
-                                         (None, 'ua_middlename_extendedstatus', ""),
-                                         (None, 'eng_middlename_extendedstatus', ""),
-                                         (None, 'ukr_middlename_extendedstatus', ""),
-                                         (None, 'ua_housePartNum_extendedstatus', ""),
-                                         (None, 'ua_apartmentsNum_extendedstatus', "")
-                                        ],
-                                        income_dict
-                                )
-                                record_counter += 1
+                            )
+                            record_counter += 1
 
         return {
             "step_11": extract
@@ -1030,7 +1038,6 @@ if __name__ == '__main__':
             except json.decoder.JSONDecodeError:
                 logger.error('Empty or broken file: {}'.format(file_name))
                 continue
-            
             try:
                 conv = Converter(old_json)
 
@@ -1046,11 +1053,3 @@ if __name__ == '__main__':
             except OSError as e:
                 logging.error('OS error on {}: {}'.format(file_name, str(e)))
                 continue
-
-
-"""        if i and i % 100 == 0:
-            logger.info("Processed {} declarations".format(i + 1))
-
-            # TODO: remove
-            break
-"""

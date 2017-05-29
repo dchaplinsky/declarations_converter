@@ -1,2223 +1,2338 @@
-  {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "declaration",
-    "type": "object",
-    "required": [
-      "id",
-      "created_date",
-      "lastmodified_date",
-      "data"
-    ],
-    "properties": {
-      "id": {
-        "type": "string"
-      },
-      "created_date": {
-            "type": "string",
-      },
-      "lastmodified_date": {
-            "type": "string"
-      },
-      "data": {
-        "type": "object",
-        "required": [
-          "step_0",
-          "step_1",
-          "step_2",
-          "step_3",
-          "step_4",
-          "step_5",
-          "step_6",
-          "step_7",
-          "step_8",
-          "step_9",
-          "step_10",
-          "step_11",
-          "step_12",
-          "step_13",
-          "step_15"
-        ],
-        "properties": {
-          "step_0": {
-            "type": "object",
-            "required": [
-              "declarationType",
-              "declarationYear1"
-            ],
-            "properties": {
-              "declarationType": {
-                "type": "string"
-              },
-              "declarationYear1": {
-                "type": "string"
-              }
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "declaration",
+  "type": "object",
+  "required": [
+    "id",
+    "created_date",
+    "lastmodified_date",
+    "data"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "created_date": {
+          "type": "string",
+    },
+    "lastmodified_date": {
+          "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "required": [
+        "step_0",
+        "step_1",
+        "step_2",
+        "step_3",
+        "step_4",
+        "step_5",
+        "step_6",
+        "step_7",
+        "step_8",
+        "step_9",
+        "step_10",
+        "step_11",
+        "step_12",
+        "step_13",
+        "step_15"
+      ],
+      "properties": {
+        "step_0": {
+          "type": "object",
+          "anyOf": [
+            {"required": ["changesYear"]},
+            {"required": ["declarationYearTo"]},
+            {"required": ["declarationYearFrom"]},
+            {"required": ["declarationYear1"]},
+            {"required": ["declarationYear3"]},
+            {"required": ["declarationYear4"]},
+          ],
+          "required": [
+            "declarationType"
+          ],
+          "properties": {
+            "declarationType": {
+              "type": "string"
             }
-          },
-          "step_1": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ]
-          },
-          "step_2": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Family member details",
-                "type": "object",
-                "properties": {
-                  "lastname": {
-                    "type": "string"
-                  },
-                  "firstname": {
-                    "type": "string"
-                  },
-                  "middlename": {
-                    "type": "string"
-                  },
-                  "changedName": {
-                    "type": "boolean"
-                  },
-                  "citizenship": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "eng_lastname": {
-                    "type": "string"
-                  },
-                  "no_taxNumber": {
-                    "type": "boolean"
-                  },
-                  "eng_firstname": {
-                    "type": "string"
-                  },
-                  "eng_middlename": {
-                    "type": "string"
-                  },
-                  "isNotApplicable": {
-                    "type": "string"
-                  },
-                  "subjectRelation": {
-                    "type": "string"
-                  },
-                  "previous_lastname": {
-                    "type": "string"
-                  },
-                  "previous_firstname": {
-                    "type": "string"
-                  },
-                  "previous_middlename": {
-                    "type": "string"
-                  },
-                  "previous_eng_lastname": {
-                    "type": "string"
-                  },
-                  "previous_eng_firstname": {
-                    "type": "string"
-                  },
-                  "previous_eng_middlename": {
-                    "type": "string"
-                  }
+          }
+        },
+        "step_1": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "step_2": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Family member details",
+              "type": "object",
+              "properties": {
+                "lastname": {
+                  "type": "string"
                 },
-                "patternProperties": {
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  }
+                "firstname": {
+                  "type": "string"
+                },
+                "middlename": {
+                  "type": "string"
+                },
+                "changedName": {
+                  "type": "boolean"
+                },
+                "citizenship": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "eng_lastname": {
+                  "type": "string"
+                },
+                "no_taxNumber": {
+                  "type": "boolean"
+                },
+                "eng_firstname": {
+                  "type": "string"
+                },
+                "eng_middlename": {
+                  "type": "string"
+                },
+                "isNotApplicable": {
+                  "type": "string"
+                },
+                "subjectRelation": {
+                  "type": "string"
+                },
+                "previous_lastname": {
+                  "type": "string"
+                },
+                "previous_firstname": {
+                  "type": "string"
+                },
+                "previous_middlename": {
+                  "type": "string"
+                },
+                "previous_eng_lastname": {
+                  "type": "string"
+                },
+                "previous_eng_firstname": {
+                  "type": "string"
+                },
+                "previous_eng_middlename": {
+                  "type": "string"
+                }
+              },
+              "patternProperties": {
+                ".*_extendedstatus$": {
+                  "type": "string"
                 }
               }
             }
-          },
-          "step_3": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Real estate details",
-                "type": "object",
-                "properties": {
-                  "city": {
-                    "type": "string"
-                  },
-                  "person": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "region": {
-                    "type": "string"
-                  },
-                  "country": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "cityPath": {
-                    "type": "string"
-                  },
-                  "costDate": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^[0-9,\\,\\.]+$"
-                      },
-                      {
-                        "type": "string",
-                        "pattern": "^$|не відомо"
-                      }
-                    ]
-                  },
-                  "district": {
-                    "type": "string"
-                  },
-                  "ua_buildType": {
-                    "type": "string"
-                  },
-                  "postCode": {
-                    "type": "string"
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "totalArea": { "type": "number" },
-                  "ua_street": {
-                    "type": "string"
-                  },
-                  "objectType": {
-                        "type": "string",
-                        "enum": [
-                          "Квартира",
-                          "Земельна ділянка",
-                          "Житловий будинок",
-                          "Кімната",
-                          "Гараж",
-                          "Садовий (дачний) будинок",
-                          "Офіс",
-                          "Інше"
-                        ]
-                  },
-                      
-                  "owningDate": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}$"
-                      },
-                      {
-                        "type": "string",
-                        "maxLength": 0
-                      }
-                    ]
-                  },
-                  "ua_cityType": {
-                    "type": "string"
-                  },
-                  "ua_streetType": {
-                    "type": "string"
-                  },
-                  "costAssessment": {
-                    "type": "string"
-                  },
-                  "otherObjectType": {
-                    "type": "string"
-                  },
-                  "rights": {
-                    "type": "object",
-                    "patternProperties": {
-                      "^[0-9]*$": {
-                        "description": "Right owner details",
-                        "type": "object",
-                        "properties": {
-                          "citizen": {
-                            "type": "string"
-                          },
-                          "ua_city": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "ua_street": {
-                            "type": "string"
-                          },
-                          "ua_lastname": {
-                            "type": "string"
-                          },
-                          "ua_actualAddressr": {
-                            "type": "string"
-                          },   
-                          "rights_id": {
-                            "type": "string"
-                          }, 
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          }, 
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },                          
-                          "eng_lastname": {
-                            "type": "string"
-                          },
-                          "rightBelongs": {
-                            "type": "string"
-                          },
-                          "ua_firstname": {
-                            "type": "string"
-                          },
-                          "ukr_lastname": {
-                            "type": "string"
-                          },
-                          "eng_fullname": {
-                            "type": "string"
-                          },
-                          "ukr_fullname": {
-                            "type": "string"
-                          },
-                          "eng_firstname": {
-                            "type": "string"
-                          },
-                          "ownershipType": {
-                            "type": "string"
-                          },
-                          "ua_middlename": {
-                            "type": "string"
-                          },
-                          "ua_streetType": {
-                            "type": "string"
-                          },
-                          "ukr_firstname": {
-                            "type": "string"
-                          },
-                          "eng_middlename": {
-                            "type": "string"
-                          },
-                          "otherOwnership": {
-                            "type": "string"
-                          },
-                          "ukr_middlename": {
-                            "type": "string"
-                          },
-                          "rights_cityPath": {
-                            "type": "string"
-                          },
-                          "ua_company_name": {
-                            "type": "string"
-                          },
-
-
-                          "ukr_actualAddressr": {
-                            "type": "string"
-                          },
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-
-
-                          "eng_company_name": {
-                            "type": "string"
-                          },
-                          "ukr_company_name": {
-                            "type": "string"
-                          },
-                          "ua_buildType": {
-                            "type": "string"
-                          },
-                          "percent-ownership": {
-                            "type": "string"
-                          }
-                        },
-                        "patternProperties": {
-                          ".*_extendedstatus$": {
-                          "type": "string"
-                          },
-                          ".*postCode": {
-                            "type": "string"
-                          },
-                          ".*company_code": {
-                            "type": "string"
-                          },
-                          
-                          ".*taxNumber": {
-                            "type": "string"
-                          },
-                          ".*regAddress": {
-                            "type": "string"
-                          },
-                          ".*sameRegLivingAddress": {
-                            "oneOf": [
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "string"
-                              }
-                            ]
-                          }
-                        },
-                        "additionalProperties": false
-                      }
+          }
+        },
+        "step_3": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Real estate details",
+              "type": "object",
+              "properties": {
+                "city": {
+                  "type": "string"
+                },
+                "person": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "cityPath": {
+                  "type": "string"
+                },
+                "costDate": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[0-9,\\,\\.]+$"
                     },
-                  }
-                },
-                "patternProperties": {
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  },
-                  ".*postCode": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "step_4": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Real estate details",
-                "type": "object",
-                "properties": {
-                  "city": {
-                    "type": "string"
-                  },
-                  "person": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "region": {
-                    "type": "string"
-                  },
-                  "country": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "cityPath": {
-                    "type": "string"
-                  },
-                  "ua_region": {
-                    "type": "string"
-                  },
-                  "ua_area": {
-                    "type": "string"
-                  },
-                  "district": {
-                    "type": "string"
-                  },
-                  "postCode": {
-                    "type": "string"
-                  },
-                  "ua_buildType": {
-                    "type": "string"
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "totalArea": { "type": "number" },
-                  "ua_street": {
-                    "type": "string"
-                  },
-                  "objectType": {
-                    "enum": [
-                      "Квартира",
-                      "Земельна ділянка",
-                      "Житловий будинок",
-                      "Кімната",
-                      "Гараж",
-                      "Садовий (дачний) будинок",
-                      "Офіс",
-                      "Інше"
-                    ]
-                  },
-                  "ua_cityType": {
-                    "type": "string"
-                  },
-                  "exploitation": {
-                    "type": "boolean"
-                  },
-                  "isThirdOwner": {
-                    "type": "boolean"
-                  },
-                  "ua_city_full": {
-                    "type": "string"
-                  },
-                  "eng_regNumber": {
-                    "type": "string"
-                  },
-                  "ua_streetType": {
-                    "type": "string"
-                  },
-                  "dontRegistered": {
-                    "type": "boolean"
-                  },
-                  "flag_thirdOwner": {
-                    "type": "integer"
-                  },
-                  "otherObjectType": {
-                    "type": "string"
-                  },
-                  "addition_lastname": {
-                    "type": "string"
-                  },
-                  "unfinishConstruct": {
-                    "type": "boolean"
-                  },
-                  "addition_firstname": {
-                    "type": "string"
-                  },
-                  "thirdOwner_citizen": {
-                    "type": "string"
-                  },
-                  "addition_middlename": {
-                    "type": "string"
-                  },
-                  "addition_ua_fullName": {
-                    "type": "string"
-                  },
-                  "addition_company_name": {
-                    "type": "string"
-                  },
-                  "addition_eng_fullName": {
-                    "type": "string"
-                  },
-                  "builtMaterialsOrFunds": {
-                    "type": "boolean"
-                  },
-                  "addition_ua_company_name": {
-                    "type": "string"
-                  },
-                  "addition_eng_company_name": {
-                    "type": "string"
-                  },
-                  "belongsSubjectOfDeclaration": {
-                    "type": "boolean"
-                  },
-                  "actualAddressEqualRegAddress": {
-                    "type": "string"
-                  },
-                  "rights": {
-                    "type": "object",
-                    "patternProperties": {
-                      "^[0-9]*$": {
-                        "description": "Right owner details",
-                        "type": "object",
-                        "properties": {
-                          "citizen": {
-                            "type": "string"
-                          },
-                          "ua_city": {
-                            "type": "string"
-                          },
-                          "ua_street": {
-                            "type": "string"
-                          },
-                          "ua_lastname": {
-                            "type": "string"
-                          },
-                          "eng_lastname": {
-                            "type": "string"
-                          },
-                          "rightBelongs": {
-                            "type": "string"
-                          },
-                          "ua_firstname": {
-                            "type": "string"
-                          },
-                          "ukr_lastname": {
-                            "type": "string"
-                          },
-                          "eng_firstname": {
-                            "type": "string"
-                          },
-                          "ownershipType": {
-                            "type": "string"
-                          },
-                          "ua_buildType": {
-                            "type": "string"
-                          },
-                          "ua_middlename": {
-                            "type": "string"
-                          },
-                          "ua_streetType": {
-                            "type": "string"
-                          },
-                          "rights_id": {
-                            "type": "string"
-                          }, 
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_firstname": {
-                            "type": "string"
-                          },
-                          "eng_middlename": {
-                            "type": "string"
-                          },
-                          "otherOwnership": {
-                            "type": "string"
-                          },
-                          "ukr_middlename": {
-                            "type": "string"
-                          },
-                          "rights_cityPath": {
-                            "type": "string"
-                          },
-                          "ua_company_name": {
-                            "type": "string"
-                          },
-                          "eng_company_name": {
-                            "type": "string"
-                          },
-                          "ukr_company_name": {
-                            "type": "string"
-                          },
-                          "percent-ownership": {
-                            "type": "string"
-                          }
-                        },
-                        "patternProperties": {
-                          ".*postCode": {
-                            "type": "string"
-                          },
-                          ".*company_code": {
-                            "type": "string"
-                          },                        
-                          ".*sameRegLivingAddress": {
-                            "oneOf": [
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "string"
-                              }
-                            ]
-                          }
-                        },
-                      }
+                    {
+                      "type": "string",
+                      "pattern": "^$|не відомо"
                     }
-                  }
+                  ]
                 },
-                "patternProperties": {
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  },
-                  ".*_company_code": {
-                    "type": "string"
-                  },
-                  ".*postCode": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "step_5": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Real estate details",
-                "type": "object",
-                "properties": {
-                  "person": {
-                    "type": "string"
-                  },
-                  "dateUse": {
-                    "type": "string"
-                  },
-                  "acqPeriod": {
-                    "type": "string"
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "trademark": {
-                    "type": "string"
-                  },
-                  "objectType": {
-                    "type": "string"
-                  },
-                  "acqBeforeFD": {
-                    "type": "boolean"
-                  },
-                  "costDateUse": {
-                    "type": "string"
-                  },
-                  "propertyDescr": {
-                    "type": "string"
-                  },
-                  "otherObjectType": {
-                    "type": "string"
-                  },
-                  "typeProperty": {
-                    "type": "string"
-                  },
-                  "otherTypeProperty": {
-                    "type": "string"
-                  },
-                  "manufacturerName": {
-                    "type": "string"
-                  },
-                  "rights": {
-                    "type": "object",
-                    "patternProperties": {
-                      "^[0-9]*$": {
-                        "description": "Right owner details",
-                        "type": "object",
-                        "properties": {
-                          "citizen": {
-                            "type": "string"
-                          },
-                          "ua_city": {
-                            "type": "string"
-                          },
-                          "ua_street": {
-                            "type": "string"
-                          },
-                          "ua_lastname": {
-                            "type": "string"
-                          },
-                          "eng_lastname": {
-                            "type": "string"
-                          },
-                          "rightBelongs": {
-                            "type": "string"
-                          },
-                          "ua_firstname": {
-                            "type": "string"
-                          },
-                          "ukr_lastname": {
-                            "type": "string"
-                          },
-                          "eng_firstname": {
-                            "type": "string"
-                          },
-                          "rights_id": {
-                            "type": "string"
-                          }, 
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "eng_fullname": {
-                            "type": "string"
-                          },
-                          "ukr_fullname": {
-                            "type": "string"
-                          },
-                          "ownershipType": {
-                            "type": "string"
-                          },
-                          "ua_middlename": {
-                            "type": "string"
-                          },
-                          "ua_streetType": {
-                            "type": "string"
-                          },
-                          "ukr_firstname": {
-                            "type": "string"
-                          },
-                          "eng_middlename": {
-                            "type": "string"
-                          },
-                          "otherOwnership": {
-                            "type": "string"
-                          },
-                          "ukr_middlename": {
-                            "type": "string"
-                          },
-                          "rights_cityPath": {
-                            "type": "string"
-                          },
-                          "ua_company_name": {
-                            "type": "string"
-                          },
-                          "eng_company_name": {
-                            "type": "string"
-                          },
-                          "ukr_company_name": {
-                            "type": "string"
-                          },
-                          "ua_buildType": {
-                            "type": "string"
-                          },
-                          "percent-ownership": {
-                            "type": "string"
-                          }
-                        },
-                        "patternProperties": {
-                          ".*_extendedstatus$": {
-                          "type": "string"
-                          },
-                          ".*postCode": {
-                            "type": "string"
-                          },
-                          ".*company_code": {
-                            "type": "string"
-                          },                        
-                          ".*sameRegLivingAddress": {
-                            "oneOf": [
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "string"
-                              }
-                            ]
-                          }
-                        },
-                        "additionalProperties": false
-                      }
-                    },
-                  }
+                "district": {
+                  "type": "string"
                 },
-                "patternProperties": {
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "step_6": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Vehicle details",
-                "type": "object",
-                "properties": {
-                  "brand": {
-                    "type": "string"
-                  },
-                  "model": {
-                    "type": "string"
-                  },
-                  "person": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "costDate": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^[0-9,\\,\\.]+$"
-                      },
-                      {
-                        "type": "string",
-                        "pattern": "^$|не відомо"
-                      }
-                    ]
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "objectType": {
-                    "type": "string",
-                    "enum": [
-                      "Автомобіль легковий",
-                      "Автомобіль легковий (спеціальні)",
-                      "Автомобіль вантажний",
-                      "Мотоцикл (мопед)",
-                      "Водний засіб",
-                      "Сільськогосподарська техніка",
-                      "Повітряне судно",
-                      "Повітряний засіб",
-                      "Інше"
-                    ]
-                  },
-                  "owningDate": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}$"
-                      },
-                      {
-                        "type": "string",
-                        "maxLength": 0
-                      }
-                    ]
-                  },
-                  "graduationYear": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "otherObjectType": {
-                    "type": "string"
-                  },
-                  "typeProperty": {
-                    "type": "string"
-                  },
-                  "otherTypeProperty": {
-                    "type": "string"
-                  },
-                  "rights": {
-                    "type": "object",
-                    "patternProperties": {
-                      "^[0-9]*$": {
-                        "description": "Right owner details",
-                        "type": "object",
-                        "properties": {
-                          "citizen": {
-                            "type": "string"
-                          },
-                          "ua_city": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "ua_street": {
-                            "type": "string"
-                          },
-                          "ua_lastname": {
-                            "type": "string"
-                          },
-                          "ua_actualAddressr": {
-                            "type": "string"
-                          },
-                          "eng_lastname": {
-                            "type": "string"
-                          },
-                          "rightBelongs": {
-                            "type": "string"
-                          },
-                          "rights_id": {
-                            "type": "string"
-                          }, 
-                          "ua_firstname": {
-                            "type": "string"
-                          },
-                          "ukr_lastname": {
-                            "type": "string"
-                          },
-                          "eng_firstname": {
-                            "type": "string"
-                          },
-                          "ua_buildType": {
-                            "type": "string"
-                          },
-                          "eng_fullname": {
-                            "type": "string"
-                          },
-                          "ukr_fullname": {
-                            "type": "string"
-                          },
-                          "ownershipType": {
-                            "type": "string"
-                          },
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "ua_middlename": {
-                            "type": "string"
-                          },
-                          "ua_streetType": {
-                            "type": "string"
-                          },
-                          "ukr_actualAddressr": {
-                            "type": "string"
-                          },
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_firstname": {
-                            "type": "string"
-                          },
-                          "eng_middlename": {
-                            "type": "string"
-                          },
-                          "otherOwnership": {
-                            "type": "string"
-                          },
-                          "ukr_middlename": {
-                            "type": "string"
-                          },
-                          "rights_cityPath": {
-                            "type": "string"
-                          },
-                          "ua_company_name": {
-                            "type": "string"
-                          },
-                          "eng_company_name": {
-                            "type": "string"
-                          },
-                          "ukr_company_name": {
-                            "type": "string"
-                          },
-                          "percent-ownership": {
-                            "type": "string"
-                          }
-                        },
-                        "patternProperties": {
-                          ".*_extendedstatus$": {
-                            "type": "string"
-                          },
-                          ".*postCode": {
-                            "type": "string"
-                          },
-                          ".*company_code": {
-                            "type": "string"
-                          },   
-                          ".*regAddress": {
-                            "type": "string"
-                          },  
-                          ".*taxNumber": {
-                            "type": "string"
-                          },                   
-                          ".*sameRegLivingAddress": {
-                            "oneOf": [
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "string"
-                              }
-                            ]
-                          }
-                        },
-                        "additionalProperties": false
-                      }
-                    }
-                  }
+                "ua_buildType": {
+                  "type": "string"
                 },
-                "patternProperties": {
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "step_7": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Securities",
-                "type": "object",
-                "properties": {
-                  "cost": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^[0-9,\\,\\.]+$"
-                      },
-                      {
-                        "type": "string",
-                        "pattern": "^$|не відомо"
-                      }
-                    ]
-                  },
-                  "amount": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "person": {
-                    "oneOf0":[
-                        {
-                          "type": "string",
-                          "pattern": "^[0-9]*$"
-                        },
-                        {
-                          "type": "string",
-                          "pattern": "^family$"
-                        } 
+                "postCode": {
+                  "type": "string"
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "totalArea": { "type": "number" },
+                "ua_street": {
+                  "type": "string"
+                },
+                "objectType": {
+                      "type": "string",
+                      "enum": [
+                        "Квартира",
+                        "Земельна ділянка",
+                        "Житловий будинок",
+                        "Кімната",
+                        "Гараж",
+                        "Садовий (дачний) будинок",
+                        "Офіс",
+                        "Інше"
                       ]
-                  },
-                  "emitent": {
-                    "type": "string"
-                  },
-                  "iteration": {
-                    "type": "string"
-                  },
-                  "owningDate": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}$"
-                      },
-                      {
-                        "type": "string",
-                        "maxLength": 0
-                      }
-                    ]
-                  },
-                  "emitent_type": {
-                    "type": "string"
-                  },
-                  "typeProperty": {
-                        "type": "string",
-                        "enum": [
-                          "Акції",
-                          "Інше",
-                          "Боргові цінні папери",
-                          "Інвестиційні сертифікати",
-                          "Чеки",
-                          "Іпотечні цінні папери",
-                          "Похідні цінні папери (деривативи)",
-                          "Приватизаційні цінні папери (ваучери тощо)"
-                        ]
-                  },
-                  "otherObjectType": {
-                    "type": "string"
-                  },
-                  "subTypeProperty1": {
-                    "type": "string"
-                  },
-                  "subTypeProperty2": {
-                    "type": "string"
-                  },
-                  "subTypeProperty": {
-                    "type": "string"
-                  },
-                  "rights": {
-                    "type": "object",
-                    "patternProperties": {
-                      "^[0-9]*$": {
-                        "description": "Right owner details",
-                        "type": "object",
-                        "properties": {
-                          "citizen": {
-                            "type": "string"
-                          },
-                          "ua_city": {
-                            "type": "string"
-                          },
-                          "ua_street": {
-                            "type": "string"
-                          },
-                          "ua_lastname": {
-                            "type": "string"
-                          },
-                          "eng_lastname": {
-                            "type": "string"
-                          },
-                          "rightBelongs": {
-                            "type": "string"
-                          },
-                          "ua_firstname": {
-                            "type": "string"
-                          },
-                          "ukr_lastname": {
-                            "type": "string"
-                          },
-                          "ua_buildType": {
-                            "type": "string"
-                          },
-                          "eng_firstname": {
-                            "type": "string"
-                          },
-                          "eng_fullname": {
-                            "type": "string"
-                          },
-                          "ukr_fullname": {
-                            "type": "string"
-                          },
-                          "rights_id": {
-                            "type": "string"
-                          }, 
-                          "ownershipType": {
-                            "type": "string"
-                          },
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "ua_middlename": {
-                            "type": "string"
-                          },
-                          "ua_streetType": {
-                            "type": "string"
-                          },
-                          "ukr_firstname": {
-                            "type": "string"
-                          },
-                          "eng_middlename": {
-                            "type": "string"
-                          },
-                          "otherOwnership": {
-                            "type": "string"
-                          },
-                          "ukr_middlename": {
-                            "type": "string"
-                          },
-                          "rights_cityPath": {
-                            "type": "string"
-                          },
-                          "ua_company_name": {
-                            "type": "string"
-                          },
-                          "eng_company_name": {
-                            "type": "string"
-                          },
-                          "ukr_company_name": {
-                            "type": "string"
-                          },
-                          "percent-ownership": {
-                            "type": "string"
-                          }
-                        },
-                        "patternProperties": {
-                          ".*_extendedstatus$": {
-                            "type": "string"
-                          },
-                          ".*postCode": {
-                            "type": "string"
-                          },
-                          ".*company_code": {
-                            "type": "string"
-                          },                        
-                          ".*sameRegLivingAddress": {
-                            "oneOf": [
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "string"
-                              }
-                            ]
-                          }
-                        },
-                        "additionalProperties": false
-                      }
-                    }
-                  }
                 },
-                "patternProperties": {
-                  "^emitent_.*name$": {
-                    "type": "string"
-                  },
-                  "^emitent_.*code$": {
-                    "type": "string"
-                  },
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  },
-                  "^emitent_\\w{1,3}_sameRegLivingAddress": {
-                    "oneOf": [
-                      {
-                        "type": "boolean"
+                    
+                "owningDate": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}$"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 0
+                    }
+                  ]
+                },
+                "ua_cityType": {
+                  "type": "string"
+                },
+                "ua_streetType": {
+                  "type": "string"
+                },
+                "costAssessment": {
+                  "type": "string"
+                },
+                "otherObjectType": {
+                  "type": "string"
+                },
+                "rights": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]*$": {
+                      "description": "Right owner details",
+                      "type": "object",
+                      "properties": {
+                        "citizen": {
+                          "type": "string"
+                        },
+                        "ua_city": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "ua_street": {
+                          "type": "string"
+                        },
+                        "ua_lastname": {
+                          "type": "string"
+                        },
+                        "ua_actualAddressr": {
+                          "type": "string"
+                        },   
+                        "rights_id": {
+                          "type": "string"
+                        }, 
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        }, 
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },                          
+                        "eng_lastname": {
+                          "type": "string"
+                        },
+                        "rightBelongs": {
+                          "type": "string"
+                        },
+                        "ua_firstname": {
+                          "type": "string"
+                        },
+                        "ukr_lastname": {
+                          "type": "string"
+                        },
+                        "eng_fullname": {
+                          "type": "string"
+                        },
+                        "ukr_fullname": {
+                          "type": "string"
+                        },
+                        "eng_firstname": {
+                          "type": "string"
+                        },
+                        "ownershipType": {
+                          "type": "string"
+                        },
+                        "ua_middlename": {
+                          "type": "string"
+                        },
+                        "ua_streetType": {
+                          "type": "string"
+                        },
+                        "ukr_firstname": {
+                          "type": "string"
+                        },
+                        "eng_middlename": {
+                          "type": "string"
+                        },
+                        "otherOwnership": {
+                          "type": "string"
+                        },
+                        "ukr_middlename": {
+                          "type": "string"
+                        },
+                        "rights_cityPath": {
+                          "type": "string"
+                        },
+                        "ua_company_name": {
+                          "type": "string"
+                        },
+
+
+                        "ukr_actualAddressr": {
+                          "type": "string"
+                        },
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+
+
+                        "eng_company_name": {
+                          "type": "string"
+                        },
+                        "ukr_company_name": {
+                          "type": "string"
+                        },
+                        "ua_buildType": {
+                          "type": "string"
+                        },
+                        "percent-ownership": {
+                          "type": "string"
+                        }
                       },
-                      {
+                      "patternProperties": {
+                        ".*_extendedstatus$": {
                         "type": "string"
-                      }
-                    ]
-                  }
-                }
-              }
-            }
-          },
-          "step_8": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Corporate law details",
-                "type": "object",
-                "properties": {
-                  "cost": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^[0-9,\\,\\.]+$"
-                      },
-                      {
-                        "type": "string",
-                        "pattern": "^$"
-                      }
-                    ]
-                  },
-                  "name": {
-                    "type": "string"
-                  },
-                  "person": {
-                    "oneOf0":[
-                        {
-                          "type": "string",
-                          "pattern": "^[0-9]*$"
                         },
-                        {
-                          "type": "string",
-                          "pattern": "^family$"
-                        } 
-                      ]
-                  },
-                  "country": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "en_name": {
-                    "type": "string"
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "legalForm": {
-                    "type": "string"
-                  },
-                  "corporate_rights_company_code": {
-                    "type": "string"
-                  },
-                  "cost_percent": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^[0-9,\\,\\.]+$"
-                      },
-                      {
-                        "type": "string",
-                        "pattern": "^$"
-                      }
-                    ]
-                  },
-                  "rights": {
-                    "type": "object",
-                    "patternProperties": {
-                      "^[0-9]*$": {
-                        "description": "Right owner details",
-                        "type": "object",
-                        "properties": {
-                          "citizen": {
-                            "type": "string"
-                          },
-                          "ua_city": {
-                            "type": "string"
-                          },
-                          "ua_street": {
-                            "type": "string"
-                          },
-                          "ua_lastname": {
-                            "type": "string"
-                          },
-                          "eng_lastname": {
-                            "type": "string"
-                          },
-                          "rightBelongs": {
-                            "type": "string"
-                          },
-                          "ua_firstname": {
-                            "type": "string"
-                          },
-                          "ukr_lastname": {
-                            "type": "string"
-                          },
-                          "eng_firstname": {
-                            "type": "string"
-                          },
-                          "eng_fullname": {
-                            "type": "string"
-                          },
-                          "rights_id": {
-                            "type": "string"
-                          }, 
-                          "ukr_fullname": {
-                            "type": "string"
-                          },
-                          "ua_buildType": {
-                            "type": "string"
-                          },
-                          "ownershipType": {
-                            "type": "string"
-                          },
-                          "ua_middlename": {
-                            "type": "string"
-                          },
-                          "ua_streetType": {
-                            "type": "string"
-                          },
-                          "ukr_firstname": {
-                            "type": "string"
-                          },
-                          "eng_middlename": {
-                            "type": "string"
-                          },
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "otherOwnership": {
-                            "type": "string"
-                          },
-                          "ukr_middlename": {
-                            "type": "string"
-                          },
-                          "rights_cityPath": {
-                            "type": "string"
-                          },
-                          "ua_company_name": {
-                            "type": "string"
-                          },
-                          "eng_company_name": {
-                            "type": "string"
-                          },
-                          "ukr_company_name": {
-                            "type": "string"
-                          },
-                          "percent-ownership": {
-                            "type": "string"
-                          }
+                        ".*postCode": {
+                          "type": "string"
                         },
-                        "patternProperties": {
-                          ".*_extendedstatus$": {
-                            "type": "string"
-                          },
-                          ".*postCode": {
-                            "type": "string"
-                          },
-                          ".*company_code": {
-                            "type": "string"
-                          },                        
-                          ".*sameRegLivingAddress": {
-                            "oneOf": [
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "string"
-                              }
-                            ]
-                          }
+                        ".*company_code": {
+                          "type": "string"
                         },
-                        "additionalProperties": false
-                      }
-                    }
-                  }
-                },
-                "patternProperties": {
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "step_9": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Beneficial owner details",
-                "type": "object",
-                "properties": {
-                  "name": {
-                    "type": "string"
-                  },
-                  "person": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "country": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "en_name": {
-                    "type": "string"
-                  },
-                  "location": {
-                    "type": "string"
-                  },
-                  "legalForm": {
-                    "type": "string"
-                  },
-                  "uafirm_reestrCode": {
-                    "type": "string"
-                  }
-                },
-                "patternProperties": {
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "step_10": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Intangible assets",
-                "type": "object",
-                "properties": {
-                  "person": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "objectType": {
-                    "type": "string"
-                  },
-                  "owningDate": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}$"
-                      },
-                      {
-                        "type": "string",
-                        "maxLength": 0
-                      }
-                    ]
-                  },
-                  "costDateOrigin": {
-                    "type": "string"
-                  },
-                  "otherObjectType": {
-                    "type": "string"
-                  },
-                  "descriptionObject": {
-                    "type": "string"
-                  },
-                  "rights": {
-                    "type": "object",
-                    "patternProperties": {
-                      "^[0-9]*$": {
-                        "description": "Right owner details",
-                        "type": "object",
-                        "properties": {
-                          "citizen": {
-                            "type": "string"
-                          },
-                          "ua_city": {
-                            "type": "string"
-                          },
-                          "ua_street": {
-                            "type": "string"
-                          },
-                          "ua_lastname": {
-                            "type": "string"
-                          },
-                          "eng_lastname": {
-                            "type": "string"
-                          },
-                          "rightBelongs": {
-                            "type": "string"
-                          },
-                          "ua_firstname": {
-                            "type": "string"
-                          },
-                          "ukr_lastname": {
-                            "type": "string"
-                          },
-                          "eng_firstname": {
-                            "type": "string"
-                          },
-                          "ownershipType": {
-                            "type": "string"
-                          },
-                          "ua_middlename": {
-                            "type": "string"
-                          },
-                          "ua_streetType": {
-                            "type": "string"
-                          },
-                          "rights_id": {
-                            "type": "string"
-                          }, 
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_firstname": {
-                            "type": "string"
-                          },
-                          "eng_middlename": {
-                            "type": "string"
-                          },
-                          "otherOwnership": {
-                            "type": "string"
-                          },
-                          "ukr_middlename": {
-                            "type": "string"
-                          },
-                          "rights_cityPath": {
-                            "type": "string"
-                          },
-                          "eng_fullname": {
-                            "type": "string"
-                          },
-                          "ukr_fullname": {
-                            "type": "string"
-                          },
-                          "ua_company_name": {
-                            "type": "string"
-                          },
-                          "eng_company_name": {
-                            "type": "string"
-                          },
-                          "ua_buildType": {
-                            "type": "string"
-                          },
-                          "ukr_company_name": {
-                            "type": "string"
-                          },
-                          "percent-ownership": {
-                            "type": "string"
-                          }
+                        
+                        ".*taxNumber": {
+                          "type": "string"
                         },
-                        "patternProperties": {
-                          ".*_extendedstatus$": {
-                            "type": "string"
-                          },
-                          ".*postCode": {
-                            "type": "string"
-                          },
-                          ".*company_code": {
-                            "type": "string"
-                          },                        
-                          ".*sameRegLivingAddress": {
-                            "oneOf": [
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "string"
-                              }
-                            ]
-                          }
+                        ".*regAddress": {
+                          "type": "string"
                         },
-                        "additionalProperties": false
-                      }
-                    }
-                  }
-                },
-                "patternProperties": {
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "step_11": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Revenues, including gifts",
-                "type": "object",
-                "properties": {
-                  "person": {
-                    "oneOf0":[
-                        {
-                          "type": "string",
-                          "pattern": "^[0-9]*$"
-                        },
-                        {
-                          "type": "string",
-                          "pattern": "^family$"
-                        } 
-                      ]
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "objectType": {
-                    "type": "string"
-                  },
-                  "sizeIncome": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^\\d{1,}([\\.|\\,]\\d{1,3}|)$"
-                      },
-                      {
-                        "type": "string",
-                        "pattern": "^$"
-                      }
-                    ]
-                  },
-                  "incomeSource": {
-                    "type": "string"
-                  },
-                  "source_citizen": {
-                    "type": "string"
-                  },
-                  "otherObjectType": {
-                    "type": "string"
-                  },
-                  "source_eng_fullname": {
-                    "type": "string"
-                  },
-                  "source_ua_company_code": {
-                    "type": "string"
-                  },
-                  "source_eng_company_code": {
-                    "type": "string"
-                  },
-                  "source_eng_firstname": {
-                    "type": "string"
-                  },
-                  "source_eng_lastname": {
-                    "type": "string"
-                  },
-                  "source_eng_middlename": {
-                    "type": "string"
-                  },
-                  "source_ukr_fullname": {
-                    "type": "string"
-                  },
-                  "source_ua_company_name": {
-                    "type": "string"
-                  },
-                  "source_eng_company_name": {
-                    "type": "string"
-                  },
-                  "source_ukr_company_name": {
-                    "type": "string"
-                  },
-                  "rights": {
-                    "type": "object",
-                    "patternProperties": {
-                      "^[0-9]*$": {
-                        "description": "Right owner details",
-                        "type": "object",
-                        "properties": {
-                          "citizen": {
-                            "type": "string"
-                          },
-                          "ua_city": {
-                            "type": "string"
-                          },
-                          "ua_street": {
-                            "type": "string"
-                          },
-                          "ua_lastname": {
-                            "type": "string"
-                          },
-                          "ua_actualAddressr": {
-                            "type": "string"
-                          },
-                          "eng_lastname": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "rightBelongs": {
-                            "type": "string"
-                          },
-                          "ua_firstname": {
-                            "type": "string"
-                          },
-                          "ukr_lastname": {
-                            "type": "string"
-                          },
-                          "eng_firstname": {
-                            "type": "string"
-                          },
-                          "rights_id": {
-                            "type": "string"
-                          }, 
-                          "eng_fullname": {
-                            "type": "string"
-                          },
-                          "ua_buildType": {
-                            "type": "string"
-                          },                        
-                          "ukr_fullname": {
-                            "type": "string"
-                          },
-                          "ownershipType": {
-                            "type": "string"
-                          },
-                          "ua_middlename": {
-                            "type": "string"
-                          },
-                          "ua_streetType": {
-                            "type": "string"
-                          },
-                          "ukr_firstname": {
-                            "type": "string"
-                          },
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "eng_middlename": {
-                            "type": "string"
-                          },
-                          "otherOwnership": {
-                            "type": "string"
-                          },
-                          "ukr_middlename": {
-                            "type": "string"
-                          },
-                          "ukr_actualAddressr": {
-                            "type": "string"
-                          },
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "rights_cityPath": {
-                            "type": "string"
-                          },
-                          "ua_company_name": {
-                            "type": "string"
-                          },
-                          "eng_company_name": {
-                            "type": "string"
-                          },
-                          "ukr_company_name": {
-                            "type": "string"
-                          },
-                          "percent-ownership": {
-                            "type": "string"
-                          }
-                        },
-                        "patternProperties": {
-                            ".*_extendedstatus$": {
+                        ".*sameRegLivingAddress": {
+                          "oneOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
                               "type": "string"
-                          },
-                          ".*postCode": {
-                            "type": "string"
-                          },
-                          ".*company_code": {
-                            "type": "string"
-                          },  
-                          ".*taxNumber": {
-                            "type": "string"
-                          }, 
-                          ".*regAddress": {
-                            "type": "string"
-                          },                     
-                          ".*sameRegLivingAddress": {
-                            "oneOf": [
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "string"
-                              }
-                            ]
-                          }
-                        },
-                        "additionalProperties": false
-                      }
-                    }
-                  }
-                },
-                "patternProperties": {
-                  "^source_u\\w{1,2}_lastname": {
-                    "type": "string"
-                  },
-                  "^source_u\\w{1,2}_firstname": {
-                    "type": "string"
-                  },
-                  "^source_u\\w{1,2}_middlename": {
-                    "type": "string"
-                  },
-                  "^source_\\w{1,3}_sameRegLivingAddress": {
-                    "oneOf": [
-                      {
-                        "type": "boolean"
+                            }
+                          ]
+                        }
                       },
-                      {
-                        "type": "string"
-                      }
-                    ]
+                      "additionalProperties": false
+                    }
                   },
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  }
+                }
+              },
+              "patternProperties": {
+                ".*_extendedstatus$": {
+                  "type": "string"
+                },
+                ".*postCode": {
+                  "type": "string"
                 }
               }
             }
-          },
-          "step_12": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Cash assets",
-                "type": "object",
-                "properties": {
-                  "person": {
-                    "oneOf0":[
-                        {
-                          "type": "string",
-                          "pattern": "^[0-9]*$"
+          }
+        },
+        "step_4": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Real estate details",
+              "type": "object",
+              "properties": {
+                "city": {
+                  "type": "string"
+                },
+                "person": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "cityPath": {
+                  "type": "string"
+                },
+                "ua_region": {
+                  "type": "string"
+                },
+                "ua_area": {
+                  "type": "string"
+                },
+                "district": {
+                  "type": "string"
+                },
+                "postCode": {
+                  "type": "string"
+                },
+                "ua_buildType": {
+                  "type": "string"
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "totalArea": { "type": "number" },
+                "ua_street": {
+                  "type": "string"
+                },
+                "objectType": {
+                  "enum": [
+                    "Квартира",
+                    "Земельна ділянка",
+                    "Житловий будинок",
+                    "Кімната",
+                    "Гараж",
+                    "Садовий (дачний) будинок",
+                    "Офіс",
+                    "Інше"
+                  ]
+                },
+                "ua_cityType": {
+                  "type": "string"
+                },
+                "exploitation": {
+                  "type": "boolean"
+                },
+                "isThirdOwner": {
+                  "type": "boolean"
+                },
+                "ua_city_full": {
+                  "type": "string"
+                },
+                "eng_regNumber": {
+                  "type": "string"
+                },
+                "ua_streetType": {
+                  "type": "string"
+                },
+                "dontRegistered": {
+                  "type": "boolean"
+                },
+                "flag_thirdOwner": {
+                  "type": "integer"
+                },
+                "otherObjectType": {
+                  "type": "string"
+                },
+                "addition_lastname": {
+                  "type": "string"
+                },
+                "unfinishConstruct": {
+                  "type": "boolean"
+                },
+                "addition_firstname": {
+                  "type": "string"
+                },
+                "thirdOwner_citizen": {
+                  "type": "string"
+                },
+                "addition_middlename": {
+                  "type": "string"
+                },
+                "addition_ua_fullName": {
+                  "type": "string"
+                },
+                "addition_company_name": {
+                  "type": "string"
+                },
+                "addition_eng_fullName": {
+                  "type": "string"
+                },
+                "builtMaterialsOrFunds": {
+                  "type": "boolean"
+                },
+                "addition_ua_company_name": {
+                  "type": "string"
+                },
+                "addition_eng_company_name": {
+                  "type": "string"
+                },
+                "belongsSubjectOfDeclaration": {
+                  "type": "boolean"
+                },
+                "actualAddressEqualRegAddress": {
+                  "type": "string"
+                },
+                "rights": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]*$": {
+                      "description": "Right owner details",
+                      "type": "object",
+                      "properties": {
+                        "citizen": {
+                          "type": "string"
                         },
-                        {
-                          "type": "string",
-                          "pattern": "^family$"
-                        } 
-                      ]
+                        "ua_city": {
+                          "type": "string"
+                        },
+                        "ua_street": {
+                          "type": "string"
+                        },
+                        "ua_lastname": {
+                          "type": "string"
+                        },
+                        "eng_lastname": {
+                          "type": "string"
+                        },
+                        "rightBelongs": {
+                          "type": "string"
+                        },
+                        "ua_firstname": {
+                          "type": "string"
+                        },
+                        "ukr_lastname": {
+                          "type": "string"
+                        },
+                        "eng_firstname": {
+                          "type": "string"
+                        },
+                        "ownershipType": {
+                          "type": "string"
+                        },
+                        "ua_buildType": {
+                          "type": "string"
+                        },
+                        "ua_middlename": {
+                          "type": "string"
+                        },
+                        "ua_streetType": {
+                          "type": "string"
+                        },
+                        "rights_id": {
+                          "type": "string"
+                        }, 
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_firstname": {
+                          "type": "string"
+                        },
+                        "eng_middlename": {
+                          "type": "string"
+                        },
+                        "otherOwnership": {
+                          "type": "string"
+                        },
+                        "ukr_middlename": {
+                          "type": "string"
+                        },
+                        "rights_cityPath": {
+                          "type": "string"
+                        },
+                        "ua_company_name": {
+                          "type": "string"
+                        },
+                        "eng_company_name": {
+                          "type": "string"
+                        },
+                        "ukr_company_name": {
+                          "type": "string"
+                        },
+                        "percent-ownership": {
+                          "type": "string"
+                        }
+                      },
+                      "patternProperties": {
+                        ".*postCode": {
+                          "type": "string"
+                        },
+                        ".*company_code": {
+                          "type": "string"
+                        },                        
+                        ".*sameRegLivingAddress": {
+                          "oneOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      },
+                    }
+                  }
+                }
+              },
+              "patternProperties": {
+                ".*_extendedstatus$": {
+                  "type": "string"
+                },
+                ".*_company_code": {
+                  "type": "string"
+                },
+                ".*postCode": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "step_5": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Real estate details",
+              "type": "object",
+              "properties": {
+                "person": {
+                  "type": "string"
+                },
+                "dateUse": {
+                  "type": "string"
+                },
+                "acqPeriod": {
+                  "type": "string"
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "trademark": {
+                  "type": "string"
+                },
+                "objectType": {
+                  "type": "string"
+                },
+                "acqBeforeFD": {
+                  "type": "boolean"
+                },
+                "costDateUse": {
+                  "type": "string"
+                },
+                "propertyDescr": {
+                  "type": "string"
+                },
+                "otherObjectType": {
+                  "type": "string"
+                },
+                "typeProperty": {
+                  "type": "string"
+                },
+                "otherTypeProperty": {
+                  "type": "string"
+                },
+                "manufacturerName": {
+                  "type": "string"
+                },
+                "rights": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]*$": {
+                      "description": "Right owner details",
+                      "type": "object",
+                      "properties": {
+                        "citizen": {
+                          "type": "string"
+                        },
+                        "ua_city": {
+                          "type": "string"
+                        },
+                        "ua_street": {
+                          "type": "string"
+                        },
+                        "ua_lastname": {
+                          "type": "string"
+                        },
+                        "eng_lastname": {
+                          "type": "string"
+                        },
+                        "rightBelongs": {
+                          "type": "string"
+                        },
+                        "ua_firstname": {
+                          "type": "string"
+                        },
+                        "ukr_lastname": {
+                          "type": "string"
+                        },
+                        "eng_firstname": {
+                          "type": "string"
+                        },
+                        "rights_id": {
+                          "type": "string"
+                        }, 
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "eng_fullname": {
+                          "type": "string"
+                        },
+                        "ukr_fullname": {
+                          "type": "string"
+                        },
+                        "ownershipType": {
+                          "type": "string"
+                        },
+                        "ua_middlename": {
+                          "type": "string"
+                        },
+                        "ua_streetType": {
+                          "type": "string"
+                        },
+                        "ukr_firstname": {
+                          "type": "string"
+                        },
+                        "eng_middlename": {
+                          "type": "string"
+                        },
+                        "otherOwnership": {
+                          "type": "string"
+                        },
+                        "ukr_middlename": {
+                          "type": "string"
+                        },
+                        "rights_cityPath": {
+                          "type": "string"
+                        },
+                        "ua_company_name": {
+                          "type": "string"
+                        },
+                        "eng_company_name": {
+                          "type": "string"
+                        },
+                        "ukr_company_name": {
+                          "type": "string"
+                        },
+                        "ua_buildType": {
+                          "type": "string"
+                        },
+                        "percent-ownership": {
+                          "type": "string"
+                        }
+                      },
+                      "patternProperties": {
+                        ".*_extendedstatus$": {
+                        "type": "string"
+                        },
+                        ".*postCode": {
+                          "type": "string"
+                        },
+                        ".*company_code": {
+                          "type": "string"
+                        },                        
+                        ".*sameRegLivingAddress": {
+                          "oneOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      "additionalProperties": false
+                    }
                   },
-                  "objectType": {
-                    "type": "string"
-                  },
-                  "sizeAssets": {
-                    "oneOf": [
+                }
+              },
+              "patternProperties": {
+                ".*_extendedstatus$": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "step_6": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Vehicle details",
+              "type": "object",
+              "properties": {
+                "brand": {
+                  "type": "string"
+                },
+                "model": {
+                  "type": "string"
+                },
+                "person": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "costDate": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[0-9,\\,\\.]+$"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^$|не відомо"
+                    }
+                  ]
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "objectType": {
+                  "type": "string",
+                  "enum": [
+                    "Автомобіль легковий",
+                    "Автомобіль легковий (спеціальні)",
+                    "Автомобіль вантажний",
+                    "Мотоцикл (мопед)",
+                    "Водний засіб",
+                    "Сільськогосподарська техніка",
+                    "Повітряне судно",
+                    "Повітряний засіб",
+                    "Інше"
+                  ]
+                },
+                "owningDate": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}$"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 0
+                    }
+                  ]
+                },
+                "graduationYear": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "otherObjectType": {
+                  "type": "string"
+                },
+                "typeProperty": {
+                  "type": "string"
+                },
+                "otherTypeProperty": {
+                  "type": "string"
+                },
+                "rights": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]*$": {
+                      "description": "Right owner details",
+                      "type": "object",
+                      "properties": {
+                        "citizen": {
+                          "type": "string"
+                        },
+                        "ua_city": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "ua_street": {
+                          "type": "string"
+                        },
+                        "ua_lastname": {
+                          "type": "string"
+                        },
+                        "ua_actualAddressr": {
+                          "type": "string"
+                        },
+                        "eng_lastname": {
+                          "type": "string"
+                        },
+                        "rightBelongs": {
+                          "type": "string"
+                        },
+                        "rights_id": {
+                          "type": "string"
+                        }, 
+                        "ua_firstname": {
+                          "type": "string"
+                        },
+                        "ukr_lastname": {
+                          "type": "string"
+                        },
+                        "eng_firstname": {
+                          "type": "string"
+                        },
+                        "ua_buildType": {
+                          "type": "string"
+                        },
+                        "eng_fullname": {
+                          "type": "string"
+                        },
+                        "ukr_fullname": {
+                          "type": "string"
+                        },
+                        "ownershipType": {
+                          "type": "string"
+                        },
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "ua_middlename": {
+                          "type": "string"
+                        },
+                        "ua_streetType": {
+                          "type": "string"
+                        },
+                        "ukr_actualAddressr": {
+                          "type": "string"
+                        },
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_firstname": {
+                          "type": "string"
+                        },
+                        "eng_middlename": {
+                          "type": "string"
+                        },
+                        "otherOwnership": {
+                          "type": "string"
+                        },
+                        "ukr_middlename": {
+                          "type": "string"
+                        },
+                        "rights_cityPath": {
+                          "type": "string"
+                        },
+                        "ua_company_name": {
+                          "type": "string"
+                        },
+                        "eng_company_name": {
+                          "type": "string"
+                        },
+                        "ukr_company_name": {
+                          "type": "string"
+                        },
+                        "percent-ownership": {
+                          "type": "string"
+                        }
+                      },
+                      "patternProperties": {
+                        ".*_extendedstatus$": {
+                          "type": "string"
+                        },
+                        ".*postCode": {
+                          "type": "string"
+                        },
+                        ".*company_code": {
+                          "type": "string"
+                        },   
+                        ".*regAddress": {
+                          "type": "string"
+                        },  
+                        ".*taxNumber": {
+                          "type": "string"
+                        },                   
+                        ".*sameRegLivingAddress": {
+                          "oneOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  }
+                }
+              },
+              "patternProperties": {
+                ".*_extendedstatus$": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "step_7": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Securities",
+              "type": "object",
+              "properties": {
+                "cost": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[0-9,\\,\\.]+$"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^$|не відомо"
+                    }
+                  ]
+                },
+                "amount": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "person": {
+                  "oneOf0":[
                       {
                         "type": "string",
-                        "pattern": "^\\d{1,}([\\.|\\,]\\d{1,3}|)$"
+                        "pattern": "^[0-9]*$"
                       },
                       {
                         "type": "string",
-                        "pattern": "^$"
-                      }
+                        "pattern": "^family$"
+                      } 
                     ]
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "organization": {
-                    "type": "string"
-                  },
-                  "assetsCurrency": {
-                    "type": "string"
-                  },
-                  "otherObjectType": {
-                    "type": "string"
-                  },
-                  "organization_type": {
-                    "type": "string"
-                  },
-                  "debtor_ua_lastname": {
-                    "type": "string"
-                  },
-                  "debtor_eng_lastname": {
-                    "type": "string"
-                  },
-                  "debtor_ua_firstname": {
-                    "type": "string"
-                  },
-                  "debtor_ukr_lastname": {
-                    "type": "string"
-                  },
-                  "debtor_eng_firstname": {
-                    "type": "string"
-                  },
-                  "debtor_ua_middlename": {
-                    "type": "string"
-                  },
-                  "debtor_ukr_firstname": {
-                    "type": "string"
-                  },
-                  "debtor_eng_middlename": {
-                    "type": "string"
-                  },
-                  "debtor_ukr_middlename": {
-                    "type": "string"
-                  },
-                  "organization_ua_company_name": {
-                    "type": "string"
-                  },
-                  "organization_eng_company_name": {
-                    "type": "string"
-                  },
-                  "organization_ua_company_code": {
-                    "type": "string"
-                  },
-                  "organization_eng_company_code": {
-                    "type": "string"
-                  },
-                  "organization_ukr_company_name": {
-                    "type": "string"
-                  },
-                  "rights": {
-                    "type": "object",
-                    "patternProperties": {
-                      "^[0-9]*$": {
-                        "description": "Right owner details",
-                        "type": "object",
-                        "properties": {
-                          "citizen": {
-                            "type": "string"
-                          },
-                          "ua_city": {
-                            "type": "string"
-                          },
-                          "ua_street": {
-                            "type": "string"
-                          },
-                          "ua_lastname": {
-                            "type": "string"
-                          },
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "rights_id": {
-                            "type": "string"
-                          }, 
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "eng_lastname": {
-                            "type": "string"
-                          },
-                          "rightBelongs": {
-                            "type": "string"
-                          },
-                          "ua_firstname": {
-                            "type": "string"
-                          },
-                          "ukr_lastname": {
-                            "type": "string"
-                          },
-                          "eng_firstname": {
-                            "type": "string"
-                          },
-                          "eng_fullname": {
-                            "type": "string"
-                          },
-                          "ukr_fullname": {
-                            "type": "string"
-                          },
-                          "ownershipType": {
-                            "type": "string"
-                          },
-                          "ua_middlename": {
-                            "type": "string"
-                          },
-                          "ua_buildType": {
-                            "type": "string"
-                          },
-                          "ua_streetType": {
-                            "type": "string"
-                          },
-                          "ukr_firstname": {
-                            "type": "string"
-                          },
-                          "eng_middlename": {
-                            "type": "string"
-                          },
-                          "otherOwnership": {
-                            "type": "string"
-                          },
-                          "ukr_middlename": {
-                            "type": "string"
-                          },
-                          "eng_company_address": {
-                            "type": "string"
-                          },
-                          "ukr_company_address": {
-                            "type": "string"
-                          },
-                          "rights_cityPath": {
-                            "type": "string"
-                          },
-                          "ua_company_name": {
-                            "type": "string"
-                          },
-                          "eng_company_name": {
-                            "type": "string"
-                          },
-                          "ukr_company_name": {
-                            "type": "string"
-                          },
-                          "percent-ownership": {
-                            "type": "string"
-                          }
+                },
+                "emitent": {
+                  "type": "string"
+                },
+                "iteration": {
+                  "type": "string"
+                },
+                "owningDate": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}$"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 0
+                    }
+                  ]
+                },
+                "emitent_type": {
+                  "type": "string"
+                },
+                "typeProperty": {
+                      "type": "string",
+                      "enum": [
+                        "Акції",
+                        "Інше",
+                        "Боргові цінні папери",
+                        "Інвестиційні сертифікати",
+                        "Чеки",
+                        "Іпотечні цінні папери",
+                        "Похідні цінні папери (деривативи)",
+                        "Приватизаційні цінні папери (ваучери тощо)"
+                      ]
+                },
+                "otherObjectType": {
+                  "type": "string"
+                },
+                "subTypeProperty1": {
+                  "type": "string"
+                },
+                "subTypeProperty2": {
+                  "type": "string"
+                },
+                "subTypeProperty": {
+                  "type": "string"
+                },
+                "rights": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]*$": {
+                      "description": "Right owner details",
+                      "type": "object",
+                      "properties": {
+                        "citizen": {
+                          "type": "string"
                         },
-                        "patternProperties": {
+                        "ua_city": {
+                          "type": "string"
+                        },
+                        "ua_street": {
+                          "type": "string"
+                        },
+                        "ua_lastname": {
+                          "type": "string"
+                        },
+                        "eng_lastname": {
+                          "type": "string"
+                        },
+                        "rightBelongs": {
+                          "type": "string"
+                        },
+                        "ua_firstname": {
+                          "type": "string"
+                        },
+                        "ukr_lastname": {
+                          "type": "string"
+                        },
+                        "ua_buildType": {
+                          "type": "string"
+                        },
+                        "eng_firstname": {
+                          "type": "string"
+                        },
+                        "eng_fullname": {
+                          "type": "string"
+                        },
+                        "ukr_fullname": {
+                          "type": "string"
+                        },
+                        "rights_id": {
+                          "type": "string"
+                        }, 
+                        "ownershipType": {
+                          "type": "string"
+                        },
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "ua_middlename": {
+                          "type": "string"
+                        },
+                        "ua_streetType": {
+                          "type": "string"
+                        },
+                        "ukr_firstname": {
+                          "type": "string"
+                        },
+                        "eng_middlename": {
+                          "type": "string"
+                        },
+                        "otherOwnership": {
+                          "type": "string"
+                        },
+                        "ukr_middlename": {
+                          "type": "string"
+                        },
+                        "rights_cityPath": {
+                          "type": "string"
+                        },
+                        "ua_company_name": {
+                          "type": "string"
+                        },
+                        "eng_company_name": {
+                          "type": "string"
+                        },
+                        "ukr_company_name": {
+                          "type": "string"
+                        },
+                        "percent-ownership": {
+                          "type": "string"
+                        }
+                      },
+                      "patternProperties": {
+                        ".*_extendedstatus$": {
+                          "type": "string"
+                        },
+                        ".*postCode": {
+                          "type": "string"
+                        },
+                        ".*company_code": {
+                          "type": "string"
+                        },                        
+                        ".*sameRegLivingAddress": {
+                          "oneOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  }
+                }
+              },
+              "patternProperties": {
+                "^emitent_.*name$": {
+                  "type": "string"
+                },
+                "^emitent_.*code$": {
+                  "type": "string"
+                },
+                ".*_extendedstatus$": {
+                  "type": "string"
+                },
+                "^emitent_\\w{1,3}_sameRegLivingAddress": {
+                  "oneOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "step_8": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Corporate law details",
+              "type": "object",
+              "properties": {
+                "cost": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[0-9,\\,\\.]+$"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^$"
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "person": {
+                  "oneOf0":[
+                      {
+                        "type": "string",
+                        "pattern": "^[0-9]*$"
+                      },
+                      {
+                        "type": "string",
+                        "pattern": "^family$"
+                      } 
+                    ]
+                },
+                "country": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "en_name": {
+                  "type": "string"
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "legalForm": {
+                  "type": "string"
+                },
+                "corporate_rights_company_code": {
+                  "type": "string"
+                },
+                "cost_percent": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[0-9,\\,\\.]+$"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^$"
+                    }
+                  ]
+                },
+                "rights": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]*$": {
+                      "description": "Right owner details",
+                      "type": "object",
+                      "properties": {
+                        "citizen": {
+                          "type": "string"
+                        },
+                        "ua_city": {
+                          "type": "string"
+                        },
+                        "ua_street": {
+                          "type": "string"
+                        },
+                        "ua_lastname": {
+                          "type": "string"
+                        },
+                        "eng_lastname": {
+                          "type": "string"
+                        },
+                        "rightBelongs": {
+                          "type": "string"
+                        },
+                        "ua_firstname": {
+                          "type": "string"
+                        },
+                        "ukr_lastname": {
+                          "type": "string"
+                        },
+                        "eng_firstname": {
+                          "type": "string"
+                        },
+                        "eng_fullname": {
+                          "type": "string"
+                        },
+                        "rights_id": {
+                          "type": "string"
+                        }, 
+                        "ukr_fullname": {
+                          "type": "string"
+                        },
+                        "ua_buildType": {
+                          "type": "string"
+                        },
+                        "ownershipType": {
+                          "type": "string"
+                        },
+                        "ua_middlename": {
+                          "type": "string"
+                        },
+                        "ua_streetType": {
+                          "type": "string"
+                        },
+                        "ukr_firstname": {
+                          "type": "string"
+                        },
+                        "eng_middlename": {
+                          "type": "string"
+                        },
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "otherOwnership": {
+                          "type": "string"
+                        },
+                        "ukr_middlename": {
+                          "type": "string"
+                        },
+                        "rights_cityPath": {
+                          "type": "string"
+                        },
+                        "ua_company_name": {
+                          "type": "string"
+                        },
+                        "eng_company_name": {
+                          "type": "string"
+                        },
+                        "ukr_company_name": {
+                          "type": "string"
+                        },
+                        "percent-ownership": {
+                          "type": "string"
+                        }
+                      },
+                      "patternProperties": {
+                        ".*_extendedstatus$": {
+                          "type": "string"
+                        },
+                        ".*postCode": {
+                          "type": "string"
+                        },
+                        ".*company_code": {
+                          "type": "string"
+                        },                        
+                        ".*sameRegLivingAddress": {
+                          "oneOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  }
+                }
+              },
+              "patternProperties": {
+                ".*_extendedstatus$": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "step_9": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Beneficial owner details",
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "person": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "country": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "en_name": {
+                  "type": "string"
+                },
+                "location": {
+                  "type": "string"
+                },
+                "legalForm": {
+                  "type": "string"
+                },
+                "uafirm_reestrCode": {
+                  "type": "string"
+                }
+              },
+              "patternProperties": {
+                ".*_extendedstatus$": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "step_10": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Intangible assets",
+              "type": "object",
+              "properties": {
+                "person": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "objectType": {
+                  "type": "string"
+                },
+                "owningDate": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}$"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 0
+                    }
+                  ]
+                },
+                "costDateOrigin": {
+                  "type": "string"
+                },
+                "otherObjectType": {
+                  "type": "string"
+                },
+                "descriptionObject": {
+                  "type": "string"
+                },
+                "rights": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]*$": {
+                      "description": "Right owner details",
+                      "type": "object",
+                      "properties": {
+                        "citizen": {
+                          "type": "string"
+                        },
+                        "ua_city": {
+                          "type": "string"
+                        },
+                        "ua_street": {
+                          "type": "string"
+                        },
+                        "ua_lastname": {
+                          "type": "string"
+                        },
+                        "eng_lastname": {
+                          "type": "string"
+                        },
+                        "rightBelongs": {
+                          "type": "string"
+                        },
+                        "ua_firstname": {
+                          "type": "string"
+                        },
+                        "ukr_lastname": {
+                          "type": "string"
+                        },
+                        "eng_firstname": {
+                          "type": "string"
+                        },
+                        "ownershipType": {
+                          "type": "string"
+                        },
+                        "ua_middlename": {
+                          "type": "string"
+                        },
+                        "ua_streetType": {
+                          "type": "string"
+                        },
+                        "rights_id": {
+                          "type": "string"
+                        }, 
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_firstname": {
+                          "type": "string"
+                        },
+                        "eng_middlename": {
+                          "type": "string"
+                        },
+                        "otherOwnership": {
+                          "type": "string"
+                        },
+                        "ukr_middlename": {
+                          "type": "string"
+                        },
+                        "rights_cityPath": {
+                          "type": "string"
+                        },
+                        "eng_fullname": {
+                          "type": "string"
+                        },
+                        "ukr_fullname": {
+                          "type": "string"
+                        },
+                        "ua_company_name": {
+                          "type": "string"
+                        },
+                        "eng_company_name": {
+                          "type": "string"
+                        },
+                        "ua_buildType": {
+                          "type": "string"
+                        },
+                        "ukr_company_name": {
+                          "type": "string"
+                        },
+                        "percent-ownership": {
+                          "type": "string"
+                        }
+                      },
+                      "patternProperties": {
+                        ".*_extendedstatus$": {
+                          "type": "string"
+                        },
+                        ".*postCode": {
+                          "type": "string"
+                        },
+                        ".*company_code": {
+                          "type": "string"
+                        },                        
+                        ".*sameRegLivingAddress": {
+                          "oneOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  }
+                }
+              },
+              "patternProperties": {
+                ".*_extendedstatus$": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "step_11": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Revenues, including gifts",
+              "type": "object",
+              "properties": {
+                "person": {
+                  "oneOf0":[
+                      {
+                        "type": "string",
+                        "pattern": "^[0-9]*$"
+                      },
+                      {
+                        "type": "string",
+                        "pattern": "^family$"
+                      } 
+                    ]
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "objectType": {
+                  "type": "string"
+                },
+                "sizeIncome": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{1,}([\\.|\\,]\\d{1,3}|)$"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^$"
+                    }
+                  ]
+                },
+                "incomeSource": {
+                  "type": "string"
+                },
+                "source_citizen": {
+                  "type": "string"
+                },
+                "otherObjectType": {
+                  "type": "string"
+                },
+                "source_eng_fullname": {
+                  "type": "string"
+                },
+                "source_ua_company_code": {
+                  "type": "string"
+                },
+                "source_eng_company_code": {
+                  "type": "string"
+                },
+                "source_eng_firstname": {
+                  "type": "string"
+                },
+                "source_eng_lastname": {
+                  "type": "string"
+                },
+                "source_eng_middlename": {
+                  "type": "string"
+                },
+                "source_ukr_fullname": {
+                  "type": "string"
+                },
+                "source_ua_company_name": {
+                  "type": "string"
+                },
+                "source_eng_company_name": {
+                  "type": "string"
+                },
+                "source_ukr_company_name": {
+                  "type": "string"
+                },
+                "rights": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]*$": {
+                      "description": "Right owner details",
+                      "type": "object",
+                      "properties": {
+                        "citizen": {
+                          "type": "string"
+                        },
+                        "ua_city": {
+                          "type": "string"
+                        },
+                        "ua_street": {
+                          "type": "string"
+                        },
+                        "ua_lastname": {
+                          "type": "string"
+                        },
+                        "ua_actualAddressr": {
+                          "type": "string"
+                        },
+                        "eng_lastname": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "rightBelongs": {
+                          "type": "string"
+                        },
+                        "ua_firstname": {
+                          "type": "string"
+                        },
+                        "ukr_lastname": {
+                          "type": "string"
+                        },
+                        "eng_firstname": {
+                          "type": "string"
+                        },
+                        "rights_id": {
+                          "type": "string"
+                        }, 
+                        "eng_fullname": {
+                          "type": "string"
+                        },
+                        "ua_buildType": {
+                          "type": "string"
+                        },                        
+                        "ukr_fullname": {
+                          "type": "string"
+                        },
+                        "ownershipType": {
+                          "type": "string"
+                        },
+                        "ua_middlename": {
+                          "type": "string"
+                        },
+                        "ua_streetType": {
+                          "type": "string"
+                        },
+                        "ukr_firstname": {
+                          "type": "string"
+                        },
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "eng_middlename": {
+                          "type": "string"
+                        },
+                        "otherOwnership": {
+                          "type": "string"
+                        },
+                        "ukr_middlename": {
+                          "type": "string"
+                        },
+                        "ukr_actualAddressr": {
+                          "type": "string"
+                        },
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "rights_cityPath": {
+                          "type": "string"
+                        },
+                        "ua_company_name": {
+                          "type": "string"
+                        },
+                        "eng_company_name": {
+                          "type": "string"
+                        },
+                        "ukr_company_name": {
+                          "type": "string"
+                        },
+                        "percent-ownership": {
+                          "type": "string"
+                        }
+                      },
+                      "patternProperties": {
                           ".*_extendedstatus$": {
                             "type": "string"
-                          },
-                          ".*postCode": {
-                            "type": "string"
-                          },
-                          ".*company_code": {
-                            "type": "string"
-                          },                      
-                          ".*sameRegLivingAddress": {
-                            "oneOf": [
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "string"
-                              }
-                            ]
-                          }
                         },
-                        "additionalProperties": false
-                      }
+                        ".*postCode": {
+                          "type": "string"
+                        },
+                        ".*company_code": {
+                          "type": "string"
+                        },  
+                        ".*taxNumber": {
+                          "type": "string"
+                        }, 
+                        ".*regAddress": {
+                          "type": "string"
+                        },                     
+                        ".*sameRegLivingAddress": {
+                          "oneOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      "additionalProperties": false
                     }
                   }
+                }
+              },
+              "patternProperties": {
+                "^source_u\\w{1,2}_lastname": {
+                  "type": "string"
                 },
-                "patternProperties": {
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  },
-                  ".*sameRegLivingAddress": {
-                            "oneOf": [
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "string"
-                              }
-                            ]
-                          }
+                "^source_u\\w{1,2}_firstname": {
+                  "type": "string"
+                },
+                "^source_u\\w{1,2}_middlename": {
+                  "type": "string"
+                },
+                "^source_\\w{1,3}_sameRegLivingAddress": {
+                  "oneOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                ".*_extendedstatus$": {
+                  "type": "string"
                 }
               }
             }
-          },
-          "step_13": {
-            "oneOf": [
-              {
-                "type": "object"
-              },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Financial liabilities",
-                "type": "object",
-                "properties": {
-                  "person": {
-                    "oneOf0":[
-                        {
-                          "type": "string",
-                          "pattern": "^[0-9]*$"
-                        },
-                        {
-                          "type": "string",
-                          "pattern": "^family$"
-                        } 
-                      ]
-                  },
-                  "currency": {
-                    "type": "string"
-                  },
-                  "guarantor": {
-                    "oneOf": [
+          }
+        },
+        "step_12": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Cash assets",
+              "type": "object",
+              "properties": {
+                "person": {
+                  "oneOf0":[
                       {
-                        "type": "object"
+                        "type": "string",
+                        "pattern": "^[0-9]*$"
                       },
                       {
-                        "type": "array"
+                        "type": "string",
+                        "pattern": "^family$"
+                      } 
+                    ]
+                },
+                "objectType": {
+                  "type": "string"
+                },
+                "sizeAssets": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{1,}([\\.|\\,]\\d{1,3}|)$"
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^$"
+                    }
+                  ]
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "organization": {
+                  "type": "string"
+                },
+                "assetsCurrency": {
+                  "type": "string"
+                },
+                "otherObjectType": {
+                  "type": "string"
+                },
+                "organization_type": {
+                  "type": "string"
+                },
+                "debtor_ua_lastname": {
+                  "type": "string"
+                },
+                "debtor_eng_lastname": {
+                  "type": "string"
+                },
+                "debtor_ua_firstname": {
+                  "type": "string"
+                },
+                "debtor_ukr_lastname": {
+                  "type": "string"
+                },
+                "debtor_eng_firstname": {
+                  "type": "string"
+                },
+                "debtor_ua_middlename": {
+                  "type": "string"
+                },
+                "debtor_ukr_firstname": {
+                  "type": "string"
+                },
+                "debtor_eng_middlename": {
+                  "type": "string"
+                },
+                "debtor_ukr_middlename": {
+                  "type": "string"
+                },
+                "organization_ua_company_name": {
+                  "type": "string"
+                },
+                "organization_eng_company_name": {
+                  "type": "string"
+                },
+                "organization_ua_company_code": {
+                  "type": "string"
+                },
+                "organization_eng_company_code": {
+                  "type": "string"
+                },
+                "organization_ukr_company_name": {
+                  "type": "string"
+                },
+                "rights": {
+                  "type": "object",
+                  "patternProperties": {
+                    "^[0-9]*$": {
+                      "description": "Right owner details",
+                      "type": "object",
+                      "properties": {
+                        "citizen": {
+                          "type": "string"
+                        },
+                        "ua_city": {
+                          "type": "string"
+                        },
+                        "ua_street": {
+                          "type": "string"
+                        },
+                        "ua_lastname": {
+                          "type": "string"
+                        },
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "rights_id": {
+                          "type": "string"
+                        }, 
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "eng_lastname": {
+                          "type": "string"
+                        },
+                        "rightBelongs": {
+                          "type": "string"
+                        },
+                        "ua_firstname": {
+                          "type": "string"
+                        },
+                        "ukr_lastname": {
+                          "type": "string"
+                        },
+                        "eng_firstname": {
+                          "type": "string"
+                        },
+                        "eng_fullname": {
+                          "type": "string"
+                        },
+                        "ukr_fullname": {
+                          "type": "string"
+                        },
+                        "ownershipType": {
+                          "type": "string"
+                        },
+                        "ua_middlename": {
+                          "type": "string"
+                        },
+                        "ua_buildType": {
+                          "type": "string"
+                        },
+                        "ua_streetType": {
+                          "type": "string"
+                        },
+                        "ukr_firstname": {
+                          "type": "string"
+                        },
+                        "eng_middlename": {
+                          "type": "string"
+                        },
+                        "otherOwnership": {
+                          "type": "string"
+                        },
+                        "ukr_middlename": {
+                          "type": "string"
+                        },
+                        "eng_company_address": {
+                          "type": "string"
+                        },
+                        "ukr_company_address": {
+                          "type": "string"
+                        },
+                        "rights_cityPath": {
+                          "type": "string"
+                        },
+                        "ua_company_name": {
+                          "type": "string"
+                        },
+                        "eng_company_name": {
+                          "type": "string"
+                        },
+                        "ukr_company_name": {
+                          "type": "string"
+                        },
+                        "percent-ownership": {
+                          "type": "string"
+                        }
+                      },
+                      "patternProperties": {
+                        ".*_extendedstatus$": {
+                          "type": "string"
+                        },
+                        ".*postCode": {
+                          "type": "string"
+                        },
+                        ".*company_code": {
+                          "type": "string"
+                        },                      
+                        ".*sameRegLivingAddress": {
+                          "oneOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  }
+                }
+              },
+              "patternProperties": {
+                ".*_extendedstatus$": {
+                  "type": "string"
+                },
+                ".*sameRegLivingAddress": {
+                          "oneOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        }
+              }
+            }
+          }
+        },
+        "step_13": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Financial liabilities",
+              "type": "object",
+              "properties": {
+                "person": {
+                  "oneOf0":[
+                      {
+                        "type": "string",
+                        "pattern": "^[0-9]*$"
+                      },
+                      {
+                        "type": "string",
+                        "pattern": "^family$"
+                      } 
+                    ]
+                },
+                "currency": {
+                  "type": "string"
+                },
+                "guarantor": {
+                  "oneOf": [
+                    {
+                      "type": "object"
+                    },
+                    {
+                      "type": "array"
+                    }
+                  ],
+                  "patternProperties": {
+                    "^[0-9]*$": {
+                        "description": "Guarantor details",
+                        "properties": {
+                          "guarantor": {
+                            "type": "string"
+                          },
+                          "guarantor_eng_company_name": {
+                            "type": "string"
+                          },
+                          "guarantor_eng_firstname": {
+                            "type": "string"
+                          },
+                          "guarantor_eng_lastname": {
+                            "type": "string"
+                          },
+                          "guarantor_eng_middlename": {
+                            "type": "string"
+                          },
+                          "guarantor_eng_sameRegLivingAddress": {
+                            "oneOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "boolean"
+                              }
+                            ]
+                          },
+                          "guarantor_exist": {
+                            "type": "string"
+                          },
+                          "guarantor_type": {
+                            "type": "string"
+                          },
+                          "guarantor_ua_company_name": {
+                            "type": "string"
+                          },
+                          "guarantor_ua_firstname": {
+                            "type": "string"
+                          },
+                          "guarantor_ua_lastname": {
+                            "type": "string"
+                          },
+                          "guarantor_ua_middlename": {
+                            "type": "string"
+                          },
+                          "guarantor_ua_sameRegLivingAddress": {
+                            "oneOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "boolean"
+                              }
+                            ]
+                          },
+                          "guarantor_ukr_company_name": {
+                            "type": "string"
+                          },
+                          "guarantor_ukr_firstname": {
+                            "type": "string"
+                          },
+                          "guarantor_ukr_lastname": {
+                            "type": "string"
+                          },
+                          "guarantor_ukr_middlename": {
+                            "type": "string"
+                          }
+                        }
                       }
-                    ],
-                    "patternProperties": {
-                      "^[0-9]*$": {
+                  }
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "dateOrigin": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}$"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 0
+                    }
+                  ]
+                },
+                "dateOrigin_extendedstatus": {
+                  "type": "string"
+                },
+                "objectType": {
+                  "type": "string"
+                },
+                "margin-emitent": {
+                  "type": "string"
+                },
+                "sizeObligation": {
+                  "oneOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{1,}([\\.|\\,]\\d{1,}|)$"
+                    },
+                    {
+                      "type": "string",
+                      "maxLength": 0
+                    }
+                  ]
+                },
+                "emitent_citizen": {
+                  "type": "string"
+                },
+                "otherObjectType": {
+                  "type": "string"
+                },
+                "guarantor_exist_": {
+                  "type": "boolean"
+                },
+                "guarantor_realty": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "patternProperties": {
+                        "^[0-9]*$": {
                           "description": "Guarantor details",
                           "properties": {
-                            "guarantor": {
+                            "district": {
                               "type": "string"
                             },
-                            "guarantor_eng_company_name": {
-                              "type": "string"
-                            },
-                            "guarantor_eng_firstname": {
-                              "type": "string"
-                            },
-                            "guarantor_eng_lastname": {
-                              "type": "string"
-                            },
-                            "guarantor_eng_middlename": {
-                              "type": "string"
-                            },
-                            "guarantor_eng_sameRegLivingAddress": {
+                            "guarantor_realty_exist": {
                               "oneOf": [
                                 {
                                   "type": "string"
@@ -2227,25 +2342,40 @@
                                 }
                               ]
                             },
-                            "guarantor_exist": {
+                            "realty_cityPath": {
                               "type": "string"
                             },
-                            "guarantor_type": {
+                            "realty_cost": {
                               "type": "string"
                             },
-                            "guarantor_ua_company_name": {
+                            "realty_country": {
                               "type": "string"
                             },
-                            "guarantor_ua_firstname": {
+                            "realty_objectType": {
                               "type": "string"
                             },
-                            "guarantor_ua_lastname": {
+                            "realty_otherObjectType": {
                               "type": "string"
                             },
-                            "guarantor_ua_middlename": {
+                            "realty_postCode": {
                               "type": "string"
                             },
-                            "guarantor_ua_sameRegLivingAddress": {
+                            "realty_rights": {
+                              "type": "string"
+                            },
+                            "realty_rights_eng_company_name": {
+                              "type": "string"
+                            },
+                            "realty_rights_eng_firstname": {
+                              "type": "string"
+                            },
+                            "realty_rights_eng_lastname": {
+                              "type": "string"
+                            },
+                            "realty_rights_eng_middlename": {
+                              "type": "string"
+                            },
+                            "realty_rights_eng_sameRegLivingAddress": {
                               "oneOf": [
                                 {
                                   "type": "string"
@@ -2255,307 +2385,180 @@
                                 }
                               ]
                             },
-                            "guarantor_ukr_company_name": {
+                            "realty_rights_type": {
                               "type": "string"
                             },
-                            "guarantor_ukr_firstname": {
+                            "realty_rights_ua_company_name": {
                               "type": "string"
                             },
-                            "guarantor_ukr_lastname": {
+                            "realty_rights_ua_firstname": {
                               "type": "string"
                             },
-                            "guarantor_ukr_middlename": {
+                            "realty_rights_ua_lastname": {
+                              "type": "string"
+                            },
+                            "realty_rights_ua_middlename": {
+                              "type": "string"
+                            },
+                            "realty_rights_ua_sameRegLivingAddress": {
+                              "oneOf": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "boolean"
+                                }
+                              ]
+                            },
+                            "realty_rights_ua_firstname": {
+                              "type": "string"
+                            },
+                            "realty_rights_ukr_company_name": {
+                              "type": "string"
+                            },
+                            "realty_rights_ukr_firstname": {
+                              "type": "string"
+                            },
+                            "realty_rights_ukr_lastname": {
+                              "type": "string"
+                            },
+                            "realty_rights_ukr_middlename": {
+                              "type": "string"
+                            },
+                            "realty_rights_ua_firstname": {
+                              "type": "string"
+                            },
+                            "realty_ua_cityPath": {
+                              "type": "string"
+                            },
+                            "realty_ua_cityType": {
+                              "type": "string"
+                            },
+                            "realty_ua_postCode": {
+                              "type": "string"
+                            },
+                            "realty_ua_street": {
+                              "type": "string"
+                            },
+                            "realty_ua_streetType": {
+                              "type": "string"
+                            },
+                            "region": {
                               "type": "string"
                             }
                           }
                         }
+                      }
+                    },
+                    {
+                      "type": "array"
                     }
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "dateOrigin": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}$"
-                      },
-                      {
-                        "type": "string",
-                        "maxLength": 0
-                      }
-                    ]
-                  },
-                  "dateOrigin_extendedstatus": {
-                    "type": "string"
-                  },
-                  "objectType": {
-                    "type": "string"
-                  },
-                  "margin-emitent": {
-                    "type": "string"
-                  },
-                  "sizeObligation": {
-                    "oneOf": [
-                      {
-                        "type": "string",
-                        "pattern": "^\\d{1,}([\\.|\\,]\\d{1,}|)$"
-                      },
-                      {
-                        "type": "string",
-                        "maxLength": 0
-                      }
-                    ]
-                  },
-                  "emitent_citizen": {
-                    "type": "string"
-                  },
-                  "otherObjectType": {
-                    "type": "string"
-                  },
-                  "guarantor_exist_": {
-                    "type": "boolean"
-                  },
-                  "guarantor_realty": {
-                    "oneOf": [
-                      {
-                        "type": "object",
-                        "patternProperties": {
-                          "^[0-9]*$": {
-                            "description": "Guarantor details",
-                            "properties": {
-                              "district": {
-                                "type": "string"
-                              },
-                              "guarantor_realty_exist": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "boolean"
-                                  }
-                                ]
-                              },
-                              "realty_cityPath": {
-                                "type": "string"
-                              },
-                              "realty_cost": {
-                                "type": "string"
-                              },
-                              "realty_country": {
-                                "type": "string"
-                              },
-                              "realty_objectType": {
-                                "type": "string"
-                              },
-                              "realty_otherObjectType": {
-                                "type": "string"
-                              },
-                              "realty_postCode": {
-                                "type": "string"
-                              },
-                              "realty_rights": {
-                                "type": "string"
-                              },
-                              "realty_rights_eng_company_name": {
-                                "type": "string"
-                              },
-                              "realty_rights_eng_firstname": {
-                                "type": "string"
-                              },
-                              "realty_rights_eng_lastname": {
-                                "type": "string"
-                              },
-                              "realty_rights_eng_middlename": {
-                                "type": "string"
-                              },
-                              "realty_rights_eng_sameRegLivingAddress": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "boolean"
-                                  }
-                                ]
-                              },
-                              "realty_rights_type": {
-                                "type": "string"
-                              },
-                              "realty_rights_ua_company_name": {
-                                "type": "string"
-                              },
-                              "realty_rights_ua_firstname": {
-                                "type": "string"
-                              },
-                              "realty_rights_ua_lastname": {
-                                "type": "string"
-                              },
-                              "realty_rights_ua_middlename": {
-                                "type": "string"
-                              },
-                              "realty_rights_ua_sameRegLivingAddress": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "boolean"
-                                  }
-                                ]
-                              },
-                              "realty_rights_ua_firstname": {
-                                "type": "string"
-                              },
-                              "realty_rights_ukr_company_name": {
-                                "type": "string"
-                              },
-                              "realty_rights_ukr_firstname": {
-                                "type": "string"
-                              },
-                              "realty_rights_ukr_lastname": {
-                                "type": "string"
-                              },
-                              "realty_rights_ukr_middlename": {
-                                "type": "string"
-                              },
-                              "realty_rights_ua_firstname": {
-                                "type": "string"
-                              },
-                              "realty_ua_cityPath": {
-                                "type": "string"
-                              },
-                              "realty_ua_cityType": {
-                                "type": "string"
-                              },
-                              "realty_ua_postCode": {
-                                "type": "string"
-                              },
-                              "realty_ua_street": {
-                                "type": "string"
-                              },
-                              "realty_ua_streetType": {
-                                "type": "string"
-                              },
-                              "region": {
-                                "type": "string"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      {
-                        "type": "array"
-                      }
-                    ]
-                  },
-                  "ownerThirdPerson": {
-                    "type": "string"
-                  },
-                  "ownerThirdPersonThing": {
-                    "type": "string"
-                  },
-                  "guarantor_realty_exist_": {
-                    "type": "boolean"
-                  }
+                  ]
                 },
-                "patternProperties": {
-                  "^emitent_.*name$": {
-                    "type": "string"
-                  },
-                  "^emitent_.*code$": {
-                    "type": "string"
-                  },
-                  "^emitent_\\w{1,3}_sameRegLivingAddress": {
-                    "oneOf": [
-                      {
-                        "type": "boolean"
-                      },
-                      {
-                        "type": "string"
-                      }
-                    ]
-                  },
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  }
+                "ownerThirdPerson": {
+                  "type": "string"
+                },
+                "ownerThirdPersonThing": {
+                  "type": "string"
+                },
+                "guarantor_realty_exist_": {
+                  "type": "boolean"
                 }
-              }
-            }
-          },
-          "step_15": {
-            "oneOf": [
-              {
-                "type": "object"
               },
-              {
-                "type": "array"
-              }
-            ],
-            "patternProperties": {
-              "^[0-9]*$": {
-                "description": "Working part-entity declaration",
-                "type": "object",
-                "properties": {
-                  "paid": {
-                    "type": "string"
-                  },
-                  "iteration": {
-                    "type": "string",
-                    "pattern": "^[0-9]*$"
-                  },
-                  "description": {
-                    "type": "string"
-                  },
-                  "margin-emitent": {
-                    "type": "string"
-                  },
-                  "emitent_citizen": {
-                    "type": "string"
-                  },
-                  "emitent_ua_sameRegLivingAddress": {
-                    "type": "string"
-                  }
+              "patternProperties": {
+                "^emitent_.*name$": {
+                  "type": "string"
                 },
-                "patternProperties": {
-                  ".*_extendedstatus$": {
-                    "type": "string"
-                  },
-                  "^emitent_.*name$": {
-                    "type": "string"
-                  },
-                  "^emitent_.*code$": {
-                    "type": "string"
-                  }
+                "^emitent_.*code$": {
+                  "type": "string"
+                },
+                "^emitent_\\w{1,3}_sameRegLivingAddress": {
+                  "oneOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                ".*_extendedstatus$": {
+                  "type": "string"
                 }
               }
             }
-          },
-          "server_info": {
-            "type": "object",
-            "properties": {
-              "apiPublic": {
-                "type": "object",
-                "properties": {
-                  "exec_time": {
-                    "type": "number"
-                  },
-                  "memory_usage": {
-                    "type": "number"
-                  },
-                  "user_ip": {
-                    "type": "string",
-                    "oneOf": [
-                      {
-                        "format": "ipv4"
-                      },
-                      {
-                        "format": "ipv6"
-                      }
-                    ]
-                  }
+          }
+        },
+        "step_15": {
+          "oneOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array"
+            }
+          ],
+          "patternProperties": {
+            "^[0-9]*$": {
+              "description": "Working part-entity declaration",
+              "type": "object",
+              "properties": {
+                "paid": {
+                  "type": "string"
+                },
+                "iteration": {
+                  "type": "string",
+                  "pattern": "^[0-9]*$"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "margin-emitent": {
+                  "type": "string"
+                },
+                "emitent_citizen": {
+                  "type": "string"
+                },
+                "emitent_ua_sameRegLivingAddress": {
+                  "type": "string"
+                }
+              },
+              "patternProperties": {
+                ".*_extendedstatus$": {
+                  "type": "string"
+                },
+                "^emitent_.*name$": {
+                  "type": "string"
+                },
+                "^emitent_.*code$": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "server_info": {
+          "type": "object",
+          "properties": {
+            "apiPublic": {
+              "type": "object",
+              "properties": {
+                "exec_time": {
+                  "type": "number"
+                },
+                "memory_usage": {
+                  "type": "number"
+                },
+                "user_ip": {
+                  "type": "string",
+                  "oneOf": [
+                    {
+                      "format": "ipv4"
+                    },
+                    {
+                      "format": "ipv6"
+                    }
+                  ]
                 }
               }
             }
@@ -2564,3 +2567,4 @@
       }
     }
   }
+}

@@ -1,35 +1,32 @@
 step_2#*#changedName#type#boolean
 step_2#*#no_taxNumber#type#boolean
+step_6#*#costDate#oneOf#[{'type': 'number'}, {'type': 'string', 'pattern': '^$|не відомо'}]
+step_11#*#sizeIncome#oneOf#[{'type': 'number'}, {'type': 'string', 'pattern': '^$'}]
 step_6#*#objectType#enum#['Автомобіль легковий', 'Автомобіль легковий (спеціальні)', 'Автомобіль вантажний', 'Мотоцикл (мопед)', 'Водний засіб', 'Сільськогосподарська техніка', 'Повітряне судно', 'Повітряний засіб', 'Інше']
 step_13#*#guarantor_exist_#type#boolean
 step_13#*#guarantor_realty_exist_#type#boolean
 step_13#*#guarantor#oneOf#[{'type': 'object'}, {'type': 'array'}]
-step_13#*#guarantor_realty#oneOf#[{'patternProperties': {'^[0-9]*$': {'description': 'Guarantor details', 'properties': {'realty_rights_ua_middlename': {'type': 'string'}, 'realty_ua_cityPath': {'type': 'string'}, 'realty_otherObjectType': {'type': 'string'}, 'realty_rights_ua_company_name': {'type': 'string'}, 'realty_rights_eng_sameRegLivingAddress': {'oneOf': [{'type': 'string'}, {'type': 'boolean'}]}, 'realty_rights_type': {'type': 'string'}, 'realty_ua_cityType': {'type': 'string'}, 'realty_ua_postCode': {'type': 'string'}, 'guarantor_realty_exist': {'oneOf': [{'type': 'string'}, {'type': 'boolean'}]}, 'realty_rights_ukr_lastname': {'type': 'string'}, 'realty_ua_street': {'type': 'string'}, 'realty_rights': {'type': 'string'}, 'realty_country': {'type': 'string'}, 'realty_rights_eng_company_name': {'type': 'string'}, 'realty_objectType': {'type': 'string'}, 'realty_rights_ua_sameRegLivingAddress': {'oneOf': [{'type': 'string'}, {'type': 'boolean'}]}, 'realty_rights_ukr_middlename': {'type': 'string'}, 'district': {'type': 'string'}, 'realty_cityPath': {'type': 'string'}, 'realty_cost': {'type': 'string'}, 'realty_rights_ua_lastname': {'type': 'string'}, 'region': {'type': 'string'}, 'realty_rights_ukr_company_name': {'type': 'string'}, 'realty_ua_streetType': {'type': 'string'}, 'realty_rights_eng_lastname': {'type': 'string'}, 'realty_rights_eng_firstname': {'type': 'string'}, 'realty_postCode': {'type': 'string'}, 'realty_rights_ukr_firstname': {'type': 'string'}, 'realty_rights_eng_middlename': {'type': 'string'}, 'realty_rights_ua_firstname': {'type': 'string'}}}}, 'type': 'object'}, {'type': 'array'}]
-step_7#*#typeProperty#enum#['Акції', 'Інше', 'Боргові цінні папери', 'Інвестиційні сертифікати', 'Чеки', 'Іпотечні цінні папери', 'Похідні цінні папери (деривативи)', 'Приватизаційні цінні папери (ваучери тощо)']
+step_13#*#guarantor_realty#oneOf#[{'patternProperties': {'^[0-9]*$': {'properties': {'realty_country': {'type': 'string'}, 'realty_rights_ua_sameRegLivingAddress': {'oneOf': [{'type': 'string'}, {'type': 'boolean'}]}, 'region': {'type': 'string'}, 'realty_rights_ukr_firstname': {'type': 'string'}, 'realty_cost': {'type': 'string'}, 'realty_ua_streetType': {'type': 'string'}, 'guarantor_realty_exist': {'oneOf': [{'type': 'string'}, {'type': 'boolean'}]}, 'realty_postCode': {'type': 'string'}, 'realty_ua_street': {'type': 'string'}, 'realty_ua_cityType': {'type': 'string'}, 'realty_rights_eng_lastname': {'type': 'string'}, 'realty_objectType': {'type': 'string'}, 'realty_rights_eng_middlename': {'type': 'string'}, 'realty_rights_ukr_company_name': {'type': 'string'}, 'realty_rights_ua_lastname': {'type': 'string'}, 'realty_ua_cityPath': {'type': 'string'}, 'realty_rights_ukr_middlename': {'type': 'string'}, 'realty_rights_ua_middlename': {'type': 'string'}, 'realty_rights': {'type': 'string'}, 'realty_rights_ukr_lastname': {'type': 'string'}, 'realty_rights_type': {'type': 'string'}, 'realty_ua_postCode': {'type': 'string'}, 'realty_rights_eng_company_name': {'type': 'string'}, 'realty_rights_ua_company_name': {'type': 'string'}, 'realty_otherObjectType': {'type': 'string'}, 'realty_rights_ua_firstname': {'type': 'string'}, 'realty_rights_eng_sameRegLivingAddress': {'oneOf': [{'type': 'string'}, {'type': 'boolean'}]}, 'realty_rights_eng_firstname': {'type': 'string'}, 'district': {'type': 'string'}, 'realty_cityPath': {'type': 'string'}}, 'description': 'Guarantor details'}}, 'type': 'object'}, {'type': 'array'}]
+step_13#*#sizeObligation#oneOf#[{'type': 'number'}, {'type': 'string', 'maxLength': 0}]
+step_12#*#sizeAssets#oneOf#[{'type': 'number'}, {'type': 'string', 'pattern': '^$'}]
+step_7#*#cost#oneOf#[{'type': 'number'}, {'type': 'string', 'pattern': '^$|не відомо'}]
 step_3#*#objectType#enum#['Квартира', 'Земельна ділянка', 'Житловий будинок', 'Кімната', 'Гараж', 'Садовий (дачний) будинок', 'Офіс', 'Інше']
 step_3#*#totalArea#type#number
-step_4#*#totalArea#type#number
+step_3#*#costDate#oneOf#[{'type': 'number'}, {'type': 'string', 'pattern': '^$|не відомо'}]
+step_8#*#cost_percent#oneOf#[{'type': 'number'}, {'type': 'string', 'pattern': '^$'}]
+step_8#*#cost#oneOf#[{'type': 'number'}, {'type': 'string', 'pattern': '^$|не відомо'}]
+step_14#*#costAmount#oneOf#[{'type': 'number'}, {'type': 'string', 'maxLength': 0}]
+step_14#*#type#type#string
 step_11#*#rights#type#object
 step_3#*#rights#type#object
 step_8#*#rights#type#object
 step_6#*#rights#type#object
-step_13#*#sizeObligation#oneOf#[{'pattern': '^\\d{1,}([\\.|\\,]\\d{1,}|)$', 'type': 'string'}, {'maxLength': 0, 'type': 'string'}]
-step_4#*#rights#type#object
-step_4#*#actualAddressEqualRegAddress#type#string
-step_15#*#emitent_ua_sameRegLivingAddress#type#string
 step_12#*#rights#type#object
-step_10#*#rights#type#object
 step_7#*#rights#type#object
-step_5#*#rights#type#object
 step_3#*#person#pattern#^[0-9]*$
 step_3#*#otherObjectType#type#string
-step_3#*#costDate#oneOf#[{'type': 'number'}, {'pattern': '^$|не відомо', 'type': 'string'}]
-step_11#*#sizeIncome#oneOf#[{'pattern': '^\\d{1,}([\\.|\\,]\\d{1,3}|)$', 'type': 'string'}, {'pattern': '^$', 'type': 'string'}]
-step_4#*#person#pattern#^[0-9]*$
 step_6#*#person#pattern#^[0-9]*$
 step_6#*#graduationYear#pattern#^[0-9]*$
-step_12#*#sizeAssets#oneOf#[{'pattern': '^\\d{1,}([\\.|\\,]\\d{1,3}|)$', 'type': 'string'}, {'pattern': '^$', 'type': 'string'}]
-step_6#*#costDate#oneOf#[{'pattern': '^[0-9,\\,\\.]+$', 'type': 'string'}, {'pattern': '^$|не відомо', 'type': 'string'}]
-step_3#*#owningDate#oneOf#[{'pattern': '^\\d{2}\\.\\d{2}\\.\\d{4}$', 'type': 'string'}, {'maxLength': 0, 'type': 'string'}]
-step_8#*#cost_percent#oneOf#[{'pattern': '^[0-9,\\,\\.]+$', 'type': 'string'}, {'pattern': '^$', 'type': 'string'}]
-step_4#*#objectType#enum#['Квартира', 'Земельна ділянка', 'Житловий будинок', 'Кімната', 'Гараж', 'Садовий (дачний) будинок', 'Офіс', 'Інше']
+step_7#*#typeProperty#enum#['Акції', 'Інше', 'Боргові цінні папери', 'Інвестиційні сертифікати', 'Чеки', 'Іпотечні цінні папери', 'Похідні цінні папери (деривативи)', 'Приватизаційні цінні папери (ваучери тощо)', 'Номінальна вартість цінних паперів']`
+step_14#*#person#pattern#^[0-9]*$|family
+step_3#*#owningDate#oneOf#[{'type': 'string', 'pattern': '^\\d{2}\\.\\d{2}\\.\\d{4}$'}, {'type': 'string', 'maxLength': 0}]
